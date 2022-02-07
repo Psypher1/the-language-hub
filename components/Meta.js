@@ -10,7 +10,7 @@ export default function Meta({ pageMeta }) {
     ...pageMeta,
   };
   const SEO = {
-    title: `The Language Hub | ${meta.title}`,
+    title: `${meta.title}`,
     description: meta.description,
 
     openGraph: {
