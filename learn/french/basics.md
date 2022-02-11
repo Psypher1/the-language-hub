@@ -1,6 +1,7 @@
 ---
 title: French Basics
 topic: Basics
+part: 01
 ---
 
 # French Basics

@@ -3,7 +3,7 @@ import path from "path";
 
 export async function getStaticPaths() {
   // get the directory for all language info
-  const languageDir = path.join("language");
+  const languageDir = path.join("learn");
   // get dir for all langugage paths
   const languagePathsDirs = fs.readdirSync(languageDir);
   // array where all the paths will be added to
