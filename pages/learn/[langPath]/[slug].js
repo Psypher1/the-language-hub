@@ -1,6 +1,11 @@
 import fs from "fs";
 import path from "path";
 
+import matter from "gray-matter";
+
+import { serialize } from "next-mdx-remote/serialize";
+import { MDXRemote } from "next-mdx-remote";
+
 export async function getStaticPaths() {
   // get the directory for all language info
   const languageDir = path.join("learn");
@@ -30,13 +35,26 @@ export async function getStaticPaths() {
     fallback: false,
   };
 }
-export async function getStaticProps() {}
+export async function getStaticProps({ params: { langPath, slug } }) {
+  const learn = fs.readFileSync(path.join("learn", langPath, slug + ".md"));
 
-export default function LangaugePath() {
+  const { data: metaData, content } = matter(learn);
+
+  const mdxSource = await serialize(content, { scope: metaData });
+  return { props: { source: mdxSource, langPath, slug } };
+}
+
+export default function LangaugePath({ source, langPath, slug }) {
   return (
-    <div>
-      <aside>Language Topics</aside>
-      <main> Main Content</main>
+    <div className="flex p-8 md:p-12">
+      <aside className="hidden md:block pr-8 ">
+        <h3 className="text-sky-600  md:text-lg ">Language Topics</h3>
+      </aside>
+      <main className="">
+        <div className="content-style">
+          <MDXRemote {...source} />
+        </div>
+      </main>
     </div>
   );
 }

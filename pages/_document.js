@@ -7,7 +7,7 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap"
           rel="stylesheet"
         />
         <link href="/static/favicons/favicon.ico" rel="shortcut icon" />
@@ -24,7 +24,7 @@ export default function Document() {
           type="image/png"
         />
       </Head>
-      <body className="font-body">
+      <body className="font-body bg-sky-100 ">
         <Main />
         <NextScript />
       </body>

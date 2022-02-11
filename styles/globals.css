@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .content-style {
+    @apply prose prose-base md:prose-lg prose-h2:text-sky-900 prose-h3:text-sky-900 text-sky-900;
+  }
+}
