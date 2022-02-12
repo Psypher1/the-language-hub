@@ -40,4 +40,6 @@ So **Pull Request** away! Just mention me on Twitter when you do so I get to you
 
 ## Spread the word
 
-Sharing is caring. Share this resource with fellow learners, as well as friends, family, other people who want to learn WebDev or JavaScript, complete strangers, or your grandma's dog. We all profit from Class Central and freeCodeCamp becoming more popular.
+Sharing is caring. Share this resource with anyone you think would be interested. The more people that add to it, the better it will be. 
+
+
