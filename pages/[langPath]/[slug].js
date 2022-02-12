@@ -66,8 +66,8 @@ export default function LangaugePath({ source, langPath, slug, metaData }) {
         }}
       />
       <div className="flex p-8 md:p-12">
-        <aside className="hidden md:block pr-8 ">
-          <h3 className="text-sky-600  md:text-lg">{language} Path</h3>
+        <aside className="hidden pr-8 md:block ">
+          <h3 className="text-sky-600 md:text-lg">{language} Path</h3>
         </aside>
         <main className="">
           <p className="text-base text-gray-600">{metaData.title}</p>

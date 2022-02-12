@@ -8,8 +8,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Header />
-      <DefaultSeo {...SEO} />
-      <Component {...pageProps} />
+      <div className="">
+        <DefaultSeo {...SEO} />
+        <Component {...pageProps} />
+      </div>
     </>
   );
 }
