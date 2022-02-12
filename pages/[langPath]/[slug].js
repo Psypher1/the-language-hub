@@ -1,3 +1,4 @@
+import Meta from "@components/Meta";
 import fs from "fs";
 import path from "path";
 
@@ -41,20 +42,40 @@ export async function getStaticProps({ params: { langPath, slug } }) {
   const { data: metaData, content } = matter(learn);
 
   const mdxSource = await serialize(content, { scope: metaData });
-  return { props: { source: mdxSource, langPath, slug } };
+  return { props: { source: mdxSource, langPath, slug, metaData } };
 }
 
-export default function LangaugePath({ source, langPath, slug }) {
+/* 
+TODO: Diplay all file names relating to learinig path in aside
+ */
+
+// this function is to capitalise the first letter of the learning path
+function capitalizeFirstLetter(str) {
+  return str[0].toUpperCase() + str.slice(1);
+}
+
+export default function LangaugePath({ source, langPath, slug, metaData }) {
+  const language = capitalizeFirstLetter(langPath);
+  // console.log(metaData);
   return (
-    <div className="flex p-8 md:p-12">
-      <aside className="hidden md:block pr-8 ">
-        <h3 className="text-sky-600  md:text-lg ">Language Topics</h3>
-      </aside>
-      <main className="">
-        <div className="content-style">
-          <MDXRemote {...source} />
-        </div>
-      </main>
-    </div>
+    <>
+      <Meta
+        pageMeta={{
+          title: metaData.title,
+          description: metaData.excerpt,
+        }}
+      />
+      <div className="flex p-8 md:p-12">
+        <aside className="hidden md:block pr-8 ">
+          <h3 className="text-sky-600  md:text-lg">{language} Path</h3>
+        </aside>
+        <main className="">
+          <p className="text-base text-gray-600">{metaData.title}</p>
+          <div className="content-style">
+            <MDXRemote {...source} />
+          </div>
+        </main>
+      </div>
+    </>
   );
 }
