@@ -4,6 +4,6 @@
 
 @layer components {
   .content-style {
-    @apply prose prose-base md:prose-lg prose-h2:text-sky-900 prose-h3:text-sky-900 text-sky-900;
+    @apply prose prose-base md:prose-lg prose-h2:text-sky-900 prose-h3:text-sky-800 prose-h4:text-sky-700 text-sky-900;
   }
 }

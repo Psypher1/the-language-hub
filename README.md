@@ -10,14 +10,15 @@
 </p>
 
 The Language Hub is a central place for the important parts that will help you in your journey of the language you are learning.
-This is a submission for the [Netlify x Hashnode Hackathon](https://townhall.hashnode.com/netlify-hackathon)  
-I went with this idea becauase as someone who learns languages a lot and teaches them, getting to the info tends to get tediuous. So why not stramline the process and have the important information in one place and an easy to digest format.
+This is a submission for the [Netlify x Hashnode Hackathon](https://townhall.hashnode.com/netlify-hackathon)
+
+I went with this idea becauase as someone who learns languages a lot and teaches them, getting to the info tends to get tediuous. So why not stramline the process and have the important information in one place and an easy to digest format?
 
 <!-- ### 🏠 [Homepage](thelanghub.netlify.app) -->
 
 ## Contributing
 
-The main goal for the hackathon is for the submission to be Open Source. So please check out CONTRIBUTION.md for explanation of the project structure and how you can contribute.
+The main goal for the hackathon is for the submission to be Open Source. So please check out [CONTRIBUTION.md](CONTRIBUTION.md) for explanation of the project structure and how you can contribute.
 
 ### THANK YOU!!!
 
@@ -34,6 +35,8 @@ npm install
 ```sh
 npm run dev
 ```
+
+---
 
 ## Author
 

@@ -12,10 +12,10 @@ export default function Header() {
             height="32"
             alt=""
           />
-          <h2 className="ml-2">TLH</h2>
+          <h2 className="ml-1">TLH</h2>
         </a>
       </Link>
-      <h3>Choose your path</h3>
+      <h3 className="font-base">Choose your path</h3>
     </nav>
   );
 }

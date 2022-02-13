@@ -46,8 +46,7 @@ The Russian language looks complicated at first glance. But most of that has to 
 
 #### Modifiers
 
-**Ъъ**
-Divides words for easier pronunciation
-
-**Ьь**  
-Makes some letters soft
+| Modifier | Name      | Purpose                                |
+| -------- | --------- | -------------------------------------- |
+| **Ьь**   | soft sign | Makes some letters (consonants) soft   |
+| **Ъъ**   | hard sign | Divides words for easier pronunciation |
