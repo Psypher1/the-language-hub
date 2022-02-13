@@ -4,9 +4,9 @@
     "paths": {
       "@components/*": ["components/*"],
       "@language/*": ["language/*"],
-      "@layouts/*": ["layouts/*"],
       "@styles/*": ["styles/*"],
-      "@utils/*": ["utils/*"]
+      "@layouts/*": ["src/layouts/*"],
+      "@utils/*": ["src/utils/*"]
     }
   }
 }

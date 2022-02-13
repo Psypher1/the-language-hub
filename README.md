@@ -16,25 +16,51 @@ I went with this idea becauase as someone who learns languages a lot and teaches
 
 <!-- ### 🏠 [Homepage](thelanghub.netlify.app) -->
 
-## Contributing
+### Contributing
 
 The main goal for the hackathon is for the submission to be Open Source. So please check out [CONTRIBUTION.md](CONTRIBUTION.md) for explanation of the project structure and how you can contribute.
 
-### THANK YOU!!!
+## THANK YOU!!!
 
 ---
 
-## Install
+### Install
 
 ```sh
 npm install
 ```
 
-## Usage
+### Usage
 
 ```sh
 npm run dev
 ```
+
+---
+
+## Credits
+
+A big THANK YOU to these amazing people. This would not have come together without the knowledge they've shared:
+
+#### whitep4th3r
+
+- Twitter
+- Github
+
+#### Jon Peppinck
+
+- Twitter
+- [Github](https://github.com/Jon-Peppinck)
+
+#### Harry Wolff
+
+- Twitter:
+- [Github](https://github.com/hswolff)
+
+#### watch and learn
+
+- Twitter
+- Github
 
 ---
 
