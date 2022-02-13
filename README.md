@@ -13,7 +13,7 @@ The Language Hub is a central place for the important parts that will help you i
 This is a submission for the [Netlify x Hashnode Hackathon](https://townhall.hashnode.com/netlify-hackathon)  
 I went with this idea becauase as someone who learns languages a lot and teaches them, getting to the info tends to get tediuous. So why not stramline the process and have the important information in one place and an easy to digest format.
 
-### 🏠 [Homepage](thelanghub.netlify.app)
+<!-- ### 🏠 [Homepage](thelanghub.netlify.app) -->
 
 ## Contributing
 
