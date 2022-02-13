@@ -10,7 +10,7 @@ export default function Meta({ pageMeta }) {
     ...pageMeta,
   };
   const SEO = {
-    title: `${meta.title}`,
+    title: `TLH | ${meta.title}`,
     description: meta.description,
 
     openGraph: {
