@@ -13,14 +13,14 @@ If you recall subject pronuouns:
 
 | Pronoun | Translation         | Pronunciation |
 | ------- | ------------------- | ------------- |
-| Je      | I                   | zhe           |
-| Tu      | You (informal)      | to            |
-| Il      | He                  | ill           |
-| Elle    | She                 | el            |
-| Nous    | We                  | nu            |
-| Vous    | You (formal/plural) | vhu           |
-| Ils     | They (masculine)    | ill           |
-| Elles   | They (feminine)     | el            |
+| je      | I                   | zhe           |
+| tu      | You (informal)      | to            |
+| il      | He                  | ill           |
+| elle    | She                 | el            |
+| nous    | We                  | nu            |
+| vous    | You (formal/plural) | vhu           |
+| ils     | They (masculine)    | ill           |
+| elles   | They (feminine)     | el            |
 
 Working with verbs makes use of these pronouns
 
@@ -35,7 +35,7 @@ For parler the ending would be -e, -es, -e, -ons , -ez and -ent respectively
 
 - Je parl**e**
 - Tu parl**es**
-- Il parl**e**
+- il parl**e**
 - Elle parl**e**
 - Nous parl**ons**
 - Vous parl**ez**

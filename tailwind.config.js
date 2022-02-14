@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        body: ["Inter", "sans-serif"],
+        body: ["Sora", "sans-serif"],
       },
     },
   },

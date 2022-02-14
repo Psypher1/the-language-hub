@@ -4,12 +4,19 @@ export default function Document() {
   return (
     <Html>
       <Head>
+        {/* Google Font */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap"
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin=""
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&display=swap"
           rel="stylesheet"
         />
+
+        {/* Favicons */}
         <link href="/static/favicons/favicon.ico" rel="shortcut icon" />
         <link
           href="/static/favicons/favicon-32x32.png"

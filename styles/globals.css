@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&display=swap");
+
 @layer components {
   .content-style {
     @apply prose prose-base md:prose-lg prose-h2:text-sky-900 prose-h3:text-sky-800 prose-h4:text-sky-700 text-sky-900;
