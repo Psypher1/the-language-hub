@@ -10,7 +10,7 @@ export default function Footer() {
         Created by{" "}
         <Link href="https://twitter.com/Psypher1">
           <a
-            className="font-bold underline text-lg"
+            className="font-semibold text-lg"
             target="_blank"
             rel="noopener noreferrer"
           >
