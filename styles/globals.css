@@ -1,8 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&display=swap");
 
 @layer components {
   .content-style {

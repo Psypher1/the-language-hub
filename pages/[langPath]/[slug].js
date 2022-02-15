@@ -45,15 +45,14 @@ export async function getStaticProps({ params: { langPath, slug } }) {
   return { props: { source: mdxSource, langPath, slug, metaData } };
 }
 
-/* 
-TODO: Diplay all file names relating to learinig path in aside
- */
-
 // this function is to capitalise the first letter of the learning path
 function capitalizeFirstLetter(str) {
   return str[0].toUpperCase() + str.slice(1);
 }
 
+/* 
+TODO: Diplay all file names relating to lear path in aside
+ */
 export default function LangaugePath({ source, langPath, slug, metaData }) {
   const language = capitalizeFirstLetter(langPath);
   // console.log(metaData);
@@ -69,12 +68,12 @@ export default function LangaugePath({ source, langPath, slug, metaData }) {
         <aside className="hidden pr-8 md:block ">
           <h3 className="text-sky-600 md:text-lg">{language} Path</h3>
         </aside>
-        <main className="">
+        <section className="">
           <p className="text-base text-gray-600">{metaData.title}</p>
           <div className="content-style">
             <MDXRemote {...source} />
           </div>
-        </main>
+        </section>
       </div>
     </>
   );

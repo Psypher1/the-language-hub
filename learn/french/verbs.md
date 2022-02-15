@@ -1,5 +1,5 @@
 ---
-title: French Verbs
+title: French Verbs Introduction
 topic: verbs
 excerpt: An introduction to the French language
 part: 03
@@ -33,13 +33,15 @@ The formula is better explained with an example. Let's take the verb **parler** 
 
 For parler the ending would be -e, -es, -e, -ons , -ez and -ent respectively
 
-- Je parl**e**
-- Tu parl**es**
+- je parl**e**
+- tu parl**es**
 - il parl**e**
-- Elle parl**e**
-- Nous parl**ons**
-- Vous parl**ez**
-- Ils parl**ent**
-- Elles parl**ent**
+- elle parl**e**
+- nous parl**ons**
+- vous parl**ez**
+- ils parl**ent**
+- elles parl**ent**
 
 ### Three Main Groups of Verbs
+
+The next thing to remember is the 3 main groupes of verbes. Their endings will guide most of the conjugation you will do in French.

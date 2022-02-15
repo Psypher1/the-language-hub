@@ -24,15 +24,16 @@ Data rendered on the site is from markdown files located in the `learn` folder i
 
 For the `.md` files, please make sure the frontmatter matches this pattern:
 
-```md
+```yml
 ---
-title: French Basics
-topic: Basics
+title: ""
+topic: ""
+excerpt: ""
 part: 01
 ---
 ```
 
-#### Improving Code
+### Improving Code
 
 By no means is the code optimal. Feel free to improve it in any way you think would improve it.
 
@@ -40,6 +41,4 @@ So **Pull Request** away! Just mention me on Twitter when you do so I get to you
 
 ## Spread the word
 
-Sharing is caring. Share this resource with anyone you think would be interested. The more people that add to it, the better it will be. 
-
-
+Sharing is caring. Share this resource with anyone you think would be interested. The more people that add to it, the better it will be.
