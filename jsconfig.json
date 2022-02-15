@@ -6,6 +6,7 @@
       "@language/*": ["language/*"],
       "@styles/*": ["styles/*"],
       "@layouts/*": ["src/layouts/*"],
+      "@models/*": ["src/models/*"],
       "@utils/*": ["src/utils/*"]
     }
   }

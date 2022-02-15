@@ -32,10 +32,10 @@ export default function Home() {
         </p>
 
         <div className=" text-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-lg font-semibold">
-          <Link href={`french/basics`}>
+          <Link href={`/french/basics`}>
             <a className="home-links">French</a>
           </Link>
-          <Link href={`russian/basics`}>
+          <Link href={`/russian/basics`}>
             <a className="home-links">Russian</a>
           </Link>
           <Link href={`japanese/basics`}>

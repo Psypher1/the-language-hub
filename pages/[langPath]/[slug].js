@@ -6,6 +6,8 @@ import matter from "gray-matter";
 
 import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemote } from "next-mdx-remote";
+import Sidebar from "@components/Sidebar";
+import LangPathNav from "@components/LangPathNav";
 
 export async function getStaticPaths() {
   // get the directory for all language info
@@ -42,6 +44,7 @@ export async function getStaticProps({ params: { langPath, slug } }) {
   const { data: metaData, content } = matter(learn);
 
   const mdxSource = await serialize(content, { scope: metaData });
+  console.log(`${langPath}/${slug}`);
   return { props: { source: mdxSource, langPath, slug, metaData } };
 }
 
@@ -54,6 +57,7 @@ function capitalizeFirstLetter(str) {
 TODO: Diplay all file names relating to lear path in aside
  */
 export default function LangaugePath({ source, langPath, slug, metaData }) {
+  // console.log(`${langPath}/${slug}`);
   const language = capitalizeFirstLetter(langPath);
   // console.log(metaData);
   return (
@@ -64,15 +68,18 @@ export default function LangaugePath({ source, langPath, slug, metaData }) {
           description: metaData.excerpt,
         }}
       />
+      <LangPathNav langPath={langPath} />
       <div className="flex p-8 md:p-12">
-        <aside className="hidden pr-8 md:block ">
-          <h3 className="text-sky-600 md:text-lg">{language} Path</h3>
+        <aside className="hidden mr-8 p-4 md:block bg-sky-700 w-56">
+          <h3 className="text-sky-100 md:text-lg ">{language} Path</h3>
+          <Sidebar />
         </aside>
         <section className="">
           <p className="text-base text-gray-600">{metaData.title}</p>
-          <div className="content-style">
+          {/* classes extracted to globals.css */}
+          <article className="prose content-font-sizes content-colors">
             <MDXRemote {...source} />
-          </div>
+          </article>
         </section>
       </div>
     </>
