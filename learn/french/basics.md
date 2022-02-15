@@ -1,6 +1,6 @@
 ---
 title: French Basics
-topic: basics
+topic: french
 excerpt: An introduction to the French language
 part: 01
 ---
@@ -23,3 +23,5 @@ Getting started is quite simple. Below are some basic things that will be helpfu
 | Hier        | Yesterday   | eeyeh         |
 | Aujourd'hui | Today       | Ozhod-wee     |
 | Demain      | Tomorrow    | dema          |
+
+## Conversations

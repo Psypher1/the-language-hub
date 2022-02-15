@@ -1,7 +1,7 @@
 ---
 title: French Verbs Introduction
-topic: verbs
-excerpt: An introduction to the French language
+topic: french
+excerpt: Verbs in French
 part: 03
 ---
 

@@ -1,10 +1,8 @@
 import Link from "next/link";
-import { LangPath } from "../src/models/langPath";
-
-const langPath = "French" | "Russian";
 
 export default function LangPathNav({ langPath }) {
-  console.log("path is " + langPath);
+  // console.log("path is " + langPath);
+
   const menuItem =
     "px-5 py-2 hover:bg-sky-600 hover:font-semibold rounded transition duration-300 ease-in-out";
 

@@ -1,6 +1,6 @@
 ---
 title: Russian Basics
-topic: Basics
+topic: russian
 excerpt: An introduction to the Russian language
 part: 01
 ---
