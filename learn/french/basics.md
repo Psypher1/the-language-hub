@@ -7,6 +7,10 @@ part: 01
 
 ## Introduction
 
+> French (langue française) is a language spoken in almost all parts of the world.
+
+<br/>
+
 Getting started is quite simple. Below are some basic things that will be helpful for you on this journey.
 
 ### Salutaions

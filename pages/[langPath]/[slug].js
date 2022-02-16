@@ -14,14 +14,14 @@ import { _menuLookup } from "@utils/learn/_menuLookup";
 
 export async function getStaticPaths() {
   // get the directory for all language info
-  const languageDir = path.join("learn");
+  const learnDir = path.join("learn");
   // get dir for all langugage paths
-  const languagePathsDirs = fs.readdirSync(languageDir);
+  const languagePathsDirs = fs.readdirSync(learnDir);
   // array where all the paths will be added to
   const allPaths = [];
 
   languagePathsDirs.forEach((langPath) => {
-    const langPathDir = path.join(languageDir, langPath);
+    const langPathDir = path.join(learnDir, langPath);
 
     const files = fs.readdirSync(langPathDir);
 
@@ -75,8 +75,8 @@ export default function LangaugePath({ source, langPath, slug, metaData }) {
       />
       <LangPathNav langPath={langPath} />
       <div className="flex p-8 md:p-12 ">
-        <aside className="hidden mr-8 p-4 md:block text-sky-100 bg-sky-700 w-56 min-h-screen">
-          <h3 className=" md:text-lg font-semibold  mb-4">{language} Path</h3>
+        <aside className="hidden w-56 min-h-screen p-4 mr-8 md:block text-sky-100 bg-sky-700">
+          <h3 className="mb-4 font-semibold  md:text-lg">{language} Path</h3>
           <Sidebar slug={slug} menu={menu} metaData={metaData} />
         </aside>
         <section className="">

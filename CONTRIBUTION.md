@@ -26,9 +26,9 @@ For the `.md` files, please make sure the frontmatter matches this pattern:
 
 ```yml
 ---
-title: ""
-topic: ""
-excerpt: ""
+titlele: French Basics
+topic: french
+excerpt: An introduction to the French language
 part: 01
 ---
 ```

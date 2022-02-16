@@ -7,6 +7,11 @@ part: 01
 
 ## Introduction
 
+> Russian (русский язык, tr. russkiy yazyk) is an East Slavic language native to Russia in Eastern Europe. It is he most spoken Slavic language.
+> The beauty of Russian is that you pronounce what you read.
+
+<br/>
+
 The Russian language looks complicated at first glance. But most of that has to do with its alphabet. We'll get that out of the way first.
 
 ### Alphabet & Pronunciation
@@ -25,7 +30,7 @@ The Russian language looks complicated at first glance. But most of that has to 
 | Ии     | ii    | **ee**l        |                             |
 | Йй     | Йy'   | bo**y'**       |                             |
 | Кк     | k     | **c**at        |                             |
-| l      | l     | **l**arge      |                             |
+| Лл     | l     | **l**arge      |                             |
 | Мм     | m     | **m**ohter     |                             |
 | Нн     | n     | **n**o         | harder, tongue behind teeth |
 | Оо     | oo    | **b**oring     |                             |
@@ -50,3 +55,6 @@ The Russian language looks complicated at first glance. But most of that has to 
 | -------- | --------- | -------------------------------------- |
 | **Ьь**   | soft sign | Makes some letters (consonants) soft   |
 | **Ъъ**   | hard sign | Divides words for easier pronunciation |
+| **Ыы**   |           | there's no equivalent in English       |
+
+#### Video Explanation of _Ыы_

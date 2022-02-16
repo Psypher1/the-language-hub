@@ -15,7 +15,13 @@ export default function Header() {
           <h2 className="ml-1">TLH</h2>
         </a>
       </Link>
-      <h3 className="font-base">Choose your path</h3>
+      <div className="flex items-center space-x-2">
+        <h3 className="hidden text-base md:block">Choose your path:</h3>
+        <button className="px-4 py-2 text-xl hover:bg-sky-600 focus:bg-sky-200">
+          <i class="fa-solid fa-chevron-down"></i>
+          {/* <i class="fa-solid fa-caret-down"></i> */}
+        </button>
+      </div>
     </nav>
   );
 }
