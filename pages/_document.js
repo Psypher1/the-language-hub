@@ -12,7 +12,7 @@ export default function Document() {
           crossOrigin=""
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&display=swap"
           rel="stylesheet"
         />
 
@@ -40,7 +40,7 @@ export default function Document() {
           referrerPolicy="no-referrer"
         />
       </Head>
-      <body className="bg-sky-100 font-body ">
+      <body className="font-body bg-sky-100 ">
         <Main />
         <NextScript />
       </body>

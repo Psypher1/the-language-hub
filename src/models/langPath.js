@@ -1,1 +1,1 @@
-export const LangPath = "French" | "Russian";
+export const LangPath = "French" | "Russian" | "Shona";
