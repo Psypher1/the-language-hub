@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <nav className="sticky inset-0 flex items-center justify-between w-full px-8 py-4 font-semibold shadow-lg text-sky-600 bg-sky-50">
+    <nav className="sticky inset-0 flex w-full items-center justify-between bg-sky-50 px-8 py-4 font-semibold text-sky-600 shadow-lg">
       <Link href="/" passHref>
-        <a className="flex items-center ">
+        <a className=" flex items-center">
           <Image
             src="/static/favicons/favicon-32x32.png"
             width="32"

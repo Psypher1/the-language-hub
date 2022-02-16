@@ -12,7 +12,7 @@ export default function LangPathNav({ langPath }) {
   const isActive = "bg-sky-900 font-semibold";
 
   return (
-    <div className="px-8 py-3 bg-sky-700 text-sky-100 flex items-center justify-center text-base space-x-2">
+    <div className="flex items-center justify-center space-x-2 bg-sky-700 px-8 py-3 text-base text-sky-100">
       <Link href={`/french/basics`}>
         <a className={`${menuItem} ${langPath === frenchPath ? isActive : ""}`}>
           French

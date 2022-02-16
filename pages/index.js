@@ -23,15 +23,15 @@ export default function Home() {
         }}
       />
 
-      <section className="py-12 md:py-16 flex flex-col items-center justify-center">
-        <h1 className="text-3xl text-center text-sky-700 font-semibold mb-4 md:text-4xl lg:text-5xl">
+      <section className="flex  flex-col items-center justify-center py-12 md:py-16">
+        <h1 className="mb-4 text-center text-3xl font-semibold text-sky-700 md:text-4xl lg:text-5xl">
           The Language Hub
         </h1>
-        <p className="font-base md:text-lg mb-4 md:mb-8 lg:text-xl text-gray-600">
+        <p className="font-base mb-4 text-gray-600 md:mb-8 md:text-lg lg:text-xl">
           What path do you choose?
         </p>
 
-        <div className=" text-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-lg font-semibold">
+        <div className=" grid grid-cols-1 gap-4 text-center text-lg font-semibold sm:grid-cols-2 md:grid-cols-3">
           <Link href={`/french/basics`}>
             <a className="home-links">French</a>
           </Link>
