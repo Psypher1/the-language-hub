@@ -8,11 +8,12 @@ export default function LangPathNav({ langPath }) {
 
   const frenchPath = "french";
   const russianPath = "russian";
+  const shonaPath = "shona";
 
   const isActive = "bg-sky-900 font-semibold";
 
   return (
-    <div className="flex items-center justify-center space-x-2 bg-sky-700 px-8 py-3 text-base text-sky-100">
+    <div className="bg-sky-700 text-sky-100 flex items-center justify-center px-8 py-3 space-x-2 text-base">
       <Link href={`/french/basics`}>
         <a className={`${menuItem} ${langPath === frenchPath ? isActive : ""}`}>
           French
@@ -23,6 +24,11 @@ export default function LangPathNav({ langPath }) {
           className={`${menuItem} ${langPath === russianPath ? isActive : ""}`}
         >
           Russian
+        </a>
+      </Link>
+      <Link href={`/shona/basics`}>
+        <a className={`${menuItem} ${langPath === shonaPath ? isActive : ""}`}>
+          Shona
         </a>
       </Link>
     </div>

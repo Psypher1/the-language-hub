@@ -14,6 +14,13 @@ export async function getStaticProps() {
   return { props: {} };
 }
 
+const languages = [
+  { name: "French", target: "/french/basics" },
+  { name: "Japanese", target: "/japanese/basics" },
+  { name: "Russian", target: "/russian/basics" },
+  { name: "Shona", target: "/shona/basics" },
+];
+
 export default function Home() {
   return (
     <div className="">
@@ -23,24 +30,20 @@ export default function Home() {
         }}
       />
 
-      <section className="flex  flex-col items-center justify-center py-12 md:py-16">
-        <h1 className="mb-4 text-center text-3xl font-semibold text-sky-700 md:text-4xl lg:text-5xl">
+      <section className="md:py-16 flex flex-col items-center justify-center py-12">
+        <h1 className="text-sky-700 md:text-4xl lg:text-5xl mb-4 text-3xl font-semibold text-center">
           The Language Hub
         </h1>
-        <p className="font-base mb-4 text-gray-600 md:mb-8 md:text-lg lg:text-xl">
+        <p className="font-base md:mb-8 md:text-lg lg:text-xl mb-4 text-gray-600">
           What path do you choose?
         </p>
 
-        <div className=" grid grid-cols-1 gap-4 text-center text-lg font-semibold sm:grid-cols-2 md:grid-cols-3">
-          <Link href={`/french/basics`}>
-            <a className="home-links">French</a>
-          </Link>
-          <Link href={`/russian/basics`}>
-            <a className="home-links">Russian</a>
-          </Link>
-          <Link href={`japanese/basics`}>
-            <a className="home-links">Japanese</a>
-          </Link>
+        <div className=" sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid grid-cols-1 gap-4 text-lg font-semibold text-center">
+          {languages.map((lang) => (
+            <Link key={lang.name} href={lang.target}>
+              <a className="home-links">{lang.name}</a>
+            </Link>
+          ))}
         </div>
       </section>
     </div>

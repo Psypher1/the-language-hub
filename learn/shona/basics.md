@@ -9,5 +9,4 @@ part: 01
 
 > Shona is spoken in several countries in Southern Africa and is one of the national languages of Zimbabwe
 
-<br/>
 Shona is not that difficult to learn as it is pronounced as it is written.

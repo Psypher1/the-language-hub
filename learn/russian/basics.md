@@ -10,8 +10,6 @@ part: 01
 > Russian (русский язык, tr. russkiy yazyk) is an East Slavic language native to Russia in Eastern Europe. It is he most spoken Slavic language.
 > The beauty of Russian is that you pronounce what you read.
 
-<br/>
-
 The Russian language looks complicated at first glance. But most of that has to do with its alphabet. We'll get that out of the way first.
 
 ### Alphabet & Pronunciation

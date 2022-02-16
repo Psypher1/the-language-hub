@@ -73,19 +73,21 @@ export default function LangaugePath({ source, langPath, slug, metaData }) {
           description: metaData.excerpt,
         }}
       />
-      <LangPathNav langPath={langPath} />
-      <div className="flex  p-8 md:p-12">
-        <aside className="mr-8 hidden min-h-screen w-56 bg-sky-700 p-4 text-sky-100 md:block">
-          <h3 className="mb-4 font-semibold md:text-lg">{language} Path</h3>
-          <Sidebar slug={slug} menu={menu} metaData={metaData} />
-        </aside>
-        <section className="">
+      <div className="md:block hidden">
+        <LangPathNav langPath={langPath} />
+      </div>
+      <div className="md:flex md:p-12 flex-row-reverse p-8">
+        <section className="md:mb-0 flex-1 mb-16">
           <p className="text-base text-gray-600">{metaData.title}</p>
           {/* classes extracted to globals.css */}
-          <article className="content-font-sizes content-colors prose">
+          <article className="content-font-sizes content-colors content-quote prose">
             <MDXRemote {...source} />
           </article>
         </section>
+        <aside className="bg-sky-700 text-sky-100 md:mr-8 md:block md:w-56 w-full p-4 mr-0">
+          <h3 className="md:text-lg mb-4 font-semibold">{language} Path</h3>
+          <Sidebar slug={slug} menu={menu} metaData={metaData} />
+        </aside>
       </div>
     </>
   );
