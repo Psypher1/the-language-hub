@@ -16,6 +16,9 @@ I went with this idea becauase as someone who learns languages a lot and teaches
 
 <!-- ### 🏠 [Homepage](thelanghub.netlify.app) -->
 
+#### Expected Outcome
+![expected](Home.png)
+
 ### Contributing
 
 The main goal for the hackathon is for the submission to be Open Source. So please check out [CONTRIBUTION.md](CONTRIBUTION.md) for explanation of the project structure and how you can contribute.
