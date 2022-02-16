@@ -2,6 +2,18 @@
 
 You are more than welcome to contribute to this project. As a matter of fact you are encouraged to, because at the end of the day, this is **your** project
 
+### What We Are Aiming Formula
+
+#### Home Page
+
+![Home Page](Home.png)
+
+#### Detail Page
+
+![expected](Detail.png)
+
+<br/>
+
 ### How to Contribute
 
 Data rendered on the site is from markdown files located in the `learn` folder in the root of the project.

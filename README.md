@@ -16,54 +16,27 @@ I went with this idea becauase as someone who learns languages a lot and teaches
 
 <!-- ### 🏠 [Homepage](thelanghub.netlify.app) -->
 
-#### Expected Outcome
-![expected](Home.png)
-
 ### Contributing
 
 The main goal for the hackathon is for the submission to be Open Source. So please check out [CONTRIBUTION.md](CONTRIBUTION.md) for explanation of the project structure and how you can contribute.
 
-## THANK YOU!!!
+<h2 align='center'>THANK YOU!!!</h2>
 
 ---
 
-### Install
+### Running Locally
+
+#### Install
 
 ```sh
 npm install
 ```
 
-### Usage
+#### Usage
 
 ```sh
 npm run dev
 ```
-
----
-
-## Credits
-
-A big THANK YOU to these amazing people. This would not have come together without the knowledge they've shared:
-
-#### whitep4th3r
-
-- Twitter
-- Github
-
-#### Jon Peppinck
-
-- Twitter
-- [Github](https://github.com/Jon-Peppinck)
-
-#### Harry Wolff
-
-- Twitter:
-- [Github](https://github.com/hswolff)
-
-#### watch and learn
-
-- Twitter
-- Github
 
 ---
 
@@ -81,5 +54,34 @@ A big THANK YOU to these amazing people. This would not have come together witho
 Give a ⭐️ if this project helped you!
 
 ---
+
+## Credits
+
+A big **THANK YOU** to these amazing people. This would not have come together without the knowledge they've shared:
+<br/>
+
+##### whitep4th3r
+
+- [Twitter](https://twitter.com/whitep4nth3r)
+- [Github](https://github.com/whitep4nth3r)
+
+##### Jon Peppinck
+
+- [Github](https://github.com/Jon-Peppinck)
+- [YouTube](https://www.youtube.com/c/JonPeppinck/featured)
+
+##### Garrett Tolbert
+
+- [Twitter](https://twitter.com/gt_codes)
+- [Github](https://github.com/gt-codes)
+
+##### Watch and Learn
+
+- [Twitter](https://twitter.com/ivan_doric)
+- [Github](https://github.com/ivandoric)
+
+##### Harry Wolff
+
+- [Github](https://github.com/hswolff)
 
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
