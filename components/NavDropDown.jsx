@@ -45,7 +45,7 @@ export default function NavDropDown() {
           const learPath = logo.langPath.toLowerCase();
           return (
             <MenuItem key={index} _hover={{ bg: "blue.100" }}>
-              <Link key={index} href={`/${learPath}/basics`} passHref>
+              <Link key={index} href={`/${learPath}/basics`}>
                 <a className="mb-2 flex cursor-pointer items-center space-x-2">
                   <img src={logo.logoURL} className="h-5 w-5" />
                   <span>{logo.langPath}</span>
