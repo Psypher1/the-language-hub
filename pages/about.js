@@ -5,7 +5,6 @@ import Link from "next/link";
 export default function about() {
   return (
     <PageWrapper>
-      <NavDropDown />
       <article className="flex flex-col items-center justify-center text-gray-600">
         <h1 className="mb-8 text-center text-2xl font-semibold text-sky-700 sm:mb-8 md:mb-12 md:text-3xl lg:text-4xl">
           Why The Language Hub?
