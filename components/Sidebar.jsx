@@ -13,13 +13,16 @@ export default function Sidebar({ href, menu, metaData }) {
   const isActive = "bg-sky-900 font-semibold";
 
   return (
-    <div className=" min-h-scree">
+    <div className="min-h-scree">
       {/* map through the side menu items */}
       {menu.map((menuItem, index) => {
-        const path = `/${metaData.topic}/${menuItem.toLowerCase()}`;
+        // clean menu names with spaces
+        const cleanedMenuItem = menuItem.replace(" ", "-");
+        const path = `/${metaData.topic}/${cleanedMenuItem.toLowerCase()}`;
+
         return (
           <Link
-            href={`/${metaData.topic}/${menuItem.toLowerCase()}`}
+            href={`/${metaData.topic}/${cleanedMenuItem.toLowerCase()}`}
             key={index}
           >
             <a

@@ -45,7 +45,9 @@ The Russian language looks complicated at first glance. But most of that has to 
 | Щщ     | scsh  |                |                             |
 | Ээ     | eh    | l**e**t        |                             |
 | Юю     | yu    | **u**niverse   |                             |
-| Яя     | ya    | **ya**tch      |                             |
+| Яя     | ya    | **ya**tch      |
+
+> The nice thing about Russian is that once you are comfortable with the alphabet, everything is pronounced as it is written |
 
 #### Modifiers
 
@@ -56,3 +58,7 @@ The Russian language looks complicated at first glance. But most of that has to 
 | **Ыы**   |           | there's no equivalent in English       |
 
 #### Video Explanation of _Ыы_
+
+<figure className="video_container">
+  <iframe  src="https://www.youtube.com/embed/w9hogVBFECQ"  frameborder="0" allowfullscreen="true"> </iframe>
+</figure>

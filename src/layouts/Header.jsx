@@ -12,7 +12,7 @@ export default function Header() {
             src="/static/favicons/favicon-32x32.png"
             width="32"
             height="32"
-            alt=""
+            alt="The Language Hub logo"
           />
           <h2 className="ml-1">TLH</h2>
         </a>

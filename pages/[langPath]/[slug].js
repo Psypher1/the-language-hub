@@ -15,9 +15,9 @@ import { _menuLookup } from "@utils/learn/_menuLookup";
 
 export async function getStaticPaths() {
   // get the directory for all language info
-  const learnDir = path.join("learn");
+  const learnDir = await path.join("learn");
   // get dir for all langugage paths
-  const languagePathsDirs = fs.readdirSync(learnDir);
+  const languagePathsDirs = await fs.readdirSync(learnDir);
   // array where all the paths will be added to
   const allPaths = [];
 
@@ -43,13 +43,18 @@ export async function getStaticPaths() {
   };
 }
 export async function getStaticProps({ params: { langPath, slug } }) {
-  const learn = fs.readFileSync(path.join("learn", langPath, slug + ".md"));
+  const learn = await fs.readFileSync(
+    path.join("learn", langPath, slug + ".md")
+  );
 
   const { data: metaData, content } = matter(learn);
 
   const mdxSource = await serialize(content, { scope: metaData });
   // console.log(`${langPath}/${slug}`);
-  return { props: { source: mdxSource, langPath, slug, metaData } };
+  return {
+    props: { source: mdxSource, langPath, slug, metaData },
+    revalidate: 60,
+  };
 }
 
 // this function is to capitalise the first letter of the learning path
@@ -57,9 +62,6 @@ function capitalizeFirstLetter(str) {
   return str[0].toUpperCase() + str.slice(1);
 }
 
-/* 
-TODO: Diplay all file names relating to lear path in aside
- */
 export default function LangaugePath({ source, langPath, slug, metaData }) {
   // console.log(`${langPath}/${slug}`);
   const language = capitalizeFirstLetter(langPath);
@@ -85,7 +87,7 @@ export default function LangaugePath({ source, langPath, slug, metaData }) {
             <MDXRemote {...source} />
           </article>
         </section>
-        <aside className="mr-0 w-full bg-sky-700 p-4 text-sky-100 md:mr-8 md:block md:w-56">
+        <aside className="min mr-0  w-full bg-sky-700 p-4 text-sky-100 md:mr-8 md:block md:w-56">
           <h3 className="mb-4 font-semibold md:text-lg">{language} Path</h3>
           <Sidebar slug={slug} menu={menu} metaData={metaData} />
         </aside>
