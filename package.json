@@ -8,6 +8,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.8.3",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "framer-motion": "^6.2.6",
     "gray-matter": "^4.0.3",
     "marked": "^4.0.12",
     "next": "12.0.10",

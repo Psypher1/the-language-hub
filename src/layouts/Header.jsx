@@ -1,3 +1,4 @@
+// import NavDropDown from "@components/NavDropDown";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -20,7 +21,8 @@ export default function Header() {
 
         {/* Dropdown Goes Here */}
         <button className="px-4 py-2 text-xl transition duration-300 hover:bg-sky-200 focus:bg-sky-200">
-          <i class="fa-solid fa-chevron-down"></i>
+          <i className="fa-solid fa-chevron-down"></i>
+          {/* <NavDropDown /> */}
           {/* <i class="fa-solid fa-caret-down"></i> */}
         </button>
       </div>

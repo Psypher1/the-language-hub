@@ -32,23 +32,23 @@ export default function Home() {
       />
 
       <section className="flex flex-col items-center justify-center">
-        <h1 className="text-sky-700 md:mb-12 md:text-4xl lg:text-5xl mb-8 text-3xl font-semibold text-center">
+        <h1 className="mb-8 text-center text-3xl font-semibold text-sky-700 md:mb-12 md:text-4xl lg:text-5xl">
           The Language Hub
         </h1>
-        <p className="md:text-lg lg:text-xl mb-6 text-base text-gray-600">
+        <p className="mb-6 text-base text-gray-600 md:text-lg lg:text-xl">
           What path do you choose?
         </p>
         {/* Grid Items */}
-        <div className=" sm:md-24 sm:grid-cols-2 md:mb-32 md:grid-cols-3 lg:grid-cols-4 grid grid-cols-1 gap-4 mb-20 text-lg font-semibold text-center">
+        <div className=" sm:md-24 mb-20 grid grid-cols-1 gap-4 text-center text-lg font-semibold sm:grid-cols-2 md:mb-32 md:grid-cols-3 lg:grid-cols-4">
           {languages.map((lang) => (
             <Link key={lang.name} href={lang.target}>
               <a className="home-links">{lang.name}</a>
             </Link>
           ))}
         </div>
-        <div className="border-sky-600 p-4 border-t">
+        <div className="border-t border-sky-600 p-4">
           <Link href="/about">
-            <a className="hover:scale-105 hover:font-semibold block text-xl text-right text-gray-600 transition-all duration-300 ease-in-out">
+            <a className="block text-right text-xl text-gray-600 transition-all duration-300 ease-in-out hover:scale-105 hover:font-semibold">
               About this project
             </a>
           </Link>

@@ -1,8 +1,6 @@
 import Link from "next/link";
 
 export default function LangPathNav({ langPath }) {
-  // console.log("path is " + langPath);
-
   const menuItem =
     "px-5 py-2 hover:bg-sky-600 hover:font-semibold rounded transition duration-300 ease-in-out";
 
@@ -13,7 +11,7 @@ export default function LangPathNav({ langPath }) {
   const isActive = "bg-sky-900 font-semibold";
 
   return (
-    <div className="bg-sky-700 text-sky-100 flex items-center justify-center px-8 py-3 space-x-2 text-base">
+    <div className="flex items-center justify-center space-x-2 bg-sky-700 px-8 py-3 text-base text-sky-100">
       <Link href={`/french/basics`}>
         <a className={`${menuItem} ${langPath === frenchPath ? isActive : ""}`}>
           French

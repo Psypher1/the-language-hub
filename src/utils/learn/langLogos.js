@@ -7,4 +7,4 @@ const logoRussian = {
   logoURL: "/static/images/russian.png",
 };
 
-export const allLogos = [logoFrench, logoRussian];
+export const allLangLogos = [logoFrench, logoRussian];

@@ -1,15 +1,17 @@
+import NavDropDown from "@components/NavDropDown";
 import PageWrapper from "@layouts/PageWrapper";
 import Link from "next/link";
 
 export default function about() {
   return (
     <PageWrapper>
+      <NavDropDown />
       <article className="flex flex-col items-center justify-center text-gray-600">
-        <h1 className="text-sky-700 sm:mb-8 md:mb-12 md:text-3xl lg:text-4xl mb-8 text-2xl font-semibold text-center">
+        <h1 className="mb-8 text-center text-2xl font-semibold text-sky-700 sm:mb-8 md:mb-12 md:text-3xl lg:text-4xl">
           Why The Language Hub?
         </h1>
         {/* Prose Containterr */}
-        <div className="content-font-sizes content-colors sm:mb-24 md:mb-32  mx-auto mb-20 prose">
+        <div className="content-font-sizes content-colors prose mx-auto  mb-20 sm:mb-24 md:mb-32">
           <p>
             As someone who learns languages a lot and teaches them, getting to
             the information I need tends to get tediuous.
@@ -20,14 +22,14 @@ export default function about() {
           </p>
         </div>
         {/* Group LInks */}
-        <div className="border-sky-600 md:flex lg:text-2xl items-center justify-center block p-4 space-x-4 text-xl border-t">
-          <h4 className="md:mb-0 mb-2">Connect with me:</h4>
+        <div className="block items-center justify-center space-x-4 border-t border-sky-600 p-4 text-xl md:flex lg:text-2xl">
+          <h4 className="mb-2 md:mb-0">Connect with me:</h4>
           <div className="group flex items-center gap-6">
             <Link href="https://twitter.com/Psypher1">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:scale-110 block transition-all duration-300 ease-in-out"
+                className="block transition-all duration-300 ease-in-out hover:scale-110"
               >
                 <i className="fab fa-twitter"></i>
               </a>
@@ -36,7 +38,7 @@ export default function about() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:scale-110 block transition-all duration-300 ease-in-out"
+                className="block transition-all duration-300 ease-in-out hover:scale-110"
               >
                 <i className="fab fa-github"></i>
               </a>
@@ -45,7 +47,7 @@ export default function about() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:scale-110 block transition-all duration-300 ease-in-out"
+                className="block transition-all duration-300 ease-in-out hover:scale-110"
               >
                 <i className="fab fa-linkedin"></i>
               </a>

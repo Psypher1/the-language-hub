@@ -7,6 +7,7 @@ import matter from "gray-matter";
 import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemote } from "next-mdx-remote";
 
+// Components
 import Sidebar from "@components/Sidebar";
 import LangPathNav from "@components/LangPathNav";
 
@@ -47,7 +48,7 @@ export async function getStaticProps({ params: { langPath, slug } }) {
   const { data: metaData, content } = matter(learn);
 
   const mdxSource = await serialize(content, { scope: metaData });
-  console.log(`${langPath}/${slug}`);
+  // console.log(`${langPath}/${slug}`);
   return { props: { source: mdxSource, langPath, slug, metaData } };
 }
 
@@ -73,19 +74,19 @@ export default function LangaugePath({ source, langPath, slug, metaData }) {
           description: metaData.excerpt,
         }}
       />
-      <div className="md:block hidden">
+      <div className="hidden md:block">
         <LangPathNav langPath={langPath} />
       </div>
-      <div className="md:flex md:p-12 flex-row-reverse p-8">
-        <section className="md:mb-0 flex-1 mb-16">
+      <div className="flex-row-reverse p-8 md:flex md:p-12">
+        <section className="mb-16 flex-1 md:mb-0">
           <p className="text-base text-gray-600">{metaData.title}</p>
           {/* classes extracted to globals.css */}
           <article className="content-font-sizes content-colors content-quote prose">
             <MDXRemote {...source} />
           </article>
         </section>
-        <aside className="bg-sky-700 text-sky-100 md:mr-8 md:block md:w-56 w-full p-4 mr-0">
-          <h3 className="md:text-lg mb-4 font-semibold">{language} Path</h3>
+        <aside className="mr-0 w-full bg-sky-700 p-4 text-sky-100 md:mr-8 md:block md:w-56">
+          <h3 className="mb-4 font-semibold md:text-lg">{language} Path</h3>
           <Sidebar slug={slug} menu={menu} metaData={metaData} />
         </aside>
       </div>
