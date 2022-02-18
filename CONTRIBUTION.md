@@ -12,7 +12,44 @@ You are more than welcome to contribute to this project. As a matter of fact you
 
 ![expected](Detail.png)
 
-<br/>
+---
+
+### Project Structure
+
+#### Technologies
+
+- Next.js
+- Markdown
+- TailwindCSS
+- ChakraUI
+- Fontawesome
+
+#### Files and Folders
+
+- compoments: contains component files for items that will aid in the working of the site.
+  - `LangPathNav.jsx`: This is the language path component rendered on the detail page of a selected language
+  - `Meta.js`: The meta component for `next-seo` options
+  - `NavDropDown`: The dropdown on the navigation that lists all the languages currently availabel
+  - `Sidebarjsx`: A sidebar that lists all the topics in a selected language in the detail view
+- learn: where the language source files are
+- pages: pages for the site
+  - `index.js`: the home page
+  - `/[langPath]/[slug].js`: the page for detail view
+  - `about.js`: the about page of the site
+  - `404`: the not found page
+- public: assets for the site
+  - static: where static assets are
+- src:
+  - layouts: files relating to site layout
+    - `Header.jsx`: header component
+    - `Footer.jsx`: footer component
+    - `PageWrapper`: an additonal wrapper for all pages except the `[slug].js` one
+    - `Wrapper.jsx`: Overall wrapper for the site. It wraps `_app.js`
+  - utils: utility files for
+    - `learn/_menuLookup.js`: this is the lookup to render the sidebar items
+    - `lern/langLogos.js`: the country logos for the dropdown
+    - `langMenus`: The language menus to be use in `_menuLookup`
+- styles: style import for the site
 
 ### How to Contribute
 
