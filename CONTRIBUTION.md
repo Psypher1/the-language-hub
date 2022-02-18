@@ -71,11 +71,11 @@ Data rendered on the site is from markdown files located in the `learn` folder i
 │   │   ├── [your-file].md
 ```
 
-For the `.md` files, please make sure the frontmatter matches this pattern:
+For the `.md` files, please make sure the frontmater follows this pattern:
 
 ```yml
 ---
-titlele: French Basics
+title: French Basics
 topic: french
 excerpt: An introduction to the French language
 part: 01
