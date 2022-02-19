@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function LangPathNav({ langPath }) {
   const menuItem =
-    "px-5 py-2 hover:bg-sky-600 hover:font-semibold rounded transition duration-300 ease-in-out";
+    "px-5 py-2 hover:bg-sky-600 hover:font-semibold rounded site-transition";
 
   const frenchPath = "french";
   const russianPath = "russian";

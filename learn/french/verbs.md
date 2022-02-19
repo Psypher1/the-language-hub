@@ -1,5 +1,5 @@
 ---
-title: French Verbs Introduction
+title: Freanch Verbs Introduction
 topic: french
 excerpt: Verbs in French
 part: 03

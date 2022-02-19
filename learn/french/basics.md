@@ -13,17 +13,20 @@ Getting started is quite simple. Below are some basic things that will be helpfu
 
 ### Salutaions
 
-- Bonjour - Hello
-- Salut - Hi
-- Au Revoir - Goodbye
-- À plus - See you later
+| Word      | Meaning       | Pronunciation |
+| --------- | ------------- | ------------- |
+| Bonjour   | Hello         | bonzhu        |
+| Salut     | Hi            | salu          |
+| Au Revoir | Goodbye       | o revwa       |
+| À plus    | See you       | ah plu        |
+| À bientôt | See you later | ah bi-en-toh  |
 
 ### Temporal
 
-| French Word | Translation | Pronunciation |
-| ----------- | ----------- | ------------- |
-| Hier        | Yesterday   | eeyeh         |
-| Aujourd'hui | Today       | Ozhod-wee     |
-| Demain      | Tomorrow    | dema          |
+| French Word | Meaning   | Pronunciation |
+| ----------- | --------- | ------------- |
+| Hier        | Yesterday | iyeh          |
+| Aujourd'hui | Today     | Ozhod-wee     |
+| Demain      | Tomorrow  | dema          |
 
 ## Conversations

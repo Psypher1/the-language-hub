@@ -18,7 +18,7 @@ import { _menuLookup } from "@utils/_menuLookup";
 
 export async function getStaticPaths() {
   // get the directory for all language info
-  const learnDir = await path.join("learn");
+  const learnDir = path.join("learn");
   // get dir for all langugage paths
   const languagePathsDirs = await fs.readdirSync(learnDir);
   // array where all the paths will be added to
@@ -80,22 +80,22 @@ export default function LangaugePath({ source, langPath, slug, metaData }) {
           description: metaData.excerpt,
         }}
       />
-      <div className="hidden md:block">
+      <header className="hidden md:block">
         <LangPathNav langPath={langPath} />
-      </div>
-      <div className="flex-row-reverse p-8 md:flex md:p-12">
-        <section className="mb-16 flex-1 md:mb-0">
-          <p className="text-base text-gray-600">{metaData.title}</p>
+      </header>
+      <section className="flex-row-reverse p-8 md:flex md:p-12">
+        <article className="mb-16 flex-1 md:mb-0">
+          <h4 className="text-base text-gray-600">{metaData.title}</h4>
           {/* classes extracted to globals.css */}
-          <article className="content-font-sizes content-colors content-quote prose">
+          <article className="content-font-sizes content-colors content-quote prose prose-a:hover:text-sky-600 prose-a:text-sky-800 ">
             <MDXRemote {...source} />
           </article>
-        </section>
-        <aside className="min mr-0  w-full bg-sky-700 p-4 text-sky-100 md:mr-8 md:block md:w-56">
+        </article>
+        <aside className="min mr-0  w-full bg-sky-700 p-4 text-sky-100 md:mr-8 md:block md:w-[14.5rem]">
           <h3 className="mb-4 font-semibold md:text-lg">{language} Path</h3>
           <Sidebar slug={slug} menu={menu} metaData={metaData} />
         </aside>
-      </div>
+      </section>
     </>
   );
 }

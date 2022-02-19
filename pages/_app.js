@@ -16,10 +16,10 @@ function MyApp({ Component, pageProps }) {
       <ChakraProvider>
         <Wrapper>
           {/* <Header /> */}
-          <div className="min-h-screen">
+          <section className="min-h-screen">
             <DefaultSeo {...SEO} />
             <Component {...pageProps} />
-          </div>
+          </section>
           {/* <Footer /> */}
         </Wrapper>
       </ChakraProvider>

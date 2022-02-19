@@ -6,7 +6,7 @@ export default function Layout({ children }) {
     <>
       <Header />
       {/* <LangPathNav /> */}
-      <main className="">{children}</main>
+      <main>{children}</main>
       <Footer />
     </>
   );

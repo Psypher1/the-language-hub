@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { allLangLogos } from "@utils/learn/langLogos";
+import { allLangLogos } from "@utils/langLogos";
 
 // ChakraUI Imports
 import {
@@ -8,13 +8,7 @@ import {
   MenuButton,
   MenuList,
   MenuItem,
-  MenuItemOption,
-  MenuGroup,
-  MenuOptionGroup,
-  MenuDivider,
   useDisclosure,
-  Button,
-  PortalManager,
   Portal,
   IconButton,
 } from "@chakra-ui/react";

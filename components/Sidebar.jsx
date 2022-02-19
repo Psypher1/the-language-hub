@@ -1,15 +1,12 @@
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+
 import { useRouter } from "next/router";
 
 export default function Sidebar({ menu, metaData }) {
-  const getInitialMenu = (menu) => menu.map((menuItem) => ({ ...menuItem }));
   const router = useRouter();
-  const { asPath, pathname } = useRouter();
 
   // style of side menu items
-  const menuStyle =
-    "block hover:bg-sky-600 px-4 py-2 mb-2 transition duration-300 ease-in-out";
+  const menuStyle = "block hover:bg-sky-600 px-4 py-2 mb-2 site-transition";
 
   // active style of side menu items
   const isActive = "bg-sky-900 font-semibold";
