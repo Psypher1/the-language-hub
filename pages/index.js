@@ -2,18 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 import Meta from "@components/Meta";
-import { getLanguage } from "@utils/getData";
 import PageWrapper from "@layouts/PageWrapper";
 
 // TODO: get file slugs to place in link to naviagate to learn section and not have hardcoded values
-
-export async function getStaticProps() {
-  // ? How would you get all the slugs?
-  const data = getLanguage();
-
-  // * props would be title and slug
-  return { props: {} };
-}
 
 const languages = [
   { name: "French", target: "/french/basics" },

@@ -1,17 +1,20 @@
-import Meta from "@components/Meta";
+// Imports to accesss files
 import fs from "fs";
 import path from "path";
 
+// Imports for woriking with markdown
 import matter from "gray-matter";
 
 import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemote } from "next-mdx-remote";
 
 // Components
+import Meta from "@components/Meta";
 import Sidebar from "@components/Sidebar";
 import LangPathNav from "@components/LangPathNav";
 
-import { _menuLookup } from "@utils/learn/_menuLookup";
+// Lookup import to render sidebar items
+import { _menuLookup } from "@utils/_menuLookup";
 
 export async function getStaticPaths() {
   // get the directory for all language info
@@ -66,6 +69,7 @@ export default function LangaugePath({ source, langPath, slug, metaData }) {
   // console.log(`${langPath}/${slug}`);
   const language = capitalizeFirstLetter(langPath);
 
+  // run the lookup on the language path
   const menu = _menuLookup(langPath);
 
   return (

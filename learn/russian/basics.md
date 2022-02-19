@@ -7,58 +7,65 @@ part: 01
 
 ## Introduction
 
-> Russian (русский язык, tr. russkiy yazyk) is an East Slavic language native to Russia in Eastern Europe. It is he most spoken Slavic language.
+> Russian (русский язык, tr. russkiy yazyk) is an East Slavic language native to Russia in Eastern Europe. It is he most spoken Slavic language.  
 > The beauty of Russian is that you pronounce what you read.
 
 The Russian language looks complicated at first glance. But most of that has to do with its alphabet. We'll get that out of the way first.
 
 ### Alphabet & Pronunciation
 
-| Letter | Sound | Pronounce Like | Notes                       |
-| ------ | ----- | -------------- | --------------------------- |
-| Аа     | ah    | f**a**ther     |                             |
-| Бб     | b'    | **b**oring     |                             |
-| Вв     | v'    | **v**an        |                             |
-| Гг     | g'    | **g**ame       |                             |
-| Дд     | d'    | **d**ome       |                             |
-| Ее     | ye    | **ye**s        |                             |
-| Ёё     | yo    | **yo**ga       |                             |
-| Жж     | zh    | plea**s**ure   |                             |
-| Зз     | z     | **z**oo        | hard z                      |
-| Ии     | ii    | **ee**l        |                             |
-| Йй     | Йy'   | bo**y'**       |                             |
-| Кк     | k     | **c**at        |                             |
-| Лл     | l     | **l**arge      |                             |
-| Мм     | m     | **m**ohter     |                             |
-| Нн     | n     | **n**o         | harder, tongue behind teeth |
-| Оо     | oo    | **b**oring     |                             |
-| Пп     | p     | **p**ark       | shorter, don't breathe out  |
-| Рр     | rr    | roll your r    |                             |
-| Сс     | Сс    | **s**ad        |                             |
-| Тт     | t     | **t**ome       | harder, tongue behind teeth |
-| Уу     | uu    | b**oo**k       |                             |
-| Фф     | f     | **f**ork       |                             |
-| Хх     | h     | hard h         |                             |
-| Цц     | ts    | i**t's**       |                             |
-| Чч     | ch    | **ch**ur**ch** |                             |
-| Шш     | sh    |                |                             |
-| Щщ     | scsh  |                |                             |
-| Ээ     | eh    | l**e**t        |                             |
-| Юю     | yu    | **u**niverse   |                             |
-| Яя     | ya    | **ya**tch      |
+| Letter | Sounded As | Pronounce Like | Notes                       |
+| ------ | ---------- | -------------- | --------------------------- |
+| А      | ah         | f**a**ther     |                             |
+| Б      | b'         | **b**oring     |                             |
+| В      | v'         | **v**an        |                             |
+| Г      | g'         | **g**ame       |                             |
+| Д      | d'         | **d**ome       |                             |
+| Е      | ye         | **ye**s        |                             |
+| Ё      | yo         | **yo**ga       |                             |
+| Ж      | zh         | plea**s**ure   |                             |
+| З      | z          | **z**oo        | hard z                      |
+| И      | ii         | **ee**l        |                             |
+| Й      | Йy'        | bo**y'**       |                             |
+| К      | k          | **c**at        |                             |
+| Л      | l          | **l**arge      |                             |
+| М      | m          | **m**ohter     |                             |
+| Н      | n          | **n**o         | harder, tongue behind teeth |
+| О      | oo         | **b**oring     |                             |
+| П      | p          | **p**ark       | shorter, don't breathe out  |
+| Р      | rr         | roll your r    |                             |
+| С      | ss         | **s**ad        |                             |
+| Т      | t          | **t**ome       | harder, tongue behind teeth |
+| У      | uu         | b**oo**k       |                             |
+| Ф      | f          | **f**ork       |                             |
+| Х      | h          | hard h         |                             |
+| Ц      | ts         | i**t's**       |                             |
+| Ч      | ch         | **ch**ur**ch** |                             |
+| Ш      | sh         |                |                             |
+| Щ      | scsh       |                |                             |
+| Э      | eh         | l**e**t        |                             |
+| Ю      | yu         | **u**niverse   |                             |
+| Я      | ya         | **ya**tch      |
 
-> The nice thing about Russian is that once you are comfortable with the alphabet, everything is pronounced as it is written |
+> The nice thing about Russian is that once you are comfortable with the alphabet, everything is pronounced as it is written.
 
 #### Modifiers
 
 | Modifier | Name      | Purpose                                |
 | -------- | --------- | -------------------------------------- |
-| **Ьь**   | soft sign | Makes some letters (consonants) soft   |
-| **Ъъ**   | hard sign | Divides words for easier pronunciation |
-| **Ыы**   |           | there's no equivalent in English       |
+| **Ь**    | soft sign | Makes some letters (consonants) soft   |
+| **Ъ**    | hard sign | Divides words for easier pronunciation |
+| **Ы**    |           | there's no equivalent in English       |
+
+<details>
+<summary markdown="span">The Most Important Pronounciation Rule in Russian</summary>
+<b>NO ONE CARES!</b>
+</details>
+
+---
 
 #### Video Explanation of _Ыы_
 
 <figure className="video_container">
-  <iframe  src="https://www.youtube.com/embed/w9hogVBFECQ"  frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe  src="https://www.youtube.com/embed/w9hogVBFECQ"  frameBorder="0" allowFullScreen="true"> </iframe>
 </figure>
