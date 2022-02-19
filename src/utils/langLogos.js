@@ -8,7 +8,7 @@ const logoRussian = {
 };
 const logoShona = {
   langPath: "Shona",
-  logoURL: "/static/images/russian.png",
+  logoURL: "/static/images/shona.png",
 };
 
 export const allLangLogos = [logoFrench, logoRussian, logoShona];

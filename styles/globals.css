@@ -6,7 +6,7 @@
 
 @layer components {
   .content-font-sizes {
-    @apply prose-base md:prose-lg;
+    @apply lg:prose-lg;
   }
   .content-colors {
     @apply prose-h2:text-sky-900 prose-h3:text-sky-800 prose-h4:text-sky-700 text-sky-900;

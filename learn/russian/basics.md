@@ -67,5 +67,5 @@ The Russian language looks complicated at first glance. But most of that has to 
 #### Video Explanation of _Ыы_
 
 <figure className="video_container">
-  <iframe  src="https://www.youtube.com/embed/w9hogVBFECQ"  frameBorder="0" allowFullScreen="true"> </iframe>
+  <iframe  src="https://www.youtube.com/embed/w9hogVBFECQ"  frameBorder={0} allowFullScreen={true}> </iframe>
 </figure>

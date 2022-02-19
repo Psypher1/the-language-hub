@@ -1,14 +1,15 @@
 import Link from "next/link";
 
 export default function LangPathNav({ langPath }) {
+  // Language Navigation Styling
   const menuItem =
     "px-5 py-2 hover:bg-sky-600 hover:font-semibold rounded site-transition";
+  const isActive = "bg-sky-900 font-semibold";
 
+  // Language Paths to be matched
   const frenchPath = "french";
   const russianPath = "russian";
   const shonaPath = "shona";
-
-  const isActive = "bg-sky-900 font-semibold";
 
   return (
     <div className="flex items-center justify-center space-x-2 bg-sky-700 px-8 py-3 text-base text-sky-100">
