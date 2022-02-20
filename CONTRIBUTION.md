@@ -20,36 +20,38 @@ You are more than welcome to contribute to this project. As a matter of fact you
 
 - Next.js
 - Markdown
+- next-mdx-remote
 - TailwindCSS
 - ChakraUI
-- Fontawesome
+- FontAwesome
 
 #### Files and Folders
 
 - **compoments**: contains component files for items that will aid in the working of the site.
   - `LangPathNav.jsx`: This is the language path component rendered on the detail page of a selected language
   - `Meta.js`: The meta component for `next-seo` options
-  - `NavDropDown`: The dropdown on the navigation that lists all the languages currently availabel
-  - `Sidebarjsx`: A sidebar that lists all the topics in a selected language in the detail view
+  - `NavDropDown.jsx`: The dropdown on the navigation that lists all the languages currently availabel
+  - `Sidebar.jsx`: A sidebar that lists all the topics in a selected language in the detail view
 - **learn**: where the language source files are
 - **pages**: pages for the site
   - `index.js`: the home page
   - `/[langPath]/[slug].js`: the page for detail view
   - `about.js`: the about page of the site
-  - `404`: the not found page
+  - `404.js`: the not found page
 - **public**: assets for the site
   - static: where static assets are
 - **src**:
   - **layouts**: files relating to site layout
     - `Header.jsx`: header component
     - `Footer.jsx`: footer component
-    - `PageWrapper`: an additonal wrapper for all pages except the `[slug].js` one
+    - `PageWrapper.jsx`: an additonal wrapper for all pages except the `[slug].js` one
     - `Wrapper.jsx`: Overall wrapper for the site. It wraps `_app.js`
   - **utils**: utility files for
     - `_menuLookup.js`: this is the lookup to render the sidebar items
     - `langLogos.js`: the country logos for the dropdown
     - `langMenus.js`: The language menus to be use in `_menuLookup`
 - **styles**: style import for the site
+  - `globals.css`: extracted utiliy classes to make jsx files a bit cleaner
 
 ### How to Contribute
 
@@ -87,7 +89,7 @@ After you have added your files, send in your pull request and I will hadle the 
 In the `langMenus.js` file:
 
 ```js
-// src/utils/learn/langMenus.js
+// src/utils/langMenus.js
 export const frenchMenu = ["Basics", "Pronouns", "Verbs"];
 export const russianMenu = ["Basics", "Nouns"];
 export const shonaMenu = ["Basics"];
@@ -96,7 +98,7 @@ export const shonaMenu = ["Basics"];
 In the `_menuLookup.js` file:
 
 ```js
-// src/utils/learn/_menuLookup.js
+// src/utils/_menuLookup.js
 import { frenchMenu, russianMenu, shonaMenu } from "./langMenus";
 
 export const _menuLookup = (langPath) => {
