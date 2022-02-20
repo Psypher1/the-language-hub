@@ -40,12 +40,12 @@ You are more than welcome to contribute to this project. As a matter of fact you
 - **public**: assets for the site
   - static: where static assets are
 - **src**:
-  - layouts: files relating to site layout
+  - **layouts**: files relating to site layout
     - `Header.jsx`: header component
     - `Footer.jsx`: footer component
     - `PageWrapper`: an additonal wrapper for all pages except the `[slug].js` one
     - `Wrapper.jsx`: Overall wrapper for the site. It wraps `_app.js`
-  - utils: utility files for
+  - **utils**: utility files for
     - `_menuLookup.js`: this is the lookup to render the sidebar items
     - `langLogos.js`: the country logos for the dropdown
     - `langMenus.js`: The language menus to be use in `_menuLookup`
