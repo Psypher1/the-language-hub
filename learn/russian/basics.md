@@ -62,7 +62,7 @@ The Russian language looks complicated at first glance. But most of that has to 
 <b>NO ONE CARES!</b>
 </details>
 
-<hr/>
+---
 
 #### Video Explanation of _Ыы_
 

@@ -13,13 +13,17 @@ Getting started is quite simple. Below are some basic things that will be helpfu
 
 ### Salutaions
 
-| Word      | Meaning       | Pronunciation |
-| --------- | ------------- | ------------- |
-| Bonjour   | Hello         | bonzhu        |
-| Salut     | Hi            | salu          |
-| Au Revoir | Goodbye       | o revwa       |
-| À plus    | See you       | ah plu        |
-| À bientôt | See you later | ah bi-en-toh  |
+| Word              | Meaning       | Pronunciation   |
+| ----------------- | ------------- | --------------- |
+| Bonjour           | Hello         | bonzhu          |
+| Salut             | Hi            | salu            |
+| Au Revoir         | Goodbye       | o revwa         |
+| À plus            | See you       | ah plu          |
+| À bientôt         | See you later | ah bi-en-toh    |
+| Vous allez bien ? | How are you?  | vhu-za-leh bian |
+| Ça va?            | How are you?  | sa-vha          |
+| Je vais bien      | I am well     | zhe vhe bian    |
+| Ça va bien        | I am okay     | sa-vha bian     |
 
 ### Temporal
 
