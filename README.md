@@ -1,12 +1,17 @@
+<h5 align="center">Welcome to</h5>
 <h1 align="center">The Language Hub 👋</h1>
-<p>
+<p align='center'>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" />
   </a>
-  <a href="https://twitter.com/Psypher1" target="_blank">
-    <img alt="Twitter: Psypher1" src="https://img.shields.io/twitter/follow/Psypher1.svg?style=social" />
-  </a>
+  <a href="https://github.com/Psypher1/the-language-hub/fork" target="blank">
+<img src="https://img.shields.io/github/forks/Psypher1/the-language-hub?style=flat-square" alt="tryshape forks"/>
+</a>
+<a href="https://github.com/Psypher1/the-language-hub/stargazers" target="blank">
+<img src="https://img.shields.io/github/stars/Psypher1/the-language-hub?style=flat-square" alt="tryshape stars"/>
+</a>
+
 </p>
 
 The Language Hub is a central place for the important parts that will help you in your journey of the language you are learning.
@@ -16,27 +21,61 @@ I went with this idea becauase as someone who learns languages a lot and teaches
 
 <!-- ### 🏠 [Homepage](thelanghub.netlify.app) -->
 
-### Contributing
+## Contributing
 
 The main goal for the hackathon is for the submission to be Open Source. So please check out [CONTRIBUTION.md](CONTRIBUTION.md) for explanation of the project structure and how you can contribute.
 
 <h2 align='center'>THANK YOU!!!</h2>
 
+<p align="center">
+    <a href="https://github.com/TryShape/tryshape/issues/new/choose">Report Bug</a>
+    ·
+    <a href="https://github.com/TryShape/tryshape/issues/new/choose">Request Feature</a>
+</p>
+
 ---
 
-### Running Locally
+## 🏗️ Running Locally
 
-#### Install
+1. Clone the repository
 
-```sh
-npm install
+```bash
+git clone https://github.com/Psypher1/he-language-hub.git
 ```
 
-#### Usage
+2. Change the working directory
 
-```sh
-npm run dev
+```bash
+cd the-language-hub
 ```
+
+3. Install dependencies
+
+```bash
+npm install # or, yarn install
+```
+
+4. Run the app
+
+```bash
+npm run dev # or, yarn dev
+```
+
+That's All!!! Now open [localhost:3000](http://localhost:3000/) to see the app.
+
+## 🚧 Built With
+
+- [Next.js](https://nextjs.org)
+- [TailwindCSS](tailwindcss.com/)
+- [Chakra UI](hhttps://chakra-ui.com/)
+- [FontAwesome](https://fontawesome.com/)
+- [Markdown](https://nextjs.org)
+- [next-mdx-remote](https://github.com/hashicorp/next-mdx-remote)
+- [next-seo](https://github.com/garmeeh/next-seo)
+
+## 🛡️ License
+
+This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
 
 ---
 
@@ -55,7 +94,7 @@ Give a ⭐️ if this project helped you!
 
 ---
 
-## Credits
+## 🙏🏽 Credits
 
 A big **THANK YOU** to these amazing people. This would not have come together without the knowledge they've shared:
 <br/>
@@ -83,5 +122,3 @@ A big **THANK YOU** to these amazing people. This would not have come together w
 ##### Harry Wolff
 
 - [Github](https://github.com/hswolff)
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

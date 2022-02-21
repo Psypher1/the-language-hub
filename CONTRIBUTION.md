@@ -2,7 +2,7 @@
 
 You are more than welcome to contribute to this project. As a matter of fact you are encouraged to, because at the end of the day, this is **your** project
 
-### What We Are Aiming Formula
+### What We Are Aiming For
 
 #### Home Page
 
@@ -18,12 +18,15 @@ You are more than welcome to contribute to this project. As a matter of fact you
 
 #### Technologies
 
-- Next.js
-- Markdown
-- next-mdx-remote
-- TailwindCSS
-- ChakraUI
-- FontAwesome
+- [Next.js](https://nextjs.org)
+- [TailwindCSS](tailwindcss.com/)
+- [Chakra UI](hhttps://chakra-ui.com/)
+- [FontAwesome](https://fontawesome.com/)
+- [Markdown](https://nextjs.org)
+- [next-mdx-remote](https://github.com/hashicorp/next-mdx-remote)
+- [next-seo](https://github.com/garmeeh/next-seo)
+
+<br>
 
 #### Files and Folders
 
