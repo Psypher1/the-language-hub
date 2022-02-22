@@ -66,7 +66,7 @@ That's All!!! Now open [localhost:3000](http://localhost:3000/) to see the app.
 ## 🚧 Built With
 
 - [Next.js](https://nextjs.org)
-- [TailwindCSS](tailwindcss.com/)
+- [TailwindCSS](https://tailwindcss.com/)
 - [Chakra UI](https://chakra-ui.com/)
 - [FontAwesome](https://fontawesome.com/)
 - [Markdown](https://nextjs.org)
