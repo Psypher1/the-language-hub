@@ -1,8 +1,8 @@
-## Contributing
+# Contributing
 
 You are more than welcome to contribute to this project. As a matter of fact you are encouraged to, because at the end of the day, this is **your** project
 
-### What We Are Aiming For
+## What We Are Aiming For
 
 #### Home Page
 
@@ -14,9 +14,9 @@ You are more than welcome to contribute to this project. As a matter of fact you
 
 ---
 
-### Project Structure
+## Project Structure
 
-#### Technologies
+### Technologies
 
 - [Next.js](https://nextjs.org)
 - [TailwindCSS](tailwindcss.com/)
@@ -26,9 +26,7 @@ You are more than welcome to contribute to this project. As a matter of fact you
 - [next-mdx-remote](https://github.com/hashicorp/next-mdx-remote)
 - [next-seo](https://github.com/garmeeh/next-seo)
 
-<br>
-
-#### Files and Folders
+### Files and Folders
 
 - **compoments**: contains component files for items that will aid in the working of the site.
   - `LangPathNav.jsx`: This is the language path component rendered on the detail page of a selected language
@@ -56,11 +54,13 @@ You are more than welcome to contribute to this project. As a matter of fact you
 - **styles**: style import for the site
   - `globals.css`: extracted utiliy classes to make jsx files a bit cleaner
 
-### How to Contribute
+---
+
+## How to Contribute
 
 Data rendered on the site is from markdown files located in the `learn` folder in the root of the project.
 
-#### Adding Language Files
+### Adding Language Files
 
 - Currently there are files for French, Shona and Russian.
 - To add to the existing languages, either modify the exisiting file or create a new `.md` file in the appropriate folder
@@ -114,15 +114,13 @@ export const _menuLookup = (langPath) => {
 };
 ```
 
-<br/>
+---
 
-### Improving Code
+## Improving Code
 
 By no means is the code optimal. Feel free to improve it in any way you think would improve it.
 
 So **Pull Request** away! Just mention me on Twitter when you do so I get to your requests as soon as possible. [@Psypher1](https://twitter.com/Psypher1)
-
-<br/>
 
 ## Spread the word
 
