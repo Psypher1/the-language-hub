@@ -8,6 +8,7 @@ import PageWrapper from "@layouts/PageWrapper";
 export default function NotFound() {
   const router = useRouter();
 
+  // fires function when compenent first renders
   useEffect(() => {
     setTimeout(() => {
       router.push("/");
