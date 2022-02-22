@@ -9,11 +9,11 @@ export default function NotFound() {
   const router = useRouter();
 
   // fires function when compenent first renders
-  useEffect(() => {
-    setTimeout(() => {
-      router.push("/");
-    }, 5000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     router.push("/");
+  //   }, 5000);
+  // }, []);
 
   return (
     <PageWrapper>
@@ -47,7 +47,7 @@ export default function NotFound() {
             rel="noopener noreferrer"
           >
             Contribute to it
-          </a>{" "}
+          </a>
         </section>
         <div className="block items-center justify-center space-x-4 border-t border-sky-600 p-4 text-xl md:flex lg:text-2xl">
           <h4 className="mb-1 block md:mb-0">Taking you</h4>

@@ -13,6 +13,7 @@ import {
   Button,
   IconButton,
 } from "@chakra-ui/react";
+import Image from "next/image";
 
 export default function NavDropDown() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -37,8 +38,10 @@ export default function NavDropDown() {
             <MenuItem key={index} _hover={{ bg: "blue.100" }}>
               <Link key={index} href={`/${learPath}/basics`} passHref>
                 <a className="mb-2 flex cursor-pointer items-center space-x-2">
-                  <img
+                  <Image
                     src={logo.logoURL}
+                    height={5}
+                    width={5}
                     className="h-5 w-5"
                     alt="language logo"
                   />
