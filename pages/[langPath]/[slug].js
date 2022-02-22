@@ -27,7 +27,7 @@ export async function getStaticPaths() {
   languagePathsDirs.forEach((langPath) => {
     const langPathDir = path.join(learnDir, langPath);
 
-    const files = fs.readdirSync(langPathDir);
+    const files = await fs.readdirSync(langPathDir);
 
     files.forEach((filename) => {
       const path = {
@@ -46,7 +46,9 @@ export async function getStaticPaths() {
   };
 }
 export async function getStaticProps({ params: { langPath, slug } }) {
-  const learn = fs.readFileSync(path.join("learn", langPath, slug + ".md"));
+  const learn = await fs.readFileSync(
+    path.join("learn", langPath, slug + ".md")
+  );
 
   const { data: metaData, content } = matter(learn);
 

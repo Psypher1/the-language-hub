@@ -40,8 +40,8 @@ export default function NavDropDown() {
                 <a className="mb-2 flex cursor-pointer items-center space-x-2">
                   <Image
                     src={logo.logoURL}
-                    height={5}
-                    width={5}
+                    height={15}
+                    width={15}
                     className="h-5 w-5"
                     alt="language logo"
                   />
