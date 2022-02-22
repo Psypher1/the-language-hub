@@ -1,7 +1,7 @@
 ---
 title: Russian Nouns
 topic: russian
-excerpt: An introduction to the Russian language
+excerpt: An introduction to the Russian Nouns
 part: 04
 ---
 

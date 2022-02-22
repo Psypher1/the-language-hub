@@ -46,9 +46,7 @@ export async function getStaticPaths() {
   };
 }
 export async function getStaticProps({ params: { langPath, slug } }) {
-  const learn = await fs.readFileSync(
-    path.join("learn", langPath, slug + ".md")
-  );
+  const learn = fs.readFileSync(path.join("learn", langPath, slug + ".md"));
 
   const { data: metaData, content } = matter(learn);
 
@@ -87,7 +85,7 @@ export default function LangaugePath({ source, langPath, slug, metaData }) {
         <article className="mb-16 flex-1 md:mb-0">
           <h4 className="text-base text-gray-600">{metaData.title}</h4>
           {/* classes extracted to globals.css */}
-          <article className="content-font-sizes content-colors content-quote prose prose-a:hover:text-sky-600 prose-a:text-sky-800 prose-hr:bg-sky-600 ">
+          <article className="content-font-sizes content-colors content-quote prose prose-a:hover:text-sky-600 prose-a:text-sky-800 prose-strong:text-sky-900 prose-ol:text-red-500">
             <MDXRemote {...source} />
           </article>
         </article>

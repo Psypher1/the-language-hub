@@ -26,7 +26,7 @@ The Russian language looks complicated at first glance. But most of that has to 
 | Ж      | zh         | plea**s**ure   |                             |
 | З      | z          | **z**oo        | hard z                      |
 | И      | ii         | **ee**l        |                             |
-| Й      | Йy'        | bo**y'**       |                             |
+| Й      | y'         | bo**y'**       |                             |
 | К      | k          | **c**at        |                             |
 | Л      | l          | **l**arge      |                             |
 | М      | m          | **m**ohter     |                             |

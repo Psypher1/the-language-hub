@@ -25,6 +25,16 @@ Getting started is quite simple. Below are some basic things that will be helpfu
 | Je vais bien      | I am well     | zhe vhe bian    |
 | Ça va bien        | I am okay     | sa-vha bian     |
 
+### Pronunciation Guide
+
+Here is an explanation of some french sounds based on what letters are together
+
+| Letters               | Pronounced Like | Example         |
+| --------------------- | --------------- | --------------- |
+| oi                    | wa              | moi (mwa)       |
+| ill                   | y               | famille (famiy) |
+| s followed by a vowel | z               | plasir (plazir) |
+
 ### Temporal
 
 | French Word | Meaning   | Pronunciation |
@@ -32,5 +42,3 @@ Getting started is quite simple. Below are some basic things that will be helpfu
 | Hier        | Yesterday | iyeh          |
 | Aujourd'hui | Today     | Ozhod-wee     |
 | Demain      | Tomorrow  | dema          |
-
-## Conversations

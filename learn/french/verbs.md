@@ -7,7 +7,7 @@ part: 03
 
 ## Introduction
 
-Verbs in French is where it gets a bit tricky. However, most of them follow a similar formular.
+Verbs in French is where it gets a bit tricky. However, most of them follow a similar formular. As an introduction, we will look a verb conjuagation.
 
 If you recall subject pronuouns:
 
@@ -22,7 +22,7 @@ If you recall subject pronuouns:
 | ils     | They (masculine)    | ill           |
 | elles   | They (feminine)     | el            |
 
-Working with verbs makes use of these pronouns
+Verb conjugation makes use of these pronouns
 
 #### The Formula :
 
@@ -44,4 +44,20 @@ For parler the ending would be -e, -es, -e, -ons , -ez and -ent respectively
 
 ### Three Main Groups of Verbs
 
-The next thing to remember is the 3 main groupes of verbes. Their endings will guide most of the conjugation you will do in French.
+The next thing to remember is the 3 main groupes of verbes - groupes based on their endigs: -er, -ir, -re.
+
+Their endings will guide most of the conjugation you will do in French. We have looked at the endings for -er verbs. The other ones are:
+
+- -IR: -is, -is, -it, -issons, -issez, -issent
+- -RE: -s, -s, \_, -ons, -ez, -ent
+
+| Pronoun | ER: Parler  | IR: Finir     | RE: Perdre  |
+| ------- | ----------- | ------------- | ----------- |
+| je      | parl**e**   | fin**is**     | perd**s**   |
+| tu      | parl**es**  | fin**is**     | perd**s**   |
+| il      | parl**e**   | fin**it**     | perd        |
+| elle    | parl**e**   | fin**it**     | perd        |
+| nous    | parl**on**  | fin**issons** | perd**ons** |
+| vous    | parl**ez**  | fin**issez**  | perd**ez**  |
+| ils     | parl**ent** | fin**issent** | perd**ent** |
+| elles   | parl**ent** | fin**issent** | perd**ent** |

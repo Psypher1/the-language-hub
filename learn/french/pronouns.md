@@ -21,3 +21,5 @@ Pronouns are a big part of what you will do in French
 | vous    | You (formal/plural) | vhu           |
 | ils     | They (masculine)    | ill           |
 | elles   | They (feminine)     | el            |
+
+Personal pronouns are the backbone of your journey in Frenh. You are always going to be referring to someone or somthing.
