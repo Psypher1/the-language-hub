@@ -54,7 +54,6 @@ export async function getStaticProps({ params: { langPath, slug } }) {
   // console.log(`${langPath}/${slug}`);
   return {
     props: { source: mdxSource, langPath, slug, metaData },
-    revalidate: 60,
   };
 }
 
