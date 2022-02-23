@@ -27,6 +27,8 @@ export default function NavDropDown() {
         _active={{ bg: "blue.100" }}
         px={6}
         py={4}
+        backgroundColor="transparent"
+        boxShadow="md"
       >
         <i className="fas fa-chevron-down text-xl font-semibold"></i>
       </MenuButton>

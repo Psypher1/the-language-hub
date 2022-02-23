@@ -8,7 +8,6 @@ import PageWrapper from "@layouts/PageWrapper";
 
 const languages = [
   { name: "French", target: "/french/basics" },
-  { name: "Japanese", target: "/japanese/basics" },
   { name: "Russian", target: "/russian/basics" },
   { name: "Shona", target: "/shona/basics" },
 ];
@@ -16,12 +15,6 @@ const languages = [
 export default function Home() {
   return (
     <PageWrapper>
-      <Meta
-        pageMeta={{
-          title: "Home",
-        }}
-      />
-
       <section className="flex flex-col items-center justify-center">
         <h1 className="mb-6 text-center text-3xl font-semibold text-sky-700 sm:mb-8 md:mb-12 md:text-4xl lg:text-5xl">
           The Language Hub
@@ -36,7 +29,13 @@ export default function Home() {
               <a className="home-links">{lang.name}</a>
             </Link>
           ))}
+          <Link href="/">
+            <p className="rounded border border-gray-600  px-20 py-3 font-normal text-gray-500 md:py-2 md:px-12 ">
+              Japanese
+            </p>
+          </Link>
         </div>
+        {/* bottom container */}
         <div className="border-t border-sky-600 p-4">
           <Link href="/about">
             <a className="block text-right text-xl text-gray-600 transition-all duration-300 ease-in-out hover:scale-105 hover:font-semibold">
