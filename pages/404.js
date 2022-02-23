@@ -9,11 +9,11 @@ export default function NotFound() {
   const router = useRouter();
 
   // fires function when compenent first renders
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     router.push("/");
-  //   }, 5000);
-  // }, []);
+  useEffect(() => {
+    setTimeout(() => {
+      router.push("/");
+    }, 5000);
+  }, []);
 
   return (
     <PageWrapper>

@@ -19,7 +19,7 @@ import { _menuLookup } from "@utils/_menuLookup";
 export async function getStaticPaths() {
   // get the directory for all language info
   const learnDir = path.join("learn");
-  // get dir for all langugage paths
+  // get directories for all langugage paths
   const languagePathsDirs = await fs.readdirSync(learnDir);
   // array where all the paths will be added to
   const allPaths = [];
@@ -54,7 +54,6 @@ export async function getStaticProps({ params: { langPath, slug } }) {
   // console.log(`${langPath}/${slug}`);
   return {
     props: { source: mdxSource, langPath, slug, metaData },
-    revalidate: 60,
   };
 }
 
