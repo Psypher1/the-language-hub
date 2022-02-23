@@ -27,7 +27,7 @@ export default function NotFound() {
           Oh, darn! 😟
         </h2>
         <p className="mb-12 text-base text-gray-600 md:text-lg lg:text-xl">
-          We don't have that yet...
+          We do not have that yet...
         </p>
 
         <section className="content-font-sizes content-colors prose mx-auto  mb-20 text-center sm:mb-24 md:mb-32 md:text-left">
