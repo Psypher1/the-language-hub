@@ -9,7 +9,7 @@ part: 02
 
 Pronouns are a big part of what you will do in French
 
-### Personal Pronouns
+### Subject Pronouns
 
 | Pronoun | Translation         | Pronunciation |
 | ------- | ------------------- | ------------- |
@@ -22,4 +22,7 @@ Pronouns are a big part of what you will do in French
 | ils     | They (masculine)    | ill           |
 | elles   | They (feminine)     | el            |
 
-Personal pronouns are the backbone of your journey in Frenh. You are always going to be referring to someone or somthing.
+Subject pronouns are the backbone of your journey in Frenh. You are always going to be referring to someone or something.
+
+### Personal Pronouns
+
