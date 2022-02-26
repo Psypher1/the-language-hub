@@ -20,7 +20,7 @@ You are more than welcome to contribute to this project. As a matter of fact you
 
 - [Next.js](https://nextjs.org)
 - [TailwindCSS](tailwindcss.com/)
-- [Chakra UI](hhttps://chakra-ui.com/)
+- [Chakra UI](https://chakra-ui.com/)
 - [FontAwesome](https://fontawesome.com/)
 - [Markdown](https://nextjs.org)
 - [next-mdx-remote](https://github.com/hashicorp/next-mdx-remote)
