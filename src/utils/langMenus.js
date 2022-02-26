@@ -8,6 +8,7 @@
 export const frenchMenu = ["Basics", "Pronouns", "Verbs"];
 export const russianMenu = [
   "Basics",
+  "Phrases",
   "Vowel Reduction",
   "Voiced Consonants",
   "Nouns",

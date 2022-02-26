@@ -2,10 +2,12 @@
 title: Russian Vowel Reduction
 topic: russian
 excerpt: Vowel reduction in Russian
-part: 02
+part: 03
 ---
 
 ## Introduction
+
+Whan we did basics, we said we pronounce exactly what is written, but in phrases that wasn't exactly the case. Let's look at why...
 
 In Russian, there is a concept of stressed and unstressed vowels.
 
