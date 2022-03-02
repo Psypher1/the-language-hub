@@ -14,38 +14,40 @@ The Russian language looks complicated at first glance. But most of that has to 
 
 ### Alphabet & Pronunciation
 
-| Letter | Sounded As | Pronounce Like | Notes                       |
-| ------ | ---------- | -------------- | --------------------------- |
-| А      | ah         | f**a**ther     |                             |
-| Б      | b'         | **b**oring     |                             |
-| В      | v'         | **v**an        |                             |
-| Г      | g'         | **g**ame       |                             |
-| Д      | d'         | **d**ome       |                             |
-| Е      | ye         | **ye**s        |                             |
-| Ё      | yo         | **yo**ga       |                             |
-| Ж      | zh         | plea**s**ure   |                             |
-| З      | z          | **z**oo        | hard z                      |
-| И      | ii         | **ee**l        |                             |
-| Й      | y'         | bo**y'**       |                             |
-| К      | k          | **c**at        |                             |
-| Л      | l          | **l**arge      |                             |
-| М      | m          | **m**ohter     |                             |
-| Н      | n          | **n**o         | harder, tongue behind teeth |
-| О      | oo         | **b**oring     |                             |
-| П      | p          | **p**ark       | shorter, don't breathe out  |
-| Р      | rr         | roll your r    |                             |
-| С      | ss         | **s**ad        |                             |
-| Т      | t          | **t**ome       | harder, tongue behind teeth |
-| У      | uu         | b**oo**k       |                             |
-| Ф      | f          | **f**ork       |                             |
-| Х      | h          | hard h         |                             |
-| Ц      | ts         | i**t's**       |                             |
-| Ч      | ch         | **ch**ur**ch** |                             |
-| Ш      | sh         |                |                             |
-| Щ      | scsh       |                |                             |
-| Э      | eh         | l**e**t        |                             |
-| Ю      | yu         | **u**niverse   |                             |
-| Я      | ya         | **ya**tch      |
+| Letter | Sounded As | Pronounce Like |            Notes            |
+| :----: | :--------: | :------------: | :-------------------------: |
+|   А    |     ah     |   f**a**ther   |                             |
+|   Б    |     b'     |   **b**oring   |                             |
+|   В    |     v'     |    **v**an     |                             |
+|   Г    |     g'     |    **g**ame    |                             |
+|   Д    |     d'     |    **d**ome    |                             |
+|   Е    |     ye     |    **ye**s     |                             |
+|   Ё    |     yo     |    **yo**ga    |                             |
+|   Ж    |     zh     |  plea**s**ure  |                             |
+|   З    |     z      |    **z**oo     |           hard z            |
+|   И    |     ii     |    **ee**l     |                             |
+|   Й    |     y'     |    bo**y'**    |                             |
+|   К    |     k      |    **c**at     |                             |
+|   Л    |     l      |   **l**arge    |                             |
+|   М    |     m      |   **m**ohter   |                             |
+|   Н    |     n      |     **n**o     | harder, tongue behind teeth |
+|   О    |     oo     |   **b**oring   |                             |
+|   П    |     p      |    **p**ark    | shorter, don't breathe out  |
+|   Р    |     rr     |  roll your r   |                             |
+|   С    |     ss     |    **s**ad     |                             |
+|   Т    |     t      |    **t**ome    | harder, tongue behind teeth |
+|   У    |     uu     |    b**oo**k    |                             |
+|   Ф    |     f      |    **f**ork    |                             |
+|   Х    |     h      |     hard h     |                             |
+|   Ц    |     ts     |    i**t's**    |                             |
+|   Ч    |     ch     | **ch**ur**ch** |                             |
+|   Ш    |     sh     |                |                             |
+|   Щ    |    scsh    |                |                             |
+|   Э    |     eh     |    l**e**t     |                             |
+|   Ю    |     yu     |  **u**niverse  |                             |
+|   Я    |     ya     |   **ya**tch    |
+
+<br/>
 
 > The nice thing about Russian is that once you are comfortable with the alphabet, everything is pronounced as it is written.
 
@@ -69,3 +71,23 @@ The Russian language looks complicated at first glance. But most of that has to 
 <figure className="video_container">
   <iframe  src="https://www.youtube.com/embed/w9hogVBFECQ"  frameBorder={0} allowFullScreen={true}> </iframe>
 </figure>
+
+### Additonal Info
+
+Now that we have covered pronunciation, let's look at
+
+In Russian, there is no verb "to be". You directly link to the noun or profession
+So instead of I am a doctor,we say I doctor.
+
+Let's look at what would be subject pronouns in English and
+
+|  Word   | Translation  |
+| :-----: | :----------: |
+|    Я    |      I       |
+|   ТЫ    |     You      |
+|   ОН    |      He      |
+| ОН**А** |     She      |
+| ОН**О** |      It      |
+|   МЫ    |      We      |
+|   ВЫ    | You (plural) |
+| OН**И** |     They     |

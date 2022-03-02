@@ -24,5 +24,18 @@ Pronouns are a big part of what you will do in French
 
 Subject pronouns are the backbone of your journey in Frenh. You are always going to be referring to someone or something.
 
-### Personal Pronouns
+### Object Pronouns
 
+In French,
+
+#### Direct Object Pronouns
+
+|           | Direct Pronuon | Usage | Meaning |
+| --------- | -------------- | ----- | ------- |
+| je        | me / m'        |
+| tu        | te / t'        |
+| il        | le / l'        |
+| elle      | la / l'        |
+| nous      | nous           |
+| vous      | vous           |
+| ils/elles | les            |
