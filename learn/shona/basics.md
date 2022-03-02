@@ -12,14 +12,10 @@ part: 01
 Shona is not that difficult to learn as it is pronounced as it is written. It is a respectful language, with a clear way of how you differentiate it.  
 In Shona, you are either speaking to someone older (you respect) or someone younger (the same level)
 
-An example
+### An example
 
-| Respectful | Familial | Translation  |
-| ---------- | -------- | ------------ |
-| Makadini   | Wakadini | How are you? |
-| Mhoroi     | Mhoro    | Hello        |
-
-## Greetings
-
-- Mhoro
-- Makadini : How are you
+| Respectful  | Familial    | Translation       |
+| ----------- | ----------- | ----------------- |
+| Mhoroi      | Mhoro       | Hello             |
+| Makadini    | Wakadini    | How are you?      |
+| Maswera sei | Waswera sei | How was your day? |

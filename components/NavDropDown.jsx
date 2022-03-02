@@ -1,4 +1,6 @@
+// Next.js Imports
 import Link from "next/link";
+import Image from "next/image";
 
 import { allLangLogos } from "@utils/langLogos";
 
@@ -13,7 +15,6 @@ import {
   Button,
   IconButton,
 } from "@chakra-ui/react";
-import Image from "next/image";
 
 export default function NavDropDown() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -28,7 +29,7 @@ export default function NavDropDown() {
         px={6}
         py={4}
         backgroundColor="transparent"
-        boxShadow="md"
+        boxShadow="base"
       >
         <i className="fas fa-chevron-down text-xl font-semibold"></i>
       </MenuButton>
