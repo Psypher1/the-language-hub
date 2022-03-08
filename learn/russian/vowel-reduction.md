@@ -5,7 +5,7 @@ excerpt: Vowel reduction in Russian
 part: 03
 ---
 
-## Introduction
+## Vowel Reduction
 
 Whan we did basics, we said we pronounce exactly what is written, but in phrases that wasn't exactly the case. Let's look at why...
 

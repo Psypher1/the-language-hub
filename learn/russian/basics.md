@@ -74,20 +74,20 @@ The Russian language looks complicated at first glance. But most of that has to 
 
 ## Additonal Info
 
-Now that we have covered pronunciation, let's look at some additional things to help on your Russian learning journey.
+Now that we have covered the alphabet and pronunciation, let's look at some additional things to help on your Russian learning journey.
 
 In Russian, there is no verb "to be". You directly link to the noun or profession
 So instead of I am a doctor,we say I doctor.
 
 Let's look at what would be subject pronouns in English:
 
-|  Word   | Translation  |
-| :-----: | :----------: |
-|    Я    |      I       |
-|   ТЫ    |     You      |
-|   ОН    |      He      |
-| ОН**А** |     She      |
-| ОН**О** |      It      |
-|   МЫ    |      We      |
-|   ВЫ    | You (plural) |
-| OН**И** |     They     |
+| Russian |   English    |                           Usage                           |     Translation      |
+| :-----: | :----------: | :-------------------------------------------------------: | :------------------: |
+|    Я    |      I       |                         Я ДОКТОР                          |    I am a doctor     |
+|   ТЫ    |     You      |                        ТЫ СТУДЕНТ                         |  You are a student   |
+|   ОН    |      He      |                        ОН МУЖЧИНА                         |     He is a man      |
+| ОН**А** |     She      |                        ОНА ЖЕНЩИНА                        |    She is a woman    |
+| ОН**О** |      It      | It is used in a different way, which we will get to later |
+|   МЫ    |      We      |                        МЫ УЧИТЕЛЯ                         |   We are teachers    |
+|   ВЫ    | You (plural) |                       ВЫ КОСМОНАВТ                        | You are an astronaut |
+| OН**И** |     They     |                         ОНИ ДЕТИ                          |  they are children   |

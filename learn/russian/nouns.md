@@ -5,7 +5,7 @@ excerpt: An introduction to the Russian Nouns
 part: 05
 ---
 
-## Introduction
+## Nouns
 
 Nouns in Russian are divided into three parts(genders): Masculine, Feminine and Neutuer. The way you tell the difference is through the endings.
 

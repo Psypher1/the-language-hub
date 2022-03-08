@@ -5,8 +5,17 @@ excerpt: Voiced and Unvoiced Consonants in Russian
 part: 04
 ---
 
-## Introduction
+## Voiced and Unvoiced Consonants
 
 Because of the Russian language is, the way we pronounce some consonats changes, the same way as we saw with [Vowel Reduction](/russian/vowel-reduction)
 
-### Voiced and
+### Relation Between Voiced and Unvoiced Consonants
+
+| Voiced | Unvoiced |
+| ------ | -------- |
+| Б      | П        |
+| В      | Ф        |
+| Г      | К        |
+| Д      | Т        |
+| Ж      | Ш        |
+| З      | С        |

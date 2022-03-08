@@ -5,7 +5,7 @@ excerpt: Some useful phrases to get you on your way speakin Russian
 part: 02
 ---
 
-## Introduction
+## Basic Phrases
 
 Before we get to the finer details of Russian, here are some basics phrases that will be useful
 
