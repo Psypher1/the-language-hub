@@ -5,7 +5,7 @@ excerpt: Verbs in French
 part: 03
 ---
 
-## Introduction
+## Verbs
 
 Verbs in French is where it gets a bit tricky. However, most of them follow a similar formular. As an introduction, we will look a verb conjuagation.
 

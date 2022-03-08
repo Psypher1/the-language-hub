@@ -35,7 +35,6 @@ Here is an explanation of some french sounds based on what letters are together
 | ill                   | y               | famille (famiy) |
 | s followed by a vowel | z               | plasir (plazir) |
 
-<br/>
 ## Temporal
 
 | French Word | Meaning   | Pronunciation |

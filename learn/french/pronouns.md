@@ -5,7 +5,7 @@ excerpt: Pronouns in French
 part: 02
 ---
 
-## Introduction
+## Pronouns
 
 Pronouns are a big part of what you will do in French
 
