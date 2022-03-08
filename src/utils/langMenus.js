@@ -14,3 +14,4 @@ export const russianMenu = [
   "Nouns",
 ];
 export const shonaMenu = ["Basics"];
+export const swahiliMenu = ["Basics"];

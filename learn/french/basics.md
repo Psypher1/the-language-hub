@@ -1,7 +1,7 @@
 ---
 title: French Basics
 topic: french
-excerpt: An introduction to the French language
+excerpt: An introduction to French and things to help you in learning it.
 part: 01
 ---
 
@@ -35,7 +35,8 @@ Here is an explanation of some french sounds based on what letters are together
 | ill                   | y               | famille (famiy) |
 | s followed by a vowel | z               | plasir (plazir) |
 
-### Temporal
+<br/>
+## Temporal
 
 | French Word | Meaning   | Pronunciation |
 | ----------- | --------- | ------------- |

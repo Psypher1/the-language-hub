@@ -34,13 +34,13 @@ export default function NavDropDown() {
         <i className="fas fa-chevron-down text-xl font-semibold"></i>
       </MenuButton>
 
-      <MenuList backgroundColor="blue.50">
+      <MenuList backgroundColor="blue.50" padding="4">
         {allLangLogos.map((logo, index) => {
           const learPath = logo.langPath.toLowerCase();
           return (
             <MenuItem key={index} _hover={{ bg: "blue.100" }}>
               <Link key={index} href={`/${learPath}/basics`} passHref>
-                <a className="mb-2 flex cursor-pointer items-center space-x-2">
+                <a className="mb-2 flex cursor-pointer items-center space-x-2 px-4 py-2 text-base">
                   <Image
                     src={logo.logoURL}
                     height={20}

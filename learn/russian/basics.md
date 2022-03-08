@@ -64,7 +64,7 @@ The Russian language looks complicated at first glance. But most of that has to 
 <b>NO ONE CARES!</b>
 </details>
 
----
+<br/>
 
 #### Video Explanation of _Ыы_
 
@@ -72,14 +72,14 @@ The Russian language looks complicated at first glance. But most of that has to 
   <iframe  src="https://www.youtube.com/embed/w9hogVBFECQ"  frameBorder={0} allowFullScreen={true}> </iframe>
 </figure>
 
-### Additonal Info
+## Additonal Info
 
-Now that we have covered pronunciation, let's look at
+Now that we have covered pronunciation, let's look at some additional things to help on your Russian learning journey.
 
 In Russian, there is no verb "to be". You directly link to the noun or profession
 So instead of I am a doctor,we say I doctor.
 
-Let's look at what would be subject pronouns in English and
+Let's look at what would be subject pronouns in English:
 
 |  Word   | Translation  |
 | :-----: | :----------: |

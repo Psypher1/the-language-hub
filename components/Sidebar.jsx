@@ -12,7 +12,7 @@ export default function Sidebar({ menu, metaData }) {
   const isActive = "bg-sky-900 font-semibold";
 
   return (
-    <div className="min-h-scree">
+    <div className="">
       {/* map through the side menu items */}
       {menu.map((menuItem, index) => {
         // clean menu names with spaces

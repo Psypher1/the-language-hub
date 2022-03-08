@@ -88,7 +88,7 @@ export default function LangaugePath({ source, langPath, slug, metaData }) {
             <MDXRemote {...source} />
           </article>
         </article>
-        <aside className="min mr-0  w-full bg-sky-700 p-4 text-sky-100 md:mr-8 md:block md:w-[14.5rem]">
+        <aside className="mr-0 w-full  bg-sky-700 p-4 text-sky-100 md:mr-8 md:block  md:w-[14.5rem]">
           <h3 className="mb-4 font-semibold md:text-lg">{language} Path</h3>
           <Sidebar slug={slug} menu={menu} metaData={metaData} />
         </aside>

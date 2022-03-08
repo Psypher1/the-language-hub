@@ -10,6 +10,7 @@ const languages = [
   { name: "French", target: "/french/basics" },
   { name: "Russian", target: "/russian/basics" },
   { name: "Shona", target: "/shona/basics" },
+  { name: "Swahili", target: "/swahili/basics" },
 ];
 
 export default function Home() {

@@ -12,7 +12,7 @@ part: 01
 Shona is not that difficult to learn as it is pronounced as it is written. It is a respectful language, with a clear way of how you differentiate it.  
 In Shona, you are either speaking to someone older (you respect) or someone younger (the same level)
 
-### An example
+### An Explanation
 
 | Respectful  | Familial    | Translation       |
 | ----------- | ----------- | ----------------- |

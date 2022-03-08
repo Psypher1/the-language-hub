@@ -10,6 +10,7 @@ export default function LangPathNav({ langPath }) {
   const frenchPath = "french";
   const russianPath = "russian";
   const shonaPath = "shona";
+  const swahiliPath = "swahili";
 
   return (
     <div className="flex items-center justify-center space-x-2 bg-sky-700 px-8 py-3 text-base text-sky-100">
@@ -28,6 +29,13 @@ export default function LangPathNav({ langPath }) {
       <Link href={`/shona/basics`}>
         <a className={`${menuItem} ${langPath === shonaPath ? isActive : ""}`}>
           Shona
+        </a>
+      </Link>
+      <Link href={`/swahili/basics`}>
+        <a
+          className={`${menuItem} ${langPath === swahiliPath ? isActive : ""}`}
+        >
+          Swahili
         </a>
       </Link>
     </div>

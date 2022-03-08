@@ -10,5 +10,9 @@ const logoShona = {
   langPath: "Shona",
   logoURL: "/static/images/shona.png",
 };
+const logoSwahili = {
+  langPath: "Swahili",
+  logoURL: "/static/images/swahili.png",
+};
 
-export const allLangLogos = [logoFrench, logoRussian, logoShona];
+export const allLangLogos = [logoFrench, logoRussian, logoShona, logoSwahili];
