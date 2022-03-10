@@ -80,7 +80,7 @@ export default function LangaugePath({ source, langPath, slug, metaData }) {
       <header className="hidden md:block">
         <LangPathNav langPath={langPath} />
       </header>
-      <section className="flex-row-reverse p-8 md:flex md:p-12">
+      <section className="flex-row-reverse p-10 md:flex md:p-12">
         <article className="mb-16 flex-1 md:mb-0">
           <h4 className="text-base text-gray-600">{metaData.title}</h4>
           {/* classes extracted to globals.css */}

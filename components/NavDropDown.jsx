@@ -40,7 +40,7 @@ export default function NavDropDown() {
           return (
             <MenuItem key={index} _hover={{ bg: "blue.100" }}>
               <Link key={index} href={`/${learPath}/basics`} passHref>
-                <a className="mb-2 flex cursor-pointer items-center space-x-2 px-4 py-2 text-base">
+                <a className="mb-2 flex cursor-pointer items-center justify-center space-x-2 rounded p-2 text-base">
                   <Image
                     src={logo.logoURL}
                     height={20}

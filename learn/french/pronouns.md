@@ -26,7 +26,7 @@ Subject pronouns are the backbone of your journey in Frenh. You are always going
 
 ### Object Pronouns
 
-In French,
+In French, there are pronouns that directly or indirectly refer to an object.
 
 #### Direct Object Pronouns
 

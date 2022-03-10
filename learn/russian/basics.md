@@ -14,38 +14,38 @@ The Russian language looks complicated at first glance. But most of that has to 
 
 ### Alphabet & Pronunciation
 
-| Letter | Sounded As | Pronounce Like |            Notes            |
-| :----: | :--------: | :------------: | :-------------------------: |
-|   А    |     ah     |   f**a**ther   |                             |
-|   Б    |     b'     |   **b**oring   |                             |
-|   В    |     v'     |    **v**an     |                             |
-|   Г    |     g'     |    **g**ame    |                             |
-|   Д    |     d'     |    **d**ome    |                             |
-|   Е    |     ye     |    **ye**s     |                             |
-|   Ё    |     yo     |    **yo**ga    |                             |
-|   Ж    |     zh     |  plea**s**ure  |                             |
-|   З    |     z      |    **z**oo     |           hard z            |
-|   И    |     ii     |    **ee**l     |                             |
-|   Й    |     y'     |    bo**y'**    |                             |
-|   К    |     k      |    **c**at     |                             |
-|   Л    |     l      |   **l**arge    |                             |
-|   М    |     m      |   **m**ohter   |                             |
-|   Н    |     n      |     **n**o     | harder, tongue behind teeth |
-|   О    |     oo     |   **b**oring   |                             |
-|   П    |     p      |    **p**ark    | shorter, don't breathe out  |
-|   Р    |     rr     |  roll your r   |                             |
-|   С    |     ss     |    **s**ad     |                             |
-|   Т    |     t      |    **t**ome    | harder, tongue behind teeth |
-|   У    |     uu     |    b**oo**k    |                             |
-|   Ф    |     f      |    **f**ork    |                             |
-|   Х    |     h      |     hard h     |                             |
-|   Ц    |     ts     |    i**t's**    |                             |
-|   Ч    |     ch     | **ch**ur**ch** |                             |
-|   Ш    |     sh     |                |                             |
-|   Щ    |    scsh    |                |                             |
-|   Э    |     eh     |    l**e**t     |                             |
-|   Ю    |     yu     |  **u**niverse  |                             |
-|   Я    |     ya     |   **ya**tch    |
+| Letter | Sounded As | Pronounce Like | Notes                       |
+| ------ | ---------- | -------------- | --------------------------- |
+| А      | ah         | f**a**ther     |                             |
+| Б      | b'         | **b**oring     |                             |
+| В      | v'         | **v**an        |                             |
+| Г      | g'         | **g**ame       |                             |
+| Д      | d'         | **d**ome       |                             |
+| Е      | ye         | **ye**s        |                             |
+| Ё      | yo         | **yo**ga       |                             |
+| Ж      | zh         | plea**s**ure   |                             |
+| З      | z          | **z**oo        | hard z                      |
+| И      | ii         | **ee**l        |                             |
+| Й      | y'         | bo**y'**       |                             |
+| К      | k          | **c**at        |                             |
+| Л      | l          | **l**arge      |                             |
+| М      | m          | **m**ohter     |                             |
+| Н      | n          | **n**o         | harder, tongue behind teeth |
+| О      | oo         | **b**oring     |                             |
+| П      | p          | **p**ark       | shorter, don't breathe out  |
+| Р      | rr         | roll your r    |                             |
+| С      | ss         | **s**ad        |                             |
+| Т      | t          | **t**ome       | harder, tongue behind teeth |
+| У      | uu         | b**oo**k       |                             |
+| Ф      | f          | **f**ork       |                             |
+| Х      | h          | hard h         |                             |
+| Ц      | ts         | i**t's**       |                             |
+| Ч      | ch         | **ch**ur**ch** |                             |
+| Ш      | sh         |                |                             |
+| Щ      | scsh       |                |                             |
+| Э      | eh         | l**e**t        |                             |
+| Ю      | yu         | **u**niverse   |                             |
+| Я      | ya         | **ya**tch      |
 
 <br/>
 
@@ -66,7 +66,7 @@ The Russian language looks complicated at first glance. But most of that has to 
 
 <br/>
 
-#### Video Explanation of _Ыы_
+### Video Explanation of _Ыы_
 
 <figure className="video_container">
   <iframe  src="https://www.youtube.com/embed/w9hogVBFECQ"  frameBorder={0} allowFullScreen={true}> </iframe>
@@ -81,13 +81,15 @@ So instead of I am a doctor,we say I doctor.
 
 Let's look at what would be subject pronouns in English:
 
-| Russian |   English    |                           Usage                           |     Translation      |
-| :-----: | :----------: | :-------------------------------------------------------: | :------------------: |
-|    Я    |      I       |                         Я ДОКТОР                          |    I am a doctor     |
-|   ТЫ    |     You      |                        ТЫ СТУДЕНТ                         |  You are a student   |
-|   ОН    |      He      |                        ОН МУЖЧИНА                         |     He is a man      |
-| ОН**А** |     She      |                        ОНА ЖЕНЩИНА                        |    She is a woman    |
-| ОН**О** |      It      | It is used in a different way, which we will get to later |
-|   МЫ    |      We      |                        МЫ УЧИТЕЛЯ                         |   We are teachers    |
-|   ВЫ    | You (plural) |                       ВЫ КОСМОНАВТ                        | You are an astronaut |
-| OН**И** |     They     |                         ОНИ ДЕТИ                          |  they are children   |
+| Russian | English      | Usage                     | Translation          |
+| ------- | ------------ | ------------------------- | -------------------- |
+| Я       | I            | Я ДОКТОР                  | I am a doctor        |
+| ТЫ      | You          | ТЫ СТУДЕНТ                | You are a student    |
+| ОН      | He           | ОН МУЖЧИНА                | He is a man          |
+| ОН**А** | She          | ОНА ЖЕНЩИНА               | She is a woman       |
+| ОН**О** | It           | \*Used in a different way |
+| МЫ      | We           | МЫ УЧИТЕЛЯ                | We are teachers      |
+| ВЫ      | You (plural) | ВЫ КОСМОНАВТ              | You are an astronaut |
+| OН**И** | They         | ОНИ ДЕТИ                  | they are children    |
+
+> We wll look at how ОН**О** is used a little later.
