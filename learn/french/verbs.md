@@ -57,7 +57,7 @@ Their endings will guide most of the conjugation you will do in French. We have 
 | tu      | parl**es**  | fin**is**     | perd**s**   |
 | il      | parl**e**   | fin**it**     | perd        |
 | elle    | parl**e**   | fin**it**     | perd        |
-| nous    | parl**on**  | fin**issons** | perd**ons** |
+| nous    | parl**ons** | fin**issons** | perd**ons** |
 | vous    | parl**ez**  | fin**issez**  | perd**ez**  |
 | ils     | parl**ent** | fin**issent** | perd**ent** |
 | elles   | parl**ent** | fin**issent** | perd**ent** |
