@@ -16,3 +16,7 @@ We'll start with some simple words
 | Mimi    | I           |
 | Wewe    | You         |
 | Yeye    | He          |
+|Sisi     |  we|
+|Wao |They|
+Minyi you 
+
