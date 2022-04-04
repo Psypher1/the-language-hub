@@ -1,12 +1,25 @@
-export default {
-  title: "The Language Hub",
-  description: "Getting you to what's important as easily as possible",
-  canonical: "https://thelanguagehub.netlify.app/",
+const title = "The Language Hub";
+const description = "Getting you to what's important as easily as possible";
+const URL = "https://thelanguagehub.netlify.app/";
+
+const SEO = {
+  title,
+  description,
+  canonical: URL,
   openGraph: {
     type: "website",
     locale: "en_IE",
-    url: "https://thelanguagehub.netlify.app/",
-    site_name: "The Language Hub",
+    url: URL,
+    site_name: title,
+    description,
+    images: [
+      {
+        url: "https://thelanguagehub/og-image.png",
+        width: 800,
+        height: 600,
+        alt: "Og Image Alt",
+      },
+    ],
   },
   twitter: {
     handle: "@Psypher1",
@@ -14,3 +27,5 @@ export default {
     cardType: "summary_large_image",
   },
 };
+
+export default SEO;
