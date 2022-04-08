@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <PageWrapper>
       <section className="flex flex-col items-center justify-center">
-        <h1 classNbjame="mb-6 text-center text-3xl font-semibold  text-sky-700 sm:mb-8 md:mb-12 md:text-4xl lg:text-5xl">
+        <h1 className="mb-6 text-center text-3xl font-semibold text-sky-700 sm:mb-8 md:mb-12 md:text-4xl lg:text-5xl">
           The Language Hub
         </h1>
         <p className="mb-6 text-base text-gray-600 md:text-lg lg:text-xl">

@@ -15,8 +15,23 @@ We'll start with some simple words
 | ------- | ----------- |
 | Mimi    | I           |
 | Wewe    | You         |
+| Ninyi   | you         |
 | Yeye    | He          |
-|Sisi     |  we|
-|Wao |They|
-Minyi you 
+| Sisi    | we          |
+| Wao     | They        |
 
+### Asking Questions
+
+> In Swahili, the word **nani** is added to some sentences to ask questions
+
+- Emilia ni nani? - who is Emilia
+- Jina langu ni nani? - what is my name?
+
+## Times of the day
+
+| Swahili | Translation |
+| ------- | ----------- |
+| Asubuhi | Morning     |
+| Mchana  | Afternoon   |
+| Jioni   | Evening     |
+| Usiku   | Night       |
