@@ -24,8 +24,8 @@ We'll start with some simple words
 
 > In Swahili, the word **nani** is added to some sentences to ask questions
 
-- Emilia ni nani? - who is Emilia
-- Jina langu ni nani? - what is my name?
+- Emilia ni **nani**? - Who is Emilia
+- Jina langu ni **nani**? - What is my name?
 
 ## Times of the day
 
