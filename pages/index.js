@@ -1,7 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
 
-import Meta from "@components/Meta";
 import PageWrapper from "@layouts/PageWrapper";
 
 // TODO: get file slugs to place in link to naviagate to learn section and not have hardcoded values
@@ -26,7 +24,7 @@ export default function Home() {
         {/* Grid Items */}
         <div className=" mb-20 grid grid-cols-1 gap-4 text-center text-lg font-semibold sm:mb-24 sm:grid-cols-2 md:mb-32 md:grid-cols-3 lg:grid-cols-4">
           {languages.map((lang) => (
-            <Link key={lang.name} href={lang.target}>
+            <Link key={lang.name} href={lang.target} passHref>
               <a className="home-links">{lang.name}</a>
             </Link>
           ))}
