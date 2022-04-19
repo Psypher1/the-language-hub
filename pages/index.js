@@ -38,7 +38,7 @@ export default function Home() {
         <div className="border-t border-sky-600 p-4">
           <Link href="/about">
             <a className="block text-right text-xl text-gray-600 transition-all duration-300 ease-in-out hover:scale-105 hover:font-semibold">
-              About this project
+              What inspired this project?
             </a>
           </Link>
         </div>
