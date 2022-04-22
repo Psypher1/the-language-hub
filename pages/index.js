@@ -9,6 +9,7 @@ const languages = [
   { name: "Russian", target: "/russian/basics" },
   { name: "Shona", target: "/shona/basics" },
   { name: "Swahili", target: "/swahili/basics" },
+  { name: "Ndebele", target: "/ndebele/basics"}
 ];
 
 export default function Home() {
@@ -28,7 +29,7 @@ export default function Home() {
               <a className="home-links">{lang.name}</a>
             </Link>
           ))}
-          <Link href="/">
+          <Link href="/" passHref>
             <p className="rounded border border-gray-600  px-20 py-3 font-normal text-gray-500 md:py-2 md:px-12 ">
               Japanese
             </p>

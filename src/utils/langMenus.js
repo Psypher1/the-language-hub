@@ -13,5 +13,6 @@ export const russianMenu = [
   "Voiced Consonants",
   "Nouns",
 ];
+export const ndebeleMenu =["Basics"]
 export const shonaMenu = ["Basics"];
 export const swahiliMenu = ["Basics", "Phrases"];

@@ -11,6 +11,7 @@ export default function LangPathNav({ langPath }) {
   const russianPath = "russian";
   const shonaPath = "shona";
   const swahiliPath = "swahili";
+  const ndebelePath = "ndebele";
 
   return (
     <div className="flex items-center justify-center space-x-2 bg-sky-700 px-8 py-3 text-base text-sky-100">
@@ -36,6 +37,13 @@ export default function LangPathNav({ langPath }) {
           className={`${menuItem} ${langPath === swahiliPath ? isActive : ""}`}
         >
           Swahili
+        </a>
+      </Link>
+      <Link href={`/ndebele/basics`}>
+        <a
+          className={`${menuItem} ${langPath === ndebelePath ? isActive : ""}`}
+        >
+          Ndebele
         </a>
       </Link>
     </div>
