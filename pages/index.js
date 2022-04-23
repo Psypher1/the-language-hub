@@ -6,10 +6,10 @@ import PageWrapper from "@layouts/PageWrapper";
 
 const languages = [
   { name: "French", target: "/french/basics" },
+  { name: "Ndebele", target: "/ndebele/basics" },
   { name: "Russian", target: "/russian/basics" },
   { name: "Shona", target: "/shona/basics" },
   { name: "Swahili", target: "/swahili/basics" },
-  { name: "Ndebele", target: "/ndebele/basics"}
 ];
 
 export default function Home() {

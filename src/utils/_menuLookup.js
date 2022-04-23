@@ -1,15 +1,27 @@
 //  import language menu from langMenus
-import { frenchMenu, russianMenu, shonaMenu, swahiliMenu , ndebeleMenu} from "./langMenus";
+import {
+  frenchMenu,
+  russianMenu,
+  shonaMenu,
+  swahiliMenu,
+  ndebeleMenu,
+} from "./langMenus";
 
+// * Refactored to use tenary operator
 export const _menuLookup = (langPath) => {
   const lang = langPath.toLowerCase();
-  
-  return lang === "french" ? frenchMenu
-        : lang === "russian" ? russianMenu
-        : lang === "shona" ? shonaMenu
-        : lang === "ndebele" ? ndebeleMenu
-        :lang === "swahili" ? swahiliMenu
-        : null
+
+  return lang === "french"
+    ? frenchMenu
+    : lang === "ndebele"
+    ? ndebeleMenu
+    : lang === "russian"
+    ? russianMenu
+    : lang === "shona"
+    ? shonaMenu
+    : lang === "swahili"
+    ? swahiliMenu
+    : null;
 };
 
 /*  if (lang === "french") return frenchMenu;
@@ -19,5 +31,4 @@ export const _menuLookup = (langPath) => {
   else if (lang === "swahili") return swahiliMenu;
 return null; */
 
-
-//lang ? (lang=="french"):frenchMenu ? (lang=="shona"):shonaMenu ? (lang=="ndebele"):ndebeleMenu ? (lang=="swahili"):swahiliMenu 
+//lang ? (lang=="french"):frenchMenu ? (lang=="shona"):shonaMenu ? (lang=="ndebele"):ndebeleMenu ? (lang=="swahili"):swahiliMenu

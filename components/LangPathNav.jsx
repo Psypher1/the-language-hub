@@ -20,6 +20,13 @@ export default function LangPathNav({ langPath }) {
           French
         </a>
       </Link>
+      <Link href={`/ndebele/basics`}>
+        <a
+          className={`${menuItem} ${langPath === ndebelePath ? isActive : ""}`}
+        >
+          Ndebele
+        </a>
+      </Link>
       <Link href={`/russian/basics`}>
         <a
           className={`${menuItem} ${langPath === russianPath ? isActive : ""}`}
@@ -37,13 +44,6 @@ export default function LangPathNav({ langPath }) {
           className={`${menuItem} ${langPath === swahiliPath ? isActive : ""}`}
         >
           Swahili
-        </a>
-      </Link>
-      <Link href={`/ndebele/basics`}>
-        <a
-          className={`${menuItem} ${langPath === ndebelePath ? isActive : ""}`}
-        >
-          Ndebele
         </a>
       </Link>
     </div>
