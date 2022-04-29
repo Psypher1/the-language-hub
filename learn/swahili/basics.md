@@ -20,12 +20,20 @@ We'll start with some simple words
 | Sisi    | we          |
 | Wao     | They        |
 
+---
+
+| Swahili  | translations |
+| -------- | ------------ |
+| Karibu   | Welcome      |
+| Nyumbani | Home         |
+
 ### Asking Questions
 
 > In Swahili, the word **nani** is added to some sentences to ask questions
 
 - Emilia ni **nani**? - Who is Emilia
 - Jina langu ni **nani**? - What is my name?
+- Habari za... - How is...
 
 ## Times of the day
 
