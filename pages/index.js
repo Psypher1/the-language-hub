@@ -9,6 +9,7 @@ const languages = [
   { name: "Ndebele", target: "/ndebele/basics" },
   { name: "Russian", target: "/russian/basics" },
   { name: "Shona", target: "/shona/basics" },
+  { name: "Spanish", target: "/spanish/basics" },
   { name: "Swahili", target: "/swahili/basics" },
 ];
 
