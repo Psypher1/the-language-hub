@@ -1,10 +1,11 @@
 //  import language menu from langMenus
 import {
   frenchMenu,
+  ndebeleMenu,
   russianMenu,
   shonaMenu,
+  spanishMenu,
   swahiliMenu,
-  ndebeleMenu,
 } from "./langMenus";
 
 // * Refactored to use tenary operator
@@ -19,6 +20,8 @@ export const _menuLookup = (langPath) => {
     ? russianMenu
     : lang === "shona"
     ? shonaMenu
+    : lang === "spanish"
+    ? spanishMenu
     : lang === "swahili"
     ? swahiliMenu
     : null;
