@@ -9,7 +9,7 @@ export default function Document() {
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
-          crossOrigin=""
+          crossOrigin="true"
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&display=swap"
@@ -40,7 +40,7 @@ export default function Document() {
           referrerPolicy="no-referrer"
         />
       </Head>
-      <body className="bg-sky-100 font-body ">
+      <body className="font-body bg-sky-100 ">
         <Main />
         <NextScript />
       </body>
