@@ -2,7 +2,7 @@
 title: Swahili Phrases
 topic: swahili
 excerpt: An introduction to Swahili and things to help you in learning it.
-part: 02
+part: 03
 ---
 
 ## Basic Phrases
