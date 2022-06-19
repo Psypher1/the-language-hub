@@ -20,7 +20,8 @@ export default function Home() {
         <h1 className="mb-6 text-center text-3xl font-semibold text-sky-700 sm:mb-8 md:mb-12 md:text-4xl lg:text-5xl">
           The Language Hub
         </h1>
-        <p className="mb-6 text-base text-gray-600 md:text-lg lg:text-xl">
+        <p className="mb-8 text-center text-base text-gray-600 md:text-lg lg:text-xl">
+          Welcome to your language reference book. <br />
           What path do you choose?
         </p>
         {/* Grid Items */}
@@ -37,13 +38,43 @@ export default function Home() {
           </Link>
         </div>
         {/* bottom container */}
-        <div className="border-t border-sky-600 p-4">
+        <div className="mb-20 border-t border-sky-600 p-4">
           <Link href="/about">
             <a className="block text-right text-xl text-gray-600 transition-all duration-300 ease-in-out hover:scale-105 hover:font-semibold">
               What inspired this project?
             </a>
           </Link>
         </div>
+
+        <article className="border-t border-sky-600 p-6 text-center">
+          <h3 className="mb-4 text-3xl font-semibold text-gray-600">
+            Important Links
+          </h3>
+          <ul className="space-y-3">
+            <li>
+              The repository for this project is here:{" "}
+              <a
+                className="text-lg text-sky-600 transition duration-300 ease-in-out hover:scale-105 hover:font-semibold"
+                href="https://github.com/Psypher1/the-language-hub"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                The Langugage Hub on GitHub
+              </a>
+            </li>
+            <li>
+              The Docs page can be found here:{" "}
+              <a
+                className="text-lg text-sky-600 transition duration-300 ease-in-out hover:scale-105 hover:font-semibold"
+                href="https://github.com/Psypher1/the-language-hub"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                The Langugage Hub Docs
+              </a>
+            </li>
+          </ul>
+        </article>
       </section>
     </PageWrapper>
   );
