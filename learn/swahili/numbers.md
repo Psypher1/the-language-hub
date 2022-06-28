@@ -9,7 +9,7 @@ part: 04
 
 ### Zero to Ten
 
-| Swahili | Mumber |
+| swahili | number |
 | ------- | ------ |
 | sufuri  | zero   |
 | moja    | one    |
