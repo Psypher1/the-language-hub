@@ -35,7 +35,7 @@ The main goal for the hackathon is for the submission to be Open Source. So plea
 
 ---
 
-## 🏗️ Running Locally
+## 🏗️ Running Locally - Do this
 
 1. Clone the repository
 
