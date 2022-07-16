@@ -9,7 +9,9 @@ part: 01
 
 > Swahili, also known by its native name **Kiswahili**, is a Bantu language and the native language of the Swahili people. It is a native language of mostly Tanzania and Kenya.
 
-We'll start with some simple words
+Let's start with some simple words.
+
+## Pronouns
 
 | Swahili | Translation |
 | ------- | ----------- |
@@ -20,12 +22,17 @@ We'll start with some simple words
 | Sisi    | we          |
 | Wao     | They        |
 
----
-
-| Swahili  | translations |
-| -------- | ------------ |
-| Karibu   | Welcome      |
-| Nyumbani | Home         |
+| Swahili   | translations          |
+| --------- | --------------------- |
+| Karibu    | Welcome               |
+| Nyumbani  | Home                  |
+| Tafadhali | Please                |
+| Samahani  | Excuse me             |
+| Pole      | Sorry                 |
+| Asante    | Thank you             |
+| Hodi      | May I come in         |
+| Shikamoo  | My respects to you    |
+| Marahaba  | I accept your respect |
 
 ### Asking Questions
 
