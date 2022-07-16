@@ -11,14 +11,14 @@ part: 01
 
 Let's start with some simple words.
 
-## Pronouns
+### Pronouns
 
 | Swahili | Translation |
 | ------- | ----------- |
 | Mimi    | I           |
 | Wewe    | You         |
+| Yeye    | He/She      |
 | Ninyi   | you         |
-| Yeye    | He          |
 | Sisi    | we          |
 | Wao     | They        |
 
@@ -33,14 +33,6 @@ Let's start with some simple words.
 | Hodi      | May I come in         |
 | Shikamoo  | My respects to you    |
 | Marahaba  | I accept your respect |
-
-### Asking Questions
-
-> In Swahili, the word **nani** is added to some sentences to ask questions
-
-- Emilia ni **nani**? - Who is Emilia
-- Jina langu ni **nani**? - What is my name?
-- Habari za... - How is...
 
 ## Times of the day
 
