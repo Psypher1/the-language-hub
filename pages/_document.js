@@ -40,7 +40,7 @@ export default function Document() {
           referrerPolicy="no-referrer"
         />
       </Head>
-      <body className="font-body bg-sky-100 ">
+      <body className="bg-sky-100 font-body antialiased">
         <Main />
         <NextScript />
       </body>
