@@ -2,7 +2,7 @@
 title: Swahili Numbers
 topic: swahili
 excerpt: An introduction to Swahili and things to help you in learning it.
-part: 04
+part: 05
 ---
 
 ## Basic Numbers
