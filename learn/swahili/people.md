@@ -33,3 +33,4 @@ Like in any language, Swahili has words for people you interact with
 | mwanafunzi | student     |
 | mpishi     | cook        |
 | mkulima    | farmer      |
+| msafiri    | traveller   |

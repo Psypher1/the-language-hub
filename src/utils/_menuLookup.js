@@ -1,6 +1,7 @@
 //  import language menu from langMenus
 import {
   frenchMenu,
+  japaneseMenu,
   ndebeleMenu,
   russianMenu,
   shonaMenu,
@@ -14,6 +15,8 @@ export const _menuLookup = (langPath) => {
 
   return lang === "french"
     ? frenchMenu
+    : lang === "japanese"
+    ? japaneseMenu
     : lang === "ndebele"
     ? ndebeleMenu
     : lang === "russian"
