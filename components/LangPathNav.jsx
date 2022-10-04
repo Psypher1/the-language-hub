@@ -17,12 +17,10 @@ export default function LangPathNav({ langPath }) {
 
   return (
     <div className="flex items-center justify-center space-x-2 bg-sky-700 px-8 py-3 text-base text-sky-100">
-      {languages.map((lang) => (
-        <Link href={`/${lang.path}/basics`}>
-          <a
-            className={`${menuItem} ${langPath === lang.path ? isActive : ""}`}
-          >
-            {lang.name}
+      {languages.map(({ path, name }) => (
+        <Link key={name} href={`/${path}/basics`}>
+          <a className={`${menuItem} ${langPath === path ? isActive : ""}`}>
+            {name}
           </a>
         </Link>
       ))}
