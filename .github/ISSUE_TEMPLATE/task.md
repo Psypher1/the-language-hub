@@ -2,7 +2,7 @@
 name: Task
 about: An independent task that isn't a part of feature development
 title: ""
-labels: ""
+labels: task
 assignees: ""
 ---
 

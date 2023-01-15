@@ -2,7 +2,7 @@
 name: User Story
 about: Define a new feature for this project
 title: ""
-labels: ""
+labels: story
 assignees: ""
 ---
 
