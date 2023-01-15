@@ -29,6 +29,10 @@ Like in any language, Swahili has words for people you interact with
 
 | Swahili    | Translation |
 | ---------- | ----------- |
+| mwanaume   | man         |
+| mwanamke   | woman       |
+| mvulana    | boy         |
+| msichana   | girl        |
 | mwalimu    | teacher     |
 | mwanafunzi | student     |
 | mpishi     | cook        |
