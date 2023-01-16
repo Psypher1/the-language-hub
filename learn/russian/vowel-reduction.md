@@ -2,7 +2,7 @@
 title: Russian Vowel Reduction
 topic: russian
 excerpt: Vowel reduction in Russian
-part: 03
+part: 02
 ---
 
 ## Vowel Reduction
