@@ -2,7 +2,7 @@
 title: Russian Useful Phrases
 topic: russian
 excerpt: Some useful phrases to get you on your way speakin Russian
-part: 02
+part: 05
 ---
 
 ## Basic Phrases
@@ -23,3 +23,9 @@ Before we get to the finer details of Russian, here are some basics phrases that
 | КАК ДЕЛ**А**    | How are you?   | kak dihlaa    |
 | ХОРОШ**О**      | good           | harasho       |
 | ПЛ**О**ХО       | bad ( poorly)  | plokha        |
+
+### Questions
+
+| Word | Meaning | Pronunciation |
+| ---- | ------- | ------------- |
+| ГДЕ  | where   | gde           |
