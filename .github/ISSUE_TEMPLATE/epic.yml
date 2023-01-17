@@ -1,0 +1,48 @@
+name: Epic Request
+description: Define a collection of features for this project
+title: "[Epic]: "
+labels: ["epic", "feature"]
+assignees:
+  - psypher1
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Epic Description
+      description: A description of the subject of this epic.
+      placeholder: "Example: User Authentication Flow"
+      value: "Example: User Authentication Flow"
+    validations:
+      required: true
+  - type: textarea
+    id: children
+    attributes:
+      label: features, Tasks and/or Bugs
+      description: List of tasks to be completed for this epic
+      placeholder: |
+        - [ ] Feature Title ## 
+        - [ ] Task Title ## 
+        - [ ] Bug Title ## 
+        ...
+      value: |
+        - [ ] Feature Title ## 
+        - [ ] Task Title ## 
+        - [ ] Bug Title ## 
+        ...
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Considerations
+      description: Constraints, Limitations, and other points of note.
+      placeholder: List of noteworth considerations.
+      value: |
+        - Security: 
+        - Performance: 
+        - Accessibility: 
+        - Extensibility: 
+        - Scalability: 
+        - Usability: 
+        - Testability: 
+        - Maintainability:
