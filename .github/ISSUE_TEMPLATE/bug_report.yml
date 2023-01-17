@@ -1,7 +1,8 @@
 name: Bug Report
 description: Create a bug report to help us improve
 title: "[Bug]: "
-labels: ["bug"]
+labels:
+  - "bug"
 assignees:
   - psypher1
 body:
