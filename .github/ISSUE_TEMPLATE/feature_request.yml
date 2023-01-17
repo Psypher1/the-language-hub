@@ -1,7 +1,8 @@
 name: Feature Request
 description: Request a new feature for this project
 title: "[Feat]: "
-labels: ["feature"]
+labels:
+  - "feature"
 assignees:
   - psypher1
 body:
@@ -9,13 +10,12 @@ body:
     attributes:
       value: |
         Thanks for taking the time to submit this feature request!
-  - type: input
+  - type: textarea
     id: summary
     attributes:
       label: Feature Summary
       description: A clear and concise description of the feature.
       placeholder: "Example: As a [user role], I want to [complete action] so that I can [achieve outcome]"
-      value: "Example: As a [user role], I want to [complete action] so that I can [achieve outcome]"
     validations:
       required: true
   - type: textarea
