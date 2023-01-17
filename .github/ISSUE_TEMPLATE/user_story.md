@@ -1,8 +1,8 @@
 ---
 name: User Story
 about: Define a new feature for this project
-title: ""
-labels: story
+title: "[Story]: "
+labels: ["story"]
 assignees: ""
 ---
 

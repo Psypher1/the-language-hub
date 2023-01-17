@@ -1,0 +1,51 @@
+name: Task Request
+description: Request a new task for this project
+title: "[Task]: "
+labels: ["task"]
+assignees:
+  - psypher1
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to submit this task request form!
+  - type: input
+    id: summary
+    attributes:
+      label: Task Summary
+      description: A brief description of what the task will accomplish.
+      placeholder: "Example: Make [x] do [y]"
+      value: "Example: Make [x] do [y]"
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: What would you consider to be completion for this feature?
+      placeholder: |
+        - [ ] [x] does/is [y] or [x] exists 
+        ...
+      value: |
+        - [ ] [x] does/is [y] or [x] exists 
+        ...
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+      description: Describe a scenario where this feature would be useful.
+      placeholder: Under what circumstances would this feature be useful
+      value: |
+        Example:  When a user navigates the site
+        Then all images will be loaded from the Amazon S3 bucket.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Any Additional Context
+      description: Any other context or additional information.
+      placeholder: Any other context or additional information you wish to share about the proposed feature...
+      value: "Any other context or additional information you wish to share about the proposed feature..."
