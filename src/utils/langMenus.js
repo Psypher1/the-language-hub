@@ -9,10 +9,10 @@ export const frenchMenu = ["Basics", "Pronouns", "Verbs"];
 export const japaneseMenu = ["Basics"];
 export const russianMenu = [
   "Basics",
-  "Phrases",
   "Vowel Reduction",
   "Voiced Consonants",
   "Nouns",
+  "Phrases"
 ];
 export const ndebeleMenu = ["Basics"];
 export const shonaMenu = ["Basics"];
