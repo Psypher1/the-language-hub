@@ -1,7 +1,9 @@
-name: Epic Request
+name: Epic
 description: Define a collection of features for this project
 title: "[Epic]: "
-labels: ["epic", "feature"]
+labels:
+  - "epic"
+  - "feature"
 assignees:
   - psypher1
 body:
@@ -17,7 +19,7 @@ body:
   - type: textarea
     id: children
     attributes:
-      label: features, Tasks and/or Bugs
+      label: Features, Tasks and/or Bugs
       description: List of tasks to be completed for this epic
       placeholder: |
         - [ ] Feature Title ## 

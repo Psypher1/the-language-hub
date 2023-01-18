@@ -44,8 +44,8 @@ body:
       value: |
         Example:  Given that I am on the sign-in page
         When I enter my user name or password incorrectly
-        and click ‘Sign In’
-        Then I see an error message ‘Sorry, incorrect user name or password'.
+        and click "Sign In"
+        Then I see an error message "Sorry, incorrect user name or password".
     validations:
       required: true
   - type: textarea

@@ -1,7 +1,8 @@
 name: Task Request
 description: Request a new task for this project
 title: "[Task]: "
-labels: ["task"]
+labels:
+  - "task"
 assignees:
   - psypher1
 body:
@@ -9,7 +10,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to submit this task request form!
-  - type: input
+  - type: textarea
     id: summary
     attributes:
       label: Task Summary
