@@ -28,11 +28,6 @@ body:
         - [ ] [User Role] can also [Action] [Resource] 
         - [ ] [Other User Role] cannot [Action] [Resource] 
         ...
-      value: |
-        - [ ] [User Role] can [Action] [Resource] 
-        - [ ] [User Role] can also [Action] [Resource] 
-        - [ ] [Other User Role] cannot [Action] [Resource] 
-        ...
     validations:
       required: true
   - type: textarea
@@ -41,17 +36,17 @@ body:
       label: Scenario
       description: Describe a scenario where this feature would be useful.
       placeholder: Under what circumstances would this feature be useful
-      value: |
-        Example:  Given that I am on the sign-in page
-        When I enter my user name or password incorrectly
-        and click "Sign In"
-        Then I see an error message "Sorry, incorrect user name or password".
-    validations:
-      required: true
   - type: textarea
     id: context
     attributes:
       label: Any Additional Context
       description: Any other context or additional information.
       placeholder: Any other context or additional information you wish to share about the proposed feature...
-      value: "Any other context or additional information you wish to share about the proposed feature..."
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

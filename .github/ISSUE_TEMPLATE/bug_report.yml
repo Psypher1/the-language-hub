@@ -15,8 +15,7 @@ body:
     attributes:
       label: Description
       description: A clear and concise description of what the bug is.
-      placeholder: Try to describe what happened
-      value: "I did [x] and then [y] happened"
+      placeholder: Try to describe what happened...
     validations:
       required: true
   - type: textarea
@@ -29,11 +28,6 @@ body:
         2. Click on '...' 
         3. Scroll down to '...'
         ...
-      value: |
-        1. Go to '...' 
-        2. Click on '...' 
-        3. Scroll down to '...'
-        ...
     validations:
       required: true
   - type: textarea
@@ -42,7 +36,6 @@ body:
       label: Expected Behaviour
       description: What did you expect to happen, or should happen ideally.
       placeholder: What should normally happen when steps are taken
-      value: "What should normally happen when steps are taken"
     validations:
       required: true
   - type: textarea
@@ -50,8 +43,7 @@ body:
     attributes:
       label: Actual Behaviour
       description: What actually happened.
-      placeholder: What actually happened when steps were taken instead of what should happen
-      value: "What actually happened when steps were taken instead of what should happen"
+      placeholder: What actually happened when steps were taken instead of what should happen?
     validations:
       required: true
   - type: dropdown
@@ -88,7 +80,7 @@ body:
     attributes:
       label: Code of Conduct
       # description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      description: By submitting this issue, you agree to follow our Code of Conduct
+      description: By submitting this issue, you agree to follow our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true

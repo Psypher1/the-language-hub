@@ -13,7 +13,6 @@ body:
       label: Epic Description
       description: A description of the subject of this epic.
       placeholder: "Example: User Authentication Flow"
-      value: "Example: User Authentication Flow"
     validations:
       required: true
   - type: textarea
@@ -26,11 +25,6 @@ body:
         - [ ] Task Title ## 
         - [ ] Bug Title ## 
         ...
-      value: |
-        - [ ] Feature Title ## 
-        - [ ] Task Title ## 
-        - [ ] Bug Title ## 
-        ...
     validations:
       required: true
   - type: textarea
@@ -38,13 +32,12 @@ body:
     attributes:
       label: Considerations
       description: Constraints, Limitations, and other points of note.
-      placeholder: List of noteworth considerations.
-      value: |
-        - Security: 
-        - Performance: 
-        - Accessibility: 
-        - Extensibility: 
-        - Scalability: 
-        - Usability: 
-        - Testability: 
-        - Maintainability:
+      placeholder: |
+        List of noteworth considerations. 
+          - Security: 
+          - Performance: 
+          - Accessibility: 
+          - Extensibility: 
+          - Scalability: 
+          - Usability: 
+          - Testability:
