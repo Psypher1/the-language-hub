@@ -18,7 +18,6 @@ export async function getStaticProps() {
 	const languagePathsDirs = await fs.readdirSync(learnDir);
 	// array where all the paths will be added to
 
-	console.log(languagePathsDirs);
 	return {
 		props: {
 			languagePathsDirs,
