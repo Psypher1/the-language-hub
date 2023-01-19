@@ -1,6 +1,6 @@
 name: Epic
 description: Define a collection of features for this project
-title: "[Epic]: "
+title: "[EPIC]: "
 labels:
   - "epic"
   - "feature"

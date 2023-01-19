@@ -1,6 +1,6 @@
 name: Feature Request
 description: Request a new feature for this project
-title: "[Feat]: "
+title: "[FEATURE]: "
 labels:
   - "feature"
 assignees:

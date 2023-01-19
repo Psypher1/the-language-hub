@@ -1,6 +1,6 @@
 name: Task
 description: Request a new task for this project
-title: "[Task]: "
+title: "[TASK]: "
 labels:
   - "task"
 assignees:
