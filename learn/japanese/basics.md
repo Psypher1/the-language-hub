@@ -9,6 +9,8 @@ part: 01
 
 > Japanese (日本語, Nihongo) is spoken natively by about 128 million people, primarily by Japanese people and primarily in Japan, the only country where it is the national language.
 
+Before we dive right in, there are a few things we need to learn first.
+
 ### Hiragana
 
 > Japanese (日本語, Nihongo) has three different alphabets each with their own purporse. Hiragana is used for simplified Japanese.
