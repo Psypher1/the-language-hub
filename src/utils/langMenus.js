@@ -6,7 +6,7 @@
 
 // ? How to dynamically get these
 export const frenchMenu = ["Basics", "Pronouns", "Verbs"];
-export const japaneseMenu = ["Basics"];
+export const japaneseMenu = ["Basics", "Phrases"];
 export const russianMenu = [
   "Basics",
   "Vowel Reduction",
