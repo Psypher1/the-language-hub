@@ -27,21 +27,28 @@ Here are the vowels in Russian:
 
 The rest are consonnats or modifiers.
 
-### Nouns
+## How to determine a noun's gender?
+
+### 1. What is denotes
 
 The most obvious way to tell a noun's gender is by what it denotes.
 
-| Masculine       | Feminine      |
-| --------------- | ------------- |
-| ПАПА (father)   | МАМА (mother) |
-| Д**Я**ДЯ (uncle | ТЁТЯ (aunt)   |
+| Masculine                       | Pronounciation     | Feminine        | Pronunciation |
+| ------------------------------- | ------------------ | --------------- | ------------- |
+| ЧЕЛ**О**ВЕК / МУЖЧ**И**НА (man) | chelovek / mushina | ЖЕНЩИНА (woman) | zhenschina    |
+| ПАПА (father)                   | papaa              | МАМА (mother)   | mama          |
+| Д**Я**ДЯ (uncle)                | dyada              | Т**Ё**ТЯ (aunt) | tyota         |
+| МАЛЬЧИК (boy)                   | malchik            | ДЕВОЧКА (girl)  | devochka      |
 
-#### The Rule
+### 2. Its ending
 
 1. If a nouns end in consonnat or **Й** it is masculine
 2. If it ends in **А** or **Я** it is feminine.
-3. If it ends in **Е** it is neuter
+3. If it ends in **О** or **Е** it is neuter
 
-| Masculine | Feminine | Neuter |
-| --------- | -------- | ------ |
-| ctol      | mashina  | vino   |
+| Masculine                   | **Feminine**                 | Neuter                     |
+| --------------------------- | ---------------------------- | -------------------------- |
+| СТОЛ - _stol_ (table)       | МАШИН**А** - _mashina_ (car) | ВИНО - _vino_ (wine)       |
+| ВЕЧЕР - _veycher_ (evening) | КНИГ**А** - _kniga_ (book)   | ОКН**О** - _akno_ (window) |
+| МУЗЕЙ - _muzey_ (museum)    | СЕМЬ**Я** - _semya_ (family) | МОРЕ - _more_ (sea)        |
+|                             |                              | СЕРДЦЕ - _sertse_ (heart)  |
