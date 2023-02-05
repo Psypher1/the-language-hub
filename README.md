@@ -28,9 +28,9 @@ The main goal for the hackathon is for the submission to be Open Source. So plea
 <h2 align='center'>THANK YOU!!!</h2>
 
 <p align="center">
-    <a href="https://github.com/TryShape/tryshape/issues/new/choose">Report Bug</a>
+    <a href="https://github.com/Psypher1/the-language-hub/issues/new/choose">Report Bug</a>
     ·
-    <a href="https://github.com/TryShape/tryshape/issues/new/choose">Request Feature</a>
+    <a href="https://github.com/Psypher1/the-language-hub/issues/new/choose">Request Feature</a>
 </p>
 
 ---
