@@ -5,26 +5,26 @@
 @tailwind utilities;
 
 @layer components {
-  .content-font-sizes {
-    @apply lg:prose-lg;
-  }
-  .content-colors {
-    @apply prose-h2:text-sky-900 prose-h3:text-sky-800 prose-h4:text-sky-700 text-sky-900;
-  }
+	.content-font-sizes {
+		@apply lg:prose-lg;
+	}
+	.content-colors {
+		@apply prose-h2:text-sky-900 prose-h3:text-sky-800 prose-h4:text-sky-700 text-sky-900;
+	}
 
-  .content-quote {
-    @apply prose-blockquote:rounded prose-blockquote:bg-sky-200 prose-blockquote:px-4 prose-blockquote:py-1 prose-blockquote:text-sky-900 prose-blockquote:shadow-lg;
-  }
+	.content-quote {
+		@apply prose-blockquote:rounded prose-blockquote:bg-sky-200 prose-blockquote:px-4 prose-blockquote:py-1 prose-blockquote:text-sky-900 prose-blockquote:shadow-lg;
+	}
 
-  .site-transition {
-    @apply transition duration-300 ease-in-out;
-  }
+	.site-transition {
+		@apply transition duration-300 ease-in-out;
+	}
 
-  .content-table {
-    @apply prose-table:bg-sky-200 prose-thead:bg-sky-600 prose-thead:text-sky-100;
-  }
+	.content-table {
+		@apply prose-table:bg-sky-200 prose-thead:bg-sky-600 prose-thead:text-sky-100;
+	}
 
-  .home-links {
-    @apply rounded bg-sky-700 px-20 py-3 text-sky-100 transition duration-500 ease-in-out hover:border hover:border-sky-700 hover:bg-sky-100 hover:text-sky-700 md:py-2 md:px-12;
-  }
+	.home-links {
+		@apply block rounded bg-sky-700 py-3 px-10 text-sky-100 transition-colors duration-500 ease-in-out hover:border hover:border-sky-700 hover:bg-sky-100 hover:text-sky-700;
+	}
 }
