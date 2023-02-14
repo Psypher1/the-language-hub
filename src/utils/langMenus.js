@@ -15,7 +15,7 @@ export const russianMenu = [
 	"Phrases",
 ];
 export const ndebeleMenu = ["Basics"];
-export const shonaMenu = ["Basics"];
+export const shonaMenu = ["Basics", "People"];
 export const spanishMenu = ["Basics"];
 export const swahiliMenu = [
 	"Basics",
