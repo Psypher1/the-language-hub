@@ -8,19 +8,19 @@
 export const frenchMenu = ["Basics", "Pronouns", "Verbs"];
 export const japaneseMenu = ["Basics", "Phrases"];
 export const russianMenu = [
-  "Basics",
-  "Vowel Reduction",
-  "Voiced Consonants",
-  "Nouns",
-  "Phrases"
+	"Basics",
+	"Vowel Reduction",
+	"Voiced Consonants",
+	"Nouns",
+	"Phrases",
 ];
 export const ndebeleMenu = ["Basics"];
-export const shonaMenu = ["Basics"];
+export const shonaMenu = ["Basics", "People"];
 export const spanishMenu = ["Basics"];
 export const swahiliMenu = [
-  "Basics",
-  "Salutations",
-  "Phrases",
-  "People",
-  "Numbers",
+	"Basics",
+	"Salutations",
+	"Phrases",
+	"People",
+	"Numbers",
 ];
