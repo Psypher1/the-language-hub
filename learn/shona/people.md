@@ -9,7 +9,11 @@ part: 03
 
 Let's now take a look at how people are called in Shona.
 
-| Person  | Translation |
-| ------- | ----------- |
-| murume  | man         |
-| mukadzi | woman       |
+| Person   | Translation |
+| -------- | ----------- |
+| murume   | man         |
+| mukadzi  | woman       |
+| mukomana | boy         |
+| musikana | girl        |
+| baba     | father      |
+| amai     | mother      |
