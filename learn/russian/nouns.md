@@ -52,3 +52,20 @@ The most obvious way to tell a noun's gender is by what it denotes.
 | ВЕЧЕР - _veycher_ (evening) | КНИГ**А** - _kniga_ (book)   | ОКН**О** - _akno_ (window) |
 | МУЗЕЙ - _muzey_ (museum)    | СЕМЬ**Я** - _semya_ (family) | МОРЕ - _more_ (sea)        |
 |                             |                              | СЕРДЦЕ - _sertse_ (heart)  |
+
+## Nouns Expanded
+
+If **Ь** is at the end of the word, that word is feminine 3/4 of the time
+|Feminine In most cases |Feminine In most cases |
+|:--:|:---:|
+|ШЬ|ЖЬ|
+|ЦЬ|ЗНЬ|
+|ЩЬ|МЬ|
+|ЧЬ|ПЬ|
+|ФЬ||
+
+### Feminine
+
+- Nouns ending in СТb
+
+### Masculine

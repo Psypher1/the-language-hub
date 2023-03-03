@@ -15,37 +15,37 @@ The Russian language looks complicated at first glance. But most of that has to 
 ### Alphabet & Pronunciation
 
 | Letter | Sounded As | Pronounce Like | Notes                       |
-| ------ | ---------- | -------------- | --------------------------- |
-| А      | ah         | f**a**ther     |                             |
-| Б      | b'         | **b**oring     |                             |
-| В      | v'         | **v**an        |                             |
-| Г      | g'         | **g**ame       |                             |
-| Д      | d'         | **d**ome       |                             |
-| Е      | ye         | **ye**s        |                             |
-| Ё      | yo         | **yo**ga       |                             |
-| Ж      | zh         | plea**s**ure   |                             |
-| З      | z          | **z**oo        | hard z                      |
-| И      | ii         | **ee**l        |                             |
-| Й      | y'         | bo**y'**       |                             |
-| К      | k          | **c**at        |                             |
-| Л      | l          | **l**arge      |                             |
-| М      | m          | **m**ohter     |                             |
-| Н      | n          | **n**o         | harder, tongue behind teeth |
-| О      | oo         | **b**oring     |                             |
-| П      | p          | **p**ark       | shorter, don't breathe out  |
-| Р      | rr         | roll your r    |                             |
-| С      | ss         | **s**ad        |                             |
-| Т      | t          | **t**ome       | harder, tongue behind teeth |
-| У      | uu         | b**oo**k       |                             |
-| Ф      | f          | **f**ork       |                             |
-| Х      | h          | hard h         |                             |
-| Ц      | ts         | i**t's**       |                             |
-| Ч      | ch         | **ch**ur**ch** |                             |
-| Ш      | sh         |                |                             |
-| Щ      | scsh       |                |                             |
-| Э      | eh         | l**e**t        |                             |
-| Ю      | yu         | **u**niverse   |                             |
-| Я      | ya         | **ya**tch      |
+| :----: | :--------: | :------------: | --------------------------- |
+|   А    |     ah     |   f**a**ther   |                             |
+|   Б    |     b'     |   **b**oring   |                             |
+|   В    |     v'     |    **v**an     |                             |
+|   Г    |     g'     |    **g**ame    |                             |
+|   Д    |     d'     |    **d**ome    |                             |
+|   Е    |     ye     |    **ye**s     |                             |
+|   Ё    |     yo     |    **yo**ga    |                             |
+|   Ж    |     zh     |  plea**s**ure  |                             |
+|   З    |     z      |    **z**oo     | hard z                      |
+|   И    |     ii     |    **ee**l     |                             |
+|   Й    |     y'     |    bo**y'**    |                             |
+|   К    |     k      |    **c**at     |                             |
+|   Л    |     l      |   **l**arge    |                             |
+|   М    |     m      |   **m**ohter   |                             |
+|   Н    |     n      |     **n**o     | harder, tongue behind teeth |
+|   О    |     oo     |   **b**oring   |                             |
+|   П    |     p      |    **p**ark    | shorter, don't breathe out  |
+|   Р    |     rr     |  roll your r   |                             |
+|   С    |     ss     |    **s**ad     |                             |
+|   Т    |     t      |    **t**ome    | harder, tongue behind teeth |
+|   У    |     uu     |    b**oo**k    |                             |
+|   Ф    |     f      |    **f**ork    |                             |
+|   Х    |     h      |     hard h     |                             |
+|   Ц    |     ts     |    i**t's**    |                             |
+|   Ч    |     ch     | **ch**ur**ch** |                             |
+|   Ш    |     sh     |                |                             |
+|   Щ    |    scsh    |                |                             |
+|   Э    |     eh     |    l**e**t     |                             |
+|   Ю    |     yu     |  **u**niverse  |                             |
+|   Я    |     ya     |   **ya**tch    |
 
 <br/>
 
