@@ -55,17 +55,20 @@ The most obvious way to tell a noun's gender is by what it denotes.
 
 ## Nouns Expanded
 
-If **Ь** is at the end of the word, that word is feminine 3/4 of the time
-|Feminine In most cases |Feminine In most cases |
-|:--:|:---:|
-|ШЬ|ЖЬ|
-|ЦЬ|ЗНЬ|
-|ЩЬ|МЬ|
-|ЧЬ|ПЬ|
-|ФЬ||
+If **Ь** is at the end of the word, that word is feminine 3/4 of the time.
+
+| Feminine In most cases | Feminine In most cases |
+| :--------------------: | :--------------------: |
+|           ШЬ           |           ЖЬ           |
+|           ЦЬ           |          ЗНЬ           |
+|           ЩЬ           |           МЬ           |
+|           ЧЬ           |           ПЬ           |
+|           ФЬ           |                        |
 
 ### Feminine
 
-- Nouns ending in СТb
+- Nouns ending in **СТb**
 
 ### Masculine
+
+The months of the year
