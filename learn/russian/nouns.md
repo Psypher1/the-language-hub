@@ -71,4 +71,18 @@ If **Ь** is at the end of the word, that word is feminine 3/4 of the time.
 
 ### Masculine
 
-The months of the year
+The months of the year are all masculine
+| Month | Pronunciation | Translation |
+|---|--|---|
+| ЯНВАРЬ | yanvar' | january |
+| ФЕВРАЛЬ | fevral' | february |
+| МАРШИРОВАТЬ | mashirovat' | march |
+| АПРЕЛЬ | aprel'| april |
+| МОЖЕТ | mozhet | may|
+| ИЮНЬ | iyun'| june |
+| ИЮЛЬ | iyul' | july |
+| АВГУСТ | avgust | august |
+| СЕНТЯБРЬ | sentyabr' | september |
+| ОКТЯБРЬ | oktyabr' | october |
+| НОЯБРЬ | noyabr' | november |
+| ДЕКАБРЬ | dekabr' | december |
