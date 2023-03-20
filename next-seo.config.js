@@ -16,8 +16,8 @@ const SEO = {
 			{
 				url: "https://thelanguagehub/og-image.jpg",
 				width: 1200,
-				height: 600,
-				alt: "Og Image Alt",
+				height: 550,
+				alt: "The Language Hub OG Image",
 			},
 		],
 	},

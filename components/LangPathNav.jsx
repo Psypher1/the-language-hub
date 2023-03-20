@@ -9,7 +9,7 @@ export default function LangPathNav({ langPath }) {
 	const languages = [
 		{ name: "French", path: "french" },
 		{ name: "Japanese", path: "japanese" },
-		{ name: "Ndebele", path: "ndebele" },
+		// { name: "Ndebele", path: "ndebele" },
 		{ name: "Russian", path: "russian" },
 		{ name: "Shona", path: "shona" },
 		{ name: "Swahili", path: "swahili" },

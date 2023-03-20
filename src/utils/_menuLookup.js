@@ -1,33 +1,27 @@
 //  import language menu from langMenus
 import {
-  frenchMenu,
-  japaneseMenu,
-  ndebeleMenu,
-  russianMenu,
-  shonaMenu,
-  spanishMenu,
-  swahiliMenu,
+	frenchMenu,
+	japaneseMenu,
+	russianMenu,
+	shonaMenu,
+	swahiliMenu,
 } from "./langMenus";
 
 // * Refactored to use tenary operator
 export const _menuLookup = (langPath) => {
-  const lang = langPath.toLowerCase();
+	const lang = langPath.toLowerCase();
 
-  return lang === "french"
-    ? frenchMenu
-    : lang === "japanese"
-    ? japaneseMenu
-    : lang === "ndebele"
-    ? ndebeleMenu
-    : lang === "russian"
-    ? russianMenu
-    : lang === "shona"
-    ? shonaMenu
-    : lang === "spanish"
-    ? spanishMenu
-    : lang === "swahili"
-    ? swahiliMenu
-    : null;
+	return lang === "french"
+		? frenchMenu
+		: lang === "japanese"
+		? japaneseMenu
+		: lang === "russian"
+		? russianMenu
+		: lang === "shona"
+		? shonaMenu
+		: lang === "swahili"
+		? swahiliMenu
+		: null;
 };
 
 /*  if (lang === "french") return frenchMenu;
