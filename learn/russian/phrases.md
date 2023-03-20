@@ -2,7 +2,7 @@
 title: Russian Useful Phrases
 topic: russian
 excerpt: Some useful phrases to get you on your way speakin Russian
-part: 05
+part: 06
 ---
 
 ## Basic Phrases

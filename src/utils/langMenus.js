@@ -12,6 +12,7 @@ export const russianMenu = [
 	"Vowel Reduction",
 	"Voiced Consonants",
 	"Nouns",
+	"Numbers",
 	"Phrases",
 ];
 export const ndebeleMenu = ["Basics"];
