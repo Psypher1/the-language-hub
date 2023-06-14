@@ -126,7 +126,7 @@ export default function Home({ languagePathsDirs }) {
 				{/* bottom container */}
 				<div className="mb-20 border-t border-sky-600 p-4">
 					<Link href="/about">
-						<a className="block text-right text-xl text-gray-600 transition-all duration-300 ease-in-out hover:scale-105 hover:font-semibold">
+						<a className="block text-center text-xl text-gray-600 transition-all duration-300 ease-in-out hover:scale-105 hover:font-semibold">
 							What inspired this project?
 						</a>
 					</Link>
