@@ -14,6 +14,7 @@ export const russianMenu = [
 	"Nouns",
 	"Numbers",
 	"Phrases",
+	"Verbs",
 ];
 export const ndebeleMenu = ["Basics"];
 export const shonaMenu = ["Basics", "People"];
@@ -24,4 +25,5 @@ export const swahiliMenu = [
 	"Phrases",
 	"People",
 	"Numbers",
+	"Verbs",
 ];
