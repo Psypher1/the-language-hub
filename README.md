@@ -83,7 +83,7 @@ This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) fi
 
 👤 **James 'Dante' Midzi**
 
-- Website: https://jamesmidzi.netlify.app/
+- Website: [Dante Decodes](https://dantedecodes.vercel.app/)
 - Twitter: [@Psypher1](https://twitter.com/Psypher1)
 - Github: [@Psypher1](https://github.com/Psypher1)
 - LinkedIn: [@jamesmidzi](https://linkedin.com/in/jamesmidzi)
