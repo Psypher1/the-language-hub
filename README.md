@@ -2,15 +2,26 @@
 <h1 align="center">The Language Hub 👋</h1>
 <p align='center'>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
+<!--   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" />
-  </a>
+  </a> -->
+  <a href="https://github.com/Psypher1/the-language-hub/stargazers" target="blank">
+  <img src="https://img.shields.io/github/stars/Psypher1/the-language-hub?style=flat-square" alt="tryshape stars"/>
+</a>
   <a href="https://github.com/Psypher1/the-language-hub/fork" target="blank">
-<img src="https://img.shields.io/github/forks/Psypher1/the-language-hub?style=flat-square" alt="tryshape forks"/>
+    <img src="https://img.shields.io/github/forks/Psypher1/the-language-hub?style=flat-square" alt="tryshape forks"/>
 </a>
-<a href="https://github.com/Psypher1/the-language-hub/stargazers" target="blank">
-<img src="https://img.shields.io/github/stars/Psypher1/the-language-hub?style=flat-square" alt="tryshape stars"/>
-</a>
+
+  
+<a href="https://github.com/Psypher1/the-language-hub/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Psypher1/the-language-hub" />
+    </a>
+    <a href="https://github.com/Psypher1/the-language-hub/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/Psypher1/the-language-hub?color=0088ff" />
+    </a>
+    <a href="https://github.com/Psypher1/the-language-hub/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Psypher1/the-language-hub?color=0088ff" />
+    </a>
 
 </p>
 
