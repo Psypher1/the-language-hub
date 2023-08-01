@@ -25,5 +25,5 @@ export const swahiliMenu = [
 	"Phrases",
 	"People",
 	"Numbers",
-	"Verbs",
+	// "Verbs",
 ];
