@@ -34,11 +34,13 @@ Let's start with some simple words.
 | Shikamoo  | My respects to you    |
 | Marahaba  | I accept your respect |
 
-## Times of the day
+## Referring to Days
 
 | Swahili | Translation |
 | ------- | ----------- |
 | Asubuhi | Morning     |
 | Mchana  | Afternoon   |
 | Jioni   | Evening     |
-| Usiku   | Night       |
+| Leo     | Today       |
+| Jana    | Yesterday   |
+| Kesho   | Tomorrow    |

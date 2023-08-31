@@ -45,7 +45,7 @@ export default function Home({ languagePathsDirs }) {
 					))}
 				</article> */}
 
-				<article className="mb-20  grid gap-8 text-gray-600  md:mb-32 md:grid-cols-3">
+				<article className="mb-20  grid gap-8 text-gray-600  sm:grid-cols-2 md:mb-32 md:grid-cols-3">
 					<div className=" py-4 px-6 shadow shadow-gray-400">
 						<h3 className="mb-1 ">Italic/Latin</h3>
 						<div className="space-y-3 text-center">

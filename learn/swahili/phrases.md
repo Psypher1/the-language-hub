@@ -34,3 +34,17 @@ Let's take a look at some phrases that will be useful on your Swahili journey
 | Ninyi   | hamjambo  | How are you   |
 | Sisi    | hatujambo | we are fine   |
 | Wao     | hawajambo | they are fine |
+
+## With Habari
+
+> Habari is the equivalent of how in English
+
+| Swahili             | Translation           |
+| ------------------- | --------------------- |
+| Habari ya leo?      | How is today?         |
+| Habari za asubuhi?  | How is the morning?   |
+| Habari za mchana?   | How is the afternoon? |
+| Habari za jioni?    | How is the evening?   |
+| Habari za usiku?    | How is the night?     |
+| Habari za nyumbani? | How is home?          |
+| Habari za kazi?     | How is work?          |
