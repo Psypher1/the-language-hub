@@ -12,7 +12,6 @@
     <img src="https://img.shields.io/github/forks/Psypher1/the-language-hub?style=flat-square" alt="tryshape forks"/>
 </a>
 
-  
 <a href="https://github.com/Psypher1/the-language-hub/graphs/contributors">
       <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Psypher1/the-language-hub" />
     </a>
@@ -73,6 +72,56 @@ npm run dev # or, yarn dev
 ```
 
 That's All!!! Now open [localhost:3000](http://localhost:3000/) to see the app.
+
+## Project Structure
+
+```
+.
+├── learn/
+│   ├── french
+│   ├── japanese
+│   └── ...
+├── public/
+│   └── images
+├── src/
+│   ├── components/
+│   │   ├── LangPathNav.jsx
+│   │   ├── Meta.js
+│   │   ├── NavDropDown.jsx
+│   │   └── Sidebar.jsx
+│   ├── layouts/
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   ├── PageWrapper.jsx
+│   │   └── Wrapper.jsx
+│   ├── pages/
+│   │   ├── [langPath]/
+│   │   │   └── [slug].jsx
+│   │   ├── _app.js
+│   │   ├── _document.js
+│   │   ├── 404.jsx
+│   │   ├── about.jsx
+│   │   └── index.jsx
+│   ├── styles/
+│   │   └── globals.css
+│   └── utils/
+│       ├── _menuLookup.js
+│       ├── helpers.js
+│       ├── langLogos.js
+│       └── langMenus.js
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTION.md
+├── Detail.png
+├── Home.png
+├── jsconfig.json
+├── LICENSE
+├── next-seo.config.js
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+└── tailwind.config.js
+```
 
 ## 🚧 Built With
 
