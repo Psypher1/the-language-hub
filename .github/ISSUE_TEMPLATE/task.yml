@@ -27,7 +27,7 @@ body:
         - [ ] [x] does/is [y] or [x] exists 
         ...
     validations:
-      required: true
+      required: false
   - type: textarea
     id: context
     attributes:

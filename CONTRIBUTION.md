@@ -28,6 +28,54 @@ You are more than welcome to contribute to this project. As a matter of fact you
 
 ### Files and Folders
 
+```
+.
+├── learn/
+│   ├── french
+│   ├── japanese
+│   └── ...
+├── public/
+│   └── images
+├── src/
+│   ├── components/
+│   │   ├── LangPathNav.jsx
+│   │   ├── Meta.js
+│   │   ├── NavDropDown.jsx
+│   │   └── Sidebar.jsx
+│   ├── layouts/
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   ├── PageWrapper.jsx
+│   │   └── Wrapper.jsx
+│   ├── pages/
+│   │   ├── [langPath]/
+│   │   │   └── [slug].jsx
+│   │   ├── _app.js
+│   │   ├── _document.js
+│   │   ├── 404.jsx
+│   │   ├── about.jsx
+│   │   └── index.jsx
+│   ├── styles/
+│   │   └── globals.css
+│   └── utils/
+│       ├── _menuLookup.js
+│       ├── helpers.js
+│       ├── langLogos.js
+│       └── langMenus.js
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTION.md
+├── Detail.png
+├── Home.png
+├── jsconfig.json
+├── LICENSE
+├── next-seo.config.js
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+└── tailwind.config.js
+```
+
 - **compoments**: contains component files for items that will aid in the working of the site.
   - `LangPathNav.jsx`: This is the language path component rendered on the detail page of a selected language
   - `Meta.js`: The meta component for `next-seo` options
@@ -105,12 +153,12 @@ In the `_menuLookup.js` file:
 import { frenchMenu, russianMenu, shonaMenu } from "./langMenus";
 
 export const _menuLookup = (langPath) => {
-  const lang = langPath.toLowerCase();
+	const lang = langPath.toLowerCase();
 
-  if (lang === "french") return frenchMenu;
-  else if (lang === "russian") return russianMenu;
-  else if (lang === "shona") return shonaMenu;
-  return null;
+	if (lang === "french") return frenchMenu;
+	else if (lang === "russian") return russianMenu;
+	else if (lang === "shona") return shonaMenu;
+	return null;
 };
 ```
 
@@ -125,7 +173,5 @@ So **Pull Request** away! Just mention me on Twitter when you do so I get to you
 ## Spread the word
 
 Sharing is caring. Share this resource with anyone you think would be interested. The more people that add to it, the better it will be.
-
-
 
 # AGAIN, THANK YOU
