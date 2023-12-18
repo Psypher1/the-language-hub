@@ -39,3 +39,13 @@ In French, there are pronouns that directly or indirectly refer to an object.
 | nous      | nous           |
 | vous      | vous           |
 | ils/elles | les            |
+
+### The "on" pronoun
+
+On is used to mean we/they, but it is conjugated in the 3rd person singular (il/elle) form of the verb.
+
+#### Examples
+
+On est; On a; On va
+
+- **On va où** means the same as **Nous allons où**
