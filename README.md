@@ -25,15 +25,22 @@
 </p>
 
 The Language Hub is a central place for the important parts that will help you in your journey of the language you are learning.
-This is a submission for the [Netlify x Hashnode Hackathon](https://townhall.hashnode.com/netlify-hackathon)
 
-I went with this idea becauase as someone who learns languages a lot and teaches them, getting to the info tends to get tediuous. So why not stramline the process and have the important information in one place and an easy to digest format?
+I went with this idea becauase as someone who learns languages a lot and teaches them, getting to the info tends to get tediuous. So why not stramline the process and have the important information in one place and an easy to digest format.
+
+<details>
+  <summary><b>Additional Information</b></summary>
+
+- This is a submission for the <a href="https://townhall.hashnode.com/netlify-hackathon">Netlify x Hashnode Hackathon</a>
+
+- The main goal for the hackathon is for the submission to be Open Source. So please check out [CONTRIBUTION.md](CONTRIBUTION.md)
+</details>
 
 ### 🏠 [Homepage](https://thelanguagehub.netlify.app)
 
 ## Contributing
 
-The main goal for the hackathon is for the submission to be Open Source. So please check out [CONTRIBUTION.md](CONTRIBUTION.md) for explanation of the project structure and how you can contribute.
+Please check out [CONTRIBUTION.md](CONTRIBUTION.md) for explanation of the project structure and how you can contribute.
 
 <h2 align='center'>THANK YOU!!!</h2>
 
@@ -50,7 +57,7 @@ The main goal for the hackathon is for the submission to be Open Source. So plea
 1. Clone the repository
 
 ```bash
-git clone https://github.com/Psypher1/he-language-hub.git
+git clone https://github.com/Psypher1/the-language-hub.git
 ```
 
 2. Change the working directory
@@ -138,15 +145,6 @@ That's All!!! Now open [localhost:3000](http://localhost:3000/) to see the app.
 This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
 
 ---
-
-## Author
-
-👤 **James 'Dante' Midzi**
-
-- Website: [Dante Decodes](https://dantedecodes.vercel.app/)
-- Twitter: [@Psypher1](https://twitter.com/Psypher1)
-- Github: [@Psypher1](https://github.com/Psypher1)
-- LinkedIn: [@jamesmidzi](https://linkedin.com/in/jamesmidzi)
 
 ## Show your support
 
