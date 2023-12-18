@@ -31,7 +31,3 @@ accessibility is impacted and tested._
 - [ ] 👍 yes
 - [ ] 🙅 no, because they aren't needed
 - [ ] 🙋 no, because I need help
-
-## [optional] Are there any post deployment tasks we need to perform?
-
-## [optional] What gif best describes this PR or how it makes you feel?
