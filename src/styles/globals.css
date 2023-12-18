@@ -9,7 +9,7 @@
 		@apply lg:prose-lg;
 	}
 	.content-colors {
-		@apply prose-h2:text-sky-900 prose-h3:text-sky-800 prose-h4:text-sky-700 text-sky-900;
+		@apply text-sky-900 prose-h2:text-sky-900 prose-h3:text-sky-800 prose-h4:text-sky-700;
 	}
 
 	.content-quote {
@@ -25,6 +25,6 @@
 	}
 
 	.home-links {
-		@apply block rounded bg-sky-700 py-2 px-10 text-sky-100 transition-colors duration-500 ease-in-out hover:border hover:border-sky-700 hover:bg-sky-100 hover:text-sky-700;
+		@apply block rounded border border-sky-700 bg-sky-700 py-2 px-10 text-sky-100 transition-colors duration-500 ease-in-out hover:border hover:border-sky-700 hover:bg-sky-100 hover:text-sky-700;
 	}
 }
