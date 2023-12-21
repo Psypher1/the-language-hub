@@ -15,6 +15,7 @@ A general rule with French is adjectives is that they are placed after the noun:
 
 - Nationality: un acteur **chinois**
 - Colour and form: un ballon **rouge**
+- Emotion: Les enfants **heureux**
 
 ### Exceptions
 
