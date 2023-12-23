@@ -17,7 +17,7 @@ export const russianMenu = [
 	"Verbs",
 ];
 export const ndebeleMenu = ["Basics"];
-export const shonaMenu = ["Basics", "People"];
+export const shonaMenu = ["Basics", "Pronunciation", "People"];
 export const spanishMenu = ["Basics"];
 export const swahiliMenu = [
 	"Basics",
