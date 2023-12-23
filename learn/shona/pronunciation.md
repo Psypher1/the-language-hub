@@ -8,6 +8,7 @@ part: 02
 ## Pronunciation
 
 Within the Shona language, there certain word whose pronounciaion is as obvious by just looking at them.We go over them.
+one more test
 
 ## d and dh
 
