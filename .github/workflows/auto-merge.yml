@@ -3,6 +3,7 @@ name: auto-merge
 
 on:
   pull_request:
+    branches: [learn-data]
 
 jobs:
   auto-merge:
