@@ -1,19 +1,45 @@
-# This workflow deploys The Language Hub on a successful PR
-name: auto-merge
+name: Enable automerge on dependabot PRs
 
 on:
-  pull_request:
-    branches: [learn-data]
+  # See note below about using pull_request_target
+  pull_request_target:
 
 jobs:
-  auto-merge:
+  automerge:
+    name: Enable automerge on dependabot PRs
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: ahmadnassri/action-dependabot-auto-merge@v2
+      - name: Enable automerge on dependabot PRs
+        uses: daneden/enable-automerge-action@v1
         with:
-          target: minor
-          github-token: ${{ secrets.ADMIN_GITHUB_TOKEN  }}
+          # A personal access token that you have generated and saved in the
+          # repo or org’s encrypted secrets
+          github-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+          # The name of the PR author to enable automerge for
+          # Defaults to dependabot[bot]
+          allowed-author: "dependabot[bot]"
+
+          # Allowed values: MERGE | SQUASH | REBASE
+          # Defaults to MERGE
+          merge-method: MERGE
+# This workflow deploys The Language Hub on a successful PR
+# name: auto-merge
+
+# on:
+#   pull_request:
+#     branches: [learn-data]
+
+# jobs:
+#   auto-merge:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - uses: ahmadnassri/action-dependabot-auto-merge@v2
+#         with:
+#           target: minor
+#           github-token: ${{ secrets.ADMIN_GITHUB_TOKEN  }}
+
 # name: CI
 
 # # Controls when the action will run. Triggers the workflow on push or pull request events
