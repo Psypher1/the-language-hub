@@ -55,6 +55,17 @@ export default function Home({ languagePathsDirs }) {
 							</Link>
 						</div>
 					</div>
+					{/* Central Semitiv */}
+					<div className="py-4 px-6 shadow shadow-gray-400">
+						<h3 className="mb-1">Central Semitic</h3>
+						<div className="space-y-3 text-center">
+							<Link href="/">
+								<p className="block rounded border border-gray-500 py-2 px-10 text-gray-400">
+									Arabic
+								</p>
+							</Link>
+						</div>
+					</div>
 					{/* Italic */}
 					<div className=" py-4 px-6 shadow shadow-gray-400">
 						<h3 className="mb-1 ">Italic/Latin</h3>
