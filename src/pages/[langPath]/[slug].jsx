@@ -79,7 +79,7 @@ export default function LangaugePath({ source, langPath, slug, metaData }) {
 				<article className="mb-16 flex-1 md:mb-0">
 					<h1 className="text-base text-gray-600">{metaData.title}</h1>
 					{/* classes extracted to globals.css */}
-					<article className="content-font-sizes content-colors content-quote prose prose-a:hover:text-sky-600 prose-a:text-sky-800 prose-strong:text-sky-900 ">
+					<article className="content-font-sizes content-colors content-quote prose prose-a:text-sky-800 prose-a:hover:text-sky-600 prose-strong:text-sky-900 ">
 						<MDXRemote {...source} />
 					</article>
 				</article>
