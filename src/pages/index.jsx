@@ -45,7 +45,7 @@ export default function Home({ languagePathsDirs }) {
 					))}
 				</article> */}
 
-				<article className="mb-20  grid gap-8 text-gray-600  sm:grid-cols-2 md:mb-32 md:grid-cols-3">
+				<article className="mb-20  grid gap-6 text-gray-600  sm:grid-cols-2 md:mb-32 md:grid-cols-3">
 					{/* atlaic */}
 					<div className="py-4 px-6 shadow shadow-gray-400">
 						<h3 className="mb-1">Altaic</h3>
@@ -59,10 +59,8 @@ export default function Home({ languagePathsDirs }) {
 					<div className="py-4 px-6 shadow shadow-gray-400">
 						<h3 className="mb-1">Central Semitic</h3>
 						<div className="space-y-3 text-center">
-							<Link href="/">
-								<p className="block rounded border border-gray-500 py-2 px-10 text-gray-400">
-									Arabic
-								</p>
+							<Link href="/arabic/basics">
+								<a className="home-links">Arabic</a>
 							</Link>
 						</div>
 					</div>

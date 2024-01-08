@@ -7,6 +7,7 @@ export default function LangPathNav({ langPath }) {
 	const isActive = "bg-sky-900 ";
 
 	const languages = [
+		{ name: "Arabic", path: "arabic" },
 		{ name: "French", path: "french" },
 		{ name: "Japanese", path: "japanese" },
 		// { name: "Ndebele", path: "ndebele" },

@@ -1,5 +1,6 @@
 //  import language menu from langMenus
 import {
+	arabicMenu,
 	frenchMenu,
 	japaneseMenu,
 	russianMenu,
@@ -11,7 +12,9 @@ import {
 export const _menuLookup = (langPath) => {
 	const lang = langPath.toLowerCase();
 
-	return lang === "french"
+	return lang === "arabic"
+		? arabicMenu
+		: lang === "french"
 		? frenchMenu
 		: lang === "japanese"
 		? japaneseMenu
