@@ -27,14 +27,22 @@ Like in any language, Swahili has words for people you interact with
 
 ### Other People
 
+| Swahili  | Translation |
+| -------- | ----------- |
+| mwanaume | man         |
+| mwanamke | woman       |
+| mvulana  | boy         |
+| msichana | girl        |
+| shangazi | aunt        |
+| mjomba   | uncle       |
+| msafiri  | traveller   |
+
+### Professions & Related
+
 | Swahili    | Translation |
 | ---------- | ----------- |
-| mwanaume   | man         |
-| mwanamke   | woman       |
-| mvulana    | boy         |
-| msichana   | girl        |
-| mwalimu    | teacher     |
+| mwalimu    | teaacher    |
 | mwanafunzi | student     |
-| mpishi     | cook        |
 | mkulima    | farmer      |
-| msafiri    | traveller   |
+| daktari    | doctor      |
+| mpishi     | cook        |
