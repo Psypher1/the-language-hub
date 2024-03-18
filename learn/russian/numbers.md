@@ -22,4 +22,14 @@ Let's have a look at numbers now.
 | ДЕВЯТЬ         | devyat'       | NINE    |
 | ДЕСЯТЬ         | desyat'       | TEN     |
 
-## The Next Set
+## From 11
+
+Russian numbers from 11 add **nadtsat'** to the end of them. Most are recognisable from the first set, but there are some changes.
+
+| Russian Number | Pronunciation | Numbers  |
+| -------------- | ------------- | -------- |
+| ОДИННАДЦАТЬ    | ODINNADTSAT'  | ELEVEM   |
+| ДВЕНАДЦАТЬ     | DVENADTSAT    | TWELVE   |
+| ТРИНАДЦАТЬ     | TRINADTSAT'   | THIRTEEN |
+| ЧЕТЫРНАДЦАТЬ   | CHETYRNADTSAT | FOURTEEN |
+| ПЯТНАДЦАТЬ     | PYATNADTSAT'  | FIFTEEN  |
