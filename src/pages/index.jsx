@@ -57,9 +57,6 @@ export default function Home({ languagePathsDirs }) {
 							<p className="block rounded border border-gray-500 py-2 px-10 text-gray-400">
 								Mandarin
 							</p>
-							<p className="block rounded border border-gray-500 py-2 px-10 text-gray-400">
-								Korean
-							</p>
 						</div>
 					</div>
 					{/* Central Semitiv */}
