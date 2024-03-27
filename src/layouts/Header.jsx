@@ -4,26 +4,38 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
-  return (
-    <nav className="sticky inset-0 flex w-full items-center justify-between bg-sky-50 px-8 py-4 font-semibold text-sky-600 shadow-lg">
-      <Link href="/">
-        <a className=" flex items-center">
-          <Image
-            src="/static/favicons/favicon-32x32.png"
-            width="32"
-            height="32"
-            alt="The Language Hub logo"
-          />
-          <h2 className="ml-1">TLH</h2>
-        </a>
-      </Link>
-      <div className="flex items-center space-x-2">
-        <h3 className="hidden text-base md:block">Choose your path:</h3>
+	return (
+		<nav className="sticky inset-0 flex w-full items-center justify-between bg-sky-50 px-8 py-4 font-semibold text-sky-600 shadow-lg">
+			<Link href="/" className=" flex items-center text-xl">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="#0284c7"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					class="icon icon-tabler icons-tabler-outline icon-tabler-language text-3xl"
+				>
+					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+					<path d="M4 5h7" />
+					<path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+					<path d="M5 9c0 2.144 2.952 3.908 6.7 4" />
+					<path d="M12 20l4 -9l4 9" />
+					<path d="M19.1 18h-6.2" />
+				</svg>
+				<h2 className="ml-1">TLH</h2>
+			</Link>
 
-        {/* Dropdown Goes Here */}
+			<div className="flex items-center space-x-2">
+				<h3 className="hidden text-base md:block">Choose your path:</h3>
 
-        <NavDropDown />
-      </div>
-    </nav>
-  );
+				{/* Dropdown Goes Here */}
+
+				<NavDropDown />
+			</div>
+		</nav>
+	);
 }
