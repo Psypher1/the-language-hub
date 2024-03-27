@@ -12,19 +12,22 @@ import {
 export const _menuLookup = (langPath) => {
 	const lang = langPath.toLowerCase();
 
-	return lang === "arabic"
-		? arabicMenu
-		: lang === "french"
-		? frenchMenu
-		: lang === "japanese"
-		? japaneseMenu
-		: lang === "russian"
-		? russianMenu
-		: lang === "shona"
-		? shonaMenu
-		: lang === "swahili"
-		? swahiliMenu
-		: null;
+	switch (lang) {
+		case "arabic":
+			return arabicMenu;
+		case "french":
+			return frenchMenu;
+		case "japanese":
+			return japaneseMenu;
+		case "russian":
+			return russianMenu;
+		case "shona":
+			return shonaMenu;
+		case "swahili":
+			return swahiliMenu;
+		default:
+			return null;
+	}
 };
 
 /*  if (lang === "french") return frenchMenu;

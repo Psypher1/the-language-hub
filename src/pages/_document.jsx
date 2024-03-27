@@ -17,8 +17,8 @@ export default function Document() {
 				/>
 
 				{/* Favicons */}
-				<link href="/static/favicons/favicon.ico" rel="shortcut icon" />
-				<link
+				<link href="/static/language white.svg" rel="shortcut icon" />
+				{/* <link
 					href="/static/favicons/favicon-32x32.png"
 					rel="icon"
 					sizes="32x32"
@@ -29,7 +29,7 @@ export default function Document() {
 					rel="icon"
 					sizes="16x16"
 					type="image/png"
-				/>
+				/> */}
 
 				{/* Icons */}
 				<link
