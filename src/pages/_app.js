@@ -1,30 +1,19 @@
 import "../styles/globals.css";
 
-// SEO Imports
+import { ChakraProvider } from "@chakra-ui/react";
+import Wrapper from "@layouts/Wrapper";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo.config";
 
-// Layout Imports
-import Wrapper from "@layouts/Wrapper";
-
-// Chakra UI
-import { ChakraProvider } from "@chakra-ui/react";
-
-function MyApp({ Component, pageProps }) {
+export default function App({ Component, pageProps }) {
 	return (
 		<>
 			<ChakraProvider>
 				<Wrapper>
-					{/* <Header /> */}
-					<section className="min-h-screen">
-						<DefaultSeo {...SEO} />
-						<Component {...pageProps} />
-					</section>
-					{/* <Footer /> */}
+					<DefaultSeo {...SEO} />
+					<Component {...pageProps} />
 				</Wrapper>
 			</ChakraProvider>
 		</>
 	);
 }
-
-export default MyApp;

@@ -1,7 +1,4 @@
-import Link from "next/link";
-import React from "react";
-
-export default function Footer() {
+export default function Footer({}) {
 	return (
 		<footer className="bg-sky-700 px-8 py-4 text-center text-base text-sky-100">
 			<div className=" flex items-center justify-center gap-2">

@@ -47,7 +47,7 @@ The Russian language looks complicated at first glance. But most of that has to 
 |   Ю    |     yu     |  **u**niverse  |                             |
 |   Я    |     ya     |   **ya**tch    |
 
-<br/>
+&nbsp;
 
 > The nice thing about Russian is that once you are comfortable with the alphabet, everything is pronounced as it is written.
 
@@ -59,18 +59,16 @@ The Russian language looks complicated at first glance. But most of that has to 
 | **Ъ**    | hard sign | Divides words for easier pronunciation |
 | **Ы**    |           | there's no equivalent in English       |
 
-<details>
-<summary markdown="span">The Most Important Pronounciation Rule in Russian</summary>
-<b>NO ONE CARES!</b>
-</details>
+&nbsp;
 
-<br/>
+> The Most Important thing about Russian Pronuncition  
+> **NO ONE CARES!**
 
-### Video Explanation of _Ыы_
+&nbsp;
 
-<figure className="video_container">
-  <iframe  src="https://www.youtube.com/embed/w9hogVBFECQ"  frameBorder={0} allowFullScreen={true}> </iframe>
-</figure>
+### [Video Explanation of _Ыы_](https://www.youtube.com/watch?v=w9hogVBFECQ)
+
+[the vieo](https://www.youtube.com/watch?v=w9hogVBFECQ)
 
 ## Additonal Info
 

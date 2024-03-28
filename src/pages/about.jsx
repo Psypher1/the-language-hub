@@ -1,8 +1,11 @@
-import Meta from "@components/Meta";
 import PageWrapper from "@layouts/PageWrapper";
+import Meta from "@meta/Meta";
+import DiscordIcon from "@ui/icons/discord";
+import GithubIcon from "@ui/icons/github";
+import TwitterIcon from "@ui/icons/twitter";
 import Link from "next/link";
 
-export default function about() {
+export default function About({}) {
 	return (
 		<PageWrapper>
 			<Meta
@@ -43,7 +46,7 @@ export default function about() {
 							>
 								repo
 							</a>
-							, fork and start adding!
+							, fork and start adding! 😀
 						</h4>
 						<h4 className="text-gray-600">
 							Mention me on{" "}
@@ -62,14 +65,14 @@ export default function about() {
 				{/* Group LInks */}
 				<div className="block items-center justify-center space-x-4 border-t border-sky-600 p-4 text-xl md:flex lg:text-2xl">
 					<h4 className="mb-2 md:mb-0">Connect with me:</h4>
-					<div className="group flex items-center gap-6">
+					<div className="group flex items-center gap-6 font-semibold ">
 						<Link
 							href="https://twitter.com/Psypher1"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="block transition-all duration-300 ease-in-out hover:scale-110"
 						>
-							<i className="fab fa-twitter"></i>
+							<TwitterIcon />
 						</Link>
 						<Link
 							href="https://github.com/Psypher1"
@@ -77,15 +80,15 @@ export default function about() {
 							rel="noopener noreferrer"
 							className="block transition-all duration-300 ease-in-out hover:scale-110"
 						>
-							<i className="fab fa-github"></i>
+							<GithubIcon />
 						</Link>
 						<Link
-							href="https://linkedin.com/in/jamesmidzi"
+							href="https://github.com/Psypher1"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="block transition-all duration-300 ease-in-out hover:scale-110"
 						>
-							<i className="fab fa-linkedin"></i>
+							<DiscordIcon />
 						</Link>
 					</div>
 				</div>

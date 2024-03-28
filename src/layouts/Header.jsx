@@ -1,8 +1,9 @@
 // import NavDropDown from "@components/NavDropDown";
-import NavDropDown from "@components/NavDropDown";
+
+import NavDropDown from "@features/NavDropDown";
 import Image from "next/image";
 import Link from "next/link";
-
+// sticky inset-0 flex w-full items-center justify-between bg-sky-50 px-8 py-4 font-semibold text-sky-600 shadow-lg
 export default function Header() {
 	return (
 		<nav className="sticky inset-0 flex w-full items-center justify-between bg-sky-50 px-8 py-4 font-semibold text-sky-600 shadow-lg">
@@ -14,10 +15,10 @@ export default function Header() {
 					viewBox="0 0 24 24"
 					fill="none"
 					stroke="#0284c7"
-					stroke-width="2"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					class="icon icon-tabler icons-tabler-outline icon-tabler-language text-3xl"
+					strokeWidth="2"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					className="icon icon-tabler icons-tabler-outline icon-tabler-language text-3xl"
 				>
 					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
 					<path d="M4 5h7" />

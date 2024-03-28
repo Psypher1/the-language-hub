@@ -9,7 +9,7 @@ part: 05
 
 ### Zero to Ten
 
-| swahili | number |
+| Swahili | Number |
 | ------- | ------ |
 | sufuri  | zero   |
 | moja    | one    |
@@ -25,7 +25,7 @@ part: 05
 
 ## Eleven to Twenty
 
-| swahili       | number |
+| Swahili       | Number |
 | ------------- | ------ |
 | kumi na moja  | 11     |
 | kumi na mbili | 12     |
@@ -40,7 +40,7 @@ part: 05
 
 ### The Rest
 
-| swahili            | number |
+| Swahili            | Number |
 | ------------------ | ------ |
 | ishirini na Moja   | 21     |
 | ishirini na mbili  | 22     |

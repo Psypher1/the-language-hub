@@ -22,7 +22,7 @@ Let's start with some simple words.
 | Sisi    | we          |
 | Wao     | They        |
 
-| Swahili   | translations          |
+| Swahili   | Translations          |
 | --------- | --------------------- |
 | Karibu    | Welcome               |
 | Nyumbani  | Home                  |

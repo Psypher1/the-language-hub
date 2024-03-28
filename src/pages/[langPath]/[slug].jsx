@@ -1,21 +1,20 @@
-// Imports to accesss files
 import fs from "fs";
 import path from "path";
 
 // Imports for woriking with markdown
 import matter from "gray-matter";
 
-import { serialize } from "next-mdx-remote/serialize";
-import { MDXRemote } from "next-mdx-remote";
-
 // Components
-import Meta from "@components/Meta";
-import Sidebar from "@components/Sidebar";
-import LangPathNav from "@components/LangPathNav";
+import Meta from "@meta/Meta";
+import LangPathNav from "@features/LangPathNav";
+import Sidebar from "@features/Sidebar";
 
 // Lookup import to render sidebar items
 import { _menuLookup } from "@utils/_menuLookup";
 import { capitaliseFirstLetter } from "@utils/helpers";
+
+import Markdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 export async function getStaticPaths() {
 	// get the directory for all language info
@@ -46,24 +45,46 @@ export async function getStaticPaths() {
 		fallback: false,
 	};
 }
+
 export async function getStaticProps({ params: { langPath, slug } }) {
 	const learn = fs.readFileSync(path.join("learn", langPath, slug + ".md"));
 
 	const { data: metaData, content } = matter(learn);
 
-	const mdxSource = await serialize(content, { scope: metaData });
+	// console.log("DATA;  ", content);
+
+	//const mdxSource = await serialize(content, { scope: metaData });
 	// console.log(`${langPath}/${slug}`);
+
+	// REMARK
+	// const processedContent = await remark().use(html).process(content);
+	// const contentHtml = processedContent.toString();
+
+	// console.log("CONTENT=================", contentHtml);
+
+	// const finalContent = unified()
+	// 	.use(remarkParse)
+	// 	.use(remarkRehype)
+	// 	.use(rehypeReact, { createElement: React.createElement })
+	// 	.processSync(content).result;
+
+	// console.log("AAAAAAAAAAAAAAAAA", finalContent);
 	return {
-		props: { source: mdxSource, langPath, slug, metaData },
+		props: { content, langPath, slug, metaData },
 	};
 }
 
-export default function LangaugePath({ source, langPath, slug, metaData }) {
+export default function LangLesson({
+	source,
+	langPath,
+	content,
+	slug,
+	metaData,
+}) {
 	const language = capitaliseFirstLetter(langPath);
 
 	// run the lookup on the language path
 	const menu = _menuLookup(langPath);
-
 	return (
 		<>
 			<Meta
@@ -75,17 +96,20 @@ export default function LangaugePath({ source, langPath, slug, metaData }) {
 			<header className="hidden md:block">
 				<LangPathNav langPath={langPath} />
 			</header>
-			<section className="flex-row-reverse p-10 md:flex md:p-12">
+			<section className="md:flex md:flex-row-reverse p-10  md:p-12">
 				<article className="mb-16 flex-1 md:mb-0">
 					<h1 className="text-base text-gray-600">{metaData.title}</h1>
 					{/* classes extracted to globals.css */}
-					<article className="content-font-sizes content-colors content-quote prose prose-a:text-sky-800 prose-a:hover:text-sky-600 prose-strong:text-sky-900 ">
-						<MDXRemote {...source} />
+					<article className="prose   content-colors content-quote content-table content-table prose-a:text-sky-600">
+						<Markdown remarkPlugins={[remarkGfm]}>{content}</Markdown>
+						{/* <MDXRemote {...source} /> */}
 					</article>
 				</article>
-				<aside className="mr-0 w-full  bg-sky-700 p-4 text-sky-100 md:mr-8 md:block  md:w-[14.5rem]">
-					<h3 className="mb-4 font-semibold md:text-lg">{language} Path</h3>
-					<Sidebar slug={slug} menu={menu} metaData={metaData} />
+				<aside className=" mr-0 w-full  bg-sky-700 p-4 text-sky-100 md:mr-8 md:block  md:w-[14.5rem]">
+					<div className=" top-40">
+						<h3 className="mb-4 font-semibold md:text-lg">{language} Path</h3>
+						<Sidebar slug={slug} menu={menu} metaData={metaData} />
+					</div>
 				</aside>
 			</section>
 		</>

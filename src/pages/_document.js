@@ -2,19 +2,9 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
 	return (
-		<Html>
+		<Html lang="en">
 			<Head>
 				{/* Google Font */}
-				<link rel="preconnect" href="https://fonts.googleapis.com" />
-				<link
-					rel="preconnect"
-					href="https://fonts.gstatic.com"
-					crossOrigin="true"
-				/>
-				<link
-					href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600&display=swap"
-					rel="stylesheet"
-				/>
 
 				{/* Favicons */}
 				<link href="/static/language white.svg" rel="shortcut icon" />
@@ -40,7 +30,7 @@ export default function Document() {
 					referrerPolicy="no-referrer"
 				/>
 			</Head>
-			<body className="font-body bg-sky-100 text-sky-900 antialiased">
+			<body className="font-sora bg-sky-100 text-sky-900 antialiased ">
 				<Main />
 				<NextScript />
 			</body>
