@@ -22,6 +22,7 @@ export default function Home() {
 					{languagePathsDirs.map((lang) => (
 						<Link key={lang} href={`/${lang}/basics`} passHref>
 							<a >{capitaliseFirstLetter(lang)}</a>
+							<a >{capitaliseFirstLetter(lang)}</a>
 						</Link>
 					))}
 				</article> */}

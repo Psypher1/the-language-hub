@@ -5,7 +5,7 @@ import GithubIcon from "@ui/icons/github";
 import TwitterIcon from "@ui/icons/twitter";
 import Link from "next/link";
 
-export default function About({}) {
+export default function about() {
 	return (
 		<PageWrapper>
 			<Meta
@@ -45,8 +45,7 @@ export default function About({}) {
 								rel="noopener noreferrer"
 							>
 								repo
-							</a>
-							, fork and start adding! 😀
+							</a>{" "}
 						</h4>
 						<h4 className="text-gray-600">
 							Mention me on{" "}
