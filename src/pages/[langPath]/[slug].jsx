@@ -105,7 +105,7 @@ export default function LangLesson({
 						{/* <MDXRemote {...source} /> */}
 					</article>
 				</article>
-				<aside className=" mr-0 w-full  bg-sky-700 p-4 text-sky-100 md:mr-8 md:block  md:w-[14.5rem]">
+				<aside className="mr-0 w-full  bg-sky-700 p-4 text-sky-100 md:mr-8 md:block  md:w-[14.5rem]">
 					<div className=" top-40">
 						<h3 className="mb-4 font-semibold md:text-lg">{language} Path</h3>
 						<Sidebar slug={slug} menu={menu} metaData={metaData} />

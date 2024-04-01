@@ -6,7 +6,7 @@ import Link from "next/link";
 // sticky inset-0 flex w-full items-center justify-between bg-sky-50 px-8 py-4 font-semibold text-sky-600 shadow-lg
 export default function Header() {
 	return (
-		<nav className="sticky inset-0 flex w-full items-center justify-between bg-sky-50 px-8 py-4 font-semibold text-sky-600 shadow-lg">
+		<nav className="sticky z-50 inset-0 flex w-full items-center justify-between bg-sky-50 px-8 py-4 font-semibold text-sky-600 shadow-lg">
 			<Link href="/" className=" flex items-center text-xl">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"

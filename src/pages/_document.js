@@ -8,6 +8,8 @@ export default function Document() {
 
 				{/* Favicons */}
 				<link href="/static/language white.svg" rel="shortcut icon" />
+				<meta property="og:image" content="/og-image.jpg"></meta>
+				<meta property="og:image:url" content="/og-image.jpg"></meta>
 				{/* <link
 					href="/static/favicons/favicon-32x32.png"
 					rel="icon"

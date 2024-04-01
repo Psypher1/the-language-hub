@@ -6,7 +6,7 @@ export default function Wrapper({ children }) {
 		<>
 			<Header />
 			{/* <LangPathNav /> */}
-			<main>{children}</main>
+			<main className="min-h-screen">{children}</main>
 			<Footer />
 		</>
 	);
