@@ -24,6 +24,8 @@
 
 </p>
 
+<h4 align='center'>  <a href="https://github.com/Psypher1/the-language-hub/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/Psypher1/the-language-hub/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/Psypher1/the-language-hub/issues"> Request Feature </a> </h4>
+
 The Language Hub is a central place for the important parts that will help you in your journey of the language you are learning. It is yours.
 
 I went with this idea becauase as someone who learns languages a lot and teaches them, getting to the info tends to get tediuous. So why not stramline the process and have the important information in one place and an easy to digest format.
