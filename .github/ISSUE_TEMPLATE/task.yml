@@ -28,9 +28,4 @@ body:
         ...
     validations:
       required: false
-  - type: textarea
-    id: context
-    attributes:
-      label: Any Additional Context
-      description: Any other context or additional information.
-      placeholder: Any other context or additional information you wish to share about the proposed feature...
+
