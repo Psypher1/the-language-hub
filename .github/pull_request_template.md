@@ -1,10 +1,9 @@
-## What type of PR is this? (select all that apply)
-
-- [ ] 🍕 Feature
-- [ ] 🐛 Bug Fix
-- [ ] 🚧 Breaking Change
-- [ ] 🧑‍💻 Code Refactor
-- [ ] 📝 Documentation Update
+## Delete all options except the ones that apply
+- 🍕 Feature
+- 🐛 Bug Fix
+- 🚧 Breaking Change
+-  Code Refactor
+- 📝 Documentation Update
 
 ## Description
 
@@ -14,12 +13,6 @@ _Please include a summary of the change and which issue is fixed. Please also in
 
 - Related Issue #
 - Closes #
-
-## QA Instructions, Screenshots, Recordings
-
-_Please replace this line with instructions on how to test your changes, a note
-on the devices and browsers this has been tested on, as well as any relevant
-images for UI changes._
 
 ### UI accessibility concerns?
 
