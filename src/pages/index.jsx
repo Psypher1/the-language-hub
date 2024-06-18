@@ -64,6 +64,7 @@ export default function Home() {
 							</div>
 						</div>
 						{/* niger congo */}
+
 						<div className=" py-4 px-6 shadow shadow-gray-400">
 							<h3 className="mb-1">Niger-Congo</h3>
 							<div className="space-y-3 text-center">
