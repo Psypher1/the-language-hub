@@ -16,6 +16,7 @@ export const russianMenu = [
 	"Numbers",
 	"Phrases",
 	"Verbs",
+	"Possessive Pronouns",
 ];
 export const ndebeleMenu = ["Basics"];
 export const shonaMenu = ["Basics", "Pronunciation", "People"];
