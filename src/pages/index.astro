@@ -1,0 +1,135 @@
+---
+import PagesLayout from "@layouts/PagesLayout.astro";
+---
+
+<PagesLayout>
+  <div class="grid place-items-center">
+    <section>
+      <h1
+        class="text-center text-3xl font-semibold text-sky-700 sm:mb-8 md:mb-12 md:text-4xl lg:text-5xl"
+      >
+        The Language Hub
+      </h1>
+      <p class="mb-8 text-center text-base text-gray-600 md:text-lg lg:text-xl">
+        Welcome to your language reference book. <br />
+        What path do you choose?
+      </p>
+      <article
+        class="mb-16 md:mb-28 grid gap-6 text-gray-600 sm:grid-cols-2 md:grid-cols-3"
+      >
+        {/* atlaic */}
+        <div class="py-4 px-6 shadow shadow-gray-400">
+          <h3 class="mb-1">Altaic</h3>
+          <div class="space-y-3 text-center">
+            <a href="/japanese/basics" class="lang-path"> Japanese </a>
+
+            <p
+              class="block rounded border border-gray-500 py-2 px-10 text-gray-400"
+            >
+              Mandarin
+            </p>
+          </div>
+        </div>
+        {/* Central Semitiv */}
+        <div class="py-4 px-6 shadow shadow-gray-400">
+          <h3 class="mb-1">Central Semitic</h3>
+          <div class="space-y-3 text-center">
+            <a href="/arabic/basics" class="lang-path"> Arabic </a>
+            <p
+              class="block rounded border border-gray-500 py-2 px-10 text-gray-400"
+            >
+              Hebrew
+            </p>
+          </div>
+        </div>
+        <!-- Indo-Iranian -->
+        <div class="py-4 px-6 shadow shadow-gray-400">
+          <h3 class="mb-1">Indo-Iranian</h3>
+          <div class="space-y-3 text-center">
+            <p
+              class="block rounded border border-gray-500 py-2 px-10 text-gray-400"
+            >
+              Hindi
+            </p>
+          </div>
+        </div>
+        {/* Italic */}
+        <div class="py-4 px-6 shadow shadow-gray-400">
+          <h3 class="mb-1">Italic/Latin</h3>
+          <div class="space-y-3 text-center">
+            <a href="/french/basics" class="lang-path"> French </a>
+            <p
+              class="block rounded border border-gray-500 py-2 px-10 text-gray-400"
+            >
+              Spanish
+            </p>
+          </div>
+        </div>
+
+        {/* niger congo */}
+        <div class="py-4 px-6 shadow shadow-gray-400">
+          <h3 class="mb-1">Niger-Congo</h3>
+          <div class="space-y-3 text-center">
+            <a href="/shona/basics" class="lang-path"> Shona </a>
+            <a href="/swahili/basics" class="lang-path"> Swahili </a>
+
+            <!-- <p
+              class="block rounded border border-gray-500 py-2 px-10 text-gray-400"
+            >
+              Ndebele
+            </p> -->
+          </div>
+        </div>
+        {/* slavic */}
+        <div class="py-4 px-6 shadow shadow-gray-400">
+          <h3 class="mb-1">Slavic</h3>
+          <div class="space-y-3 text-center">
+            <a href="/russian/basics" class="lang-path"> Russian </a>
+            <p
+              class="block rounded border border-gray-500 py-2 px-10 text-gray-400"
+            >
+              Bulgarian
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <article class="mb-8 p-4">
+        <a
+          href="/about"
+          class="block text-center text-2xl text-gray-600 transition-all duration-300 ease-in-out hover:scale-105 hover:font-semibold hover:text-sky-600"
+        >
+          What inspired this project?
+        </a>
+      </article>
+
+      <article class="mb-12 bp-6 text-center">
+        <h3 class="mb-2 text-lg font-semibold text-gray-600">Important as</h3>
+        <ul class="s">
+          <li>
+            <a
+              class="text-lg text-sky-600 transition-all duration-300 ease-in-out hover:font-semibold"
+              href="https://github.com/Psypher1/the-language-hub"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              The Langugage Hub on GitHub
+            </a>
+          </li>
+          <li>
+            <a
+              class="text-lg text-sky-600 transition-all duration-300 ease-in-out hover:font-semibold"
+              href="https://github.com/Psypher1/the-language-hub"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              The Langugage Hub Docs are currently being written.
+            </a>
+          </li>
+        </ul>
+      </article>
+    </section>
+  </div>
+</PagesLayout>

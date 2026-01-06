@@ -2,7 +2,7 @@
 - 🍕 Feature
 - 🐛 Bug Fix
 - 🚧 Breaking Change
--  Code Refactor
+- 💻 Code Refactor
 - 📝 Documentation Update
 
 ## Description

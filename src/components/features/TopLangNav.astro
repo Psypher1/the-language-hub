@@ -1,0 +1,65 @@
+---
+import { getCollection } from "astro:content";
+
+const { learnPath } = Astro.props;
+const pathname = Astro.url.pathname;
+
+const menuItem =
+  "px-5 py-2 hover:bg-sky-600 text-xs hover:font-medium uppercase rounded site-transition";
+const isActive = "bg-sky-900 ";
+
+// Get all unique languages from the collection
+async function getAvailableLanguages() {
+  const allEntries = await getCollection("learn");
+
+  // Group by language path and get the first lesson for each
+  const languageMap = new Map();
+
+  allEntries.forEach((entry) => {
+    const slugParts = entry.slug.split("/");
+    if (slugParts.length < 2) return;
+
+    const langPath = slugParts[0]; // e.g., "russian", "french"
+    const lessonPath = slugParts[1]; // e.g., "basics"
+    const part =
+      typeof entry.data.part === "string"
+        ? parseInt(entry.data.part, 10)
+        : entry.data.part || 1;
+
+    // Store the lesson with the lowest part number for each language
+    if (!languageMap.has(langPath) || languageMap.get(langPath).part > part) {
+      languageMap.set(langPath, {
+        path: langPath,
+        firstLesson: lessonPath,
+        part: part,
+      });
+    }
+  });
+
+  // Convert to array and format for display
+  return Array.from(languageMap.values())
+    .map((lang) => ({
+      name: lang.path.charAt(0).toUpperCase() + lang.path.slice(1), // Capitalize
+      path: lang.path,
+      firstLesson: lang.firstLesson,
+    }))
+    .sort((a, b) => a.name.localeCompare(b.name)); // Sort alphabetically
+}
+
+const languages = await getAvailableLanguages();
+---
+
+<div
+  class="flex items-center justify-center space-x-2 bg-sky-700 px-8 py-3 text-base text-sky-100"
+>
+  {
+    languages.map(({ path, name, firstLesson }) => (
+      <a
+        href={`/${path}/${firstLesson}`}
+        class={`${menuItem} ${learnPath === path ? isActive : ""}`}
+      >
+        {name}
+      </a>
+    ))
+  }
+</div>

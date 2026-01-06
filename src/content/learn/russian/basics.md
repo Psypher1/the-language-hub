@@ -1,0 +1,99 @@
+---
+title: Russian Basics
+description: An introduction to the Russian language
+topic: russian
+part: 1
+live: true
+---
+
+## Introduction
+
+> Russian (русский язык, tr. russkiy yazyk) is an East Slavic language native to Russia in Eastern Europe. It is he most spoken Slavic language.  
+
+> The beauty of Russian is that you pronounce what you read.
+
+The Russian language looks complicated at first glance. But most of that has to do with its alphabet. We'll get that out of the way first.
+
+### Alphabet & Pronunciation
+
+| Letter | Sounded As | Pronounce Like | Notes                       |
+| :----: | :--------: | :------------: | --------------------------- |
+|   А    |     ah     |   f**a**ther   |                             |
+|   Б    |     b'     |   **b**oring   |                             |
+|   В    |     v'     |    **v**an     |                             |
+|   Г    |     g'     |    **g**ame    |                             |
+|   Д    |     d'     |    **d**ome    |                             |
+|   Е    |     ye     |    **ye**s     |                             |
+|   Ё    |     yo     |    **yo**ga    |                             |
+|   Ж    |     zh     |  plea**s**ure  |                             |
+|   З    |     z      |    **z**oo     | hard z                      |
+|   И    |     ii     |    **ee**l     |                             |
+|   Й    |     y'     |    bo**y'**    |                             |
+|   К    |     k      |    **c**at     |                             |
+|   Л    |     l      |   **l**arge    |                             |
+|   М    |     m      |   **m**ohter   |                             |
+|   Н    |     n      |     **n**o     | harder, tongue behind teeth |
+|   О    |     oo     |   **b**oring   |                             |
+|   П    |     p      |    **p**ark    | shorter, don't breathe out  |
+|   Р    |     rr     |  roll your r   |                             |
+|   С    |     ss     |    **s**ad     |                             |
+|   Т    |     t      |    **t**ome    | harder, tongue behind teeth |
+|   У    |     uu     |    b**oo**k    |                             |
+|   Ф    |     f      |    **f**ork    |                             |
+|   Х    |     h      |     hard h     |                             |
+|   Ц    |     ts     |    i**t's**    |                             |
+|   Ч    |     ch     | **ch**ur**ch** |                             |
+|   Ш    |     sh     |                |                             |
+|   Щ    |    scsh    |                |                             |
+|   Э    |     eh     |    l**e**t     |                             |
+|   Ю    |     yu     |  **u**niverse  |                             |
+|   Я    |     ya     |   **ya**tch    |
+
+&nbsp;
+
+> The nice thing about Russian is that once you are comfortable with the alphabet, everything is pronounced as it is written.
+
+#### Modifiers
+
+| Modifier | Name      | Purpose                                |
+| -------- | --------- | -------------------------------------- |
+| **Ь**    | soft sign | Makes some letters (consonants) soft   |
+| **Ъ**    | hard sign | Divides words for easier pronunciation |
+| **Ы**    |           | there's no equivalent in English       |
+
+&nbsp;
+
+
+
+
+> The Most Important thing about Russian Pronuncition  
+> **NO ONE CARES!**
+
+&nbsp;
+
+### [Video Explanation of _Ыы_](https://www.youtube.com/watch?v=w9hogVBFECQ)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w9hogVBFECQ?si=b20tT2ZhfjWH5L21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Additonal Info
+
+Now that we have covered the alphabet and pronunciation, let's look at some additional things to help on your Russian learning journey.
+
+In Russian, there is no verb "to be". You directly link to the noun or profession
+So instead of I am a doctor,we say I doctor.
+
+Let's look at what would be subject pronouns in English:
+
+| Russian | English      | Usage                     | Translation          |
+| ------- | ------------ | ------------------------- | -------------------- |
+| Я       | I            | Я ДОКТОР                  | I am a doctor        |
+| ТЫ      | You          | ТЫ СТУДЕНТ                | You are a student    |
+| ОН      | He           | ОН МУЖЧИНА                | He is a man          |
+| ОН**А** | She          | ОНА ЖЕНЩИНА               | She is a woman       |
+| ОН**О** | It           | \*Used in a different way |
+| МЫ      | We           | МЫ УЧИТЕЛЯ                | We are teachers      |
+| ВЫ      | You (plural) | ВЫ КОСМОНАВТ              | You are an astronaut |
+| OН**И** | They         | ОНИ ДЕТИ                  | they are children    |
+
+> We wll look at how ОН**О** is used a little later.

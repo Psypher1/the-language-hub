@@ -1,0 +1,22 @@
+---
+import "./meta/globals.css"
+import BaseHead from "./meta/BaseHead.astro"
+import Header from "./partials/Header.astro"
+import Footer from "./partials/Footer.astro"
+const {title, description = "Your language reference book", image, url = Astro.url  } = Astro.props
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <BaseHead {title} {description} {image} url={Astro.url}  />
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.2/dist/cdn.min.js"></script>
+</head>
+<body class="font-sora font-medium bg-sky-100 text-sky-900 antialiased ">
+    <Header/>
+    <main aria-label="main content" class="min-h-screen" >
+        <slot/>
+    </main>
+    <Footer/>
+</body>
+</html>

@@ -1,0 +1,38 @@
+---
+import siteData from "@data/site.json";
+const { title, description, image, url = Astro.url } = Astro.props;
+
+let metaTitle = title ? title + " | The Language Hub" : "The Language Hub";
+---
+
+<meta http-equiv="Content-Language" content="en" />
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/logo-white.svg" type="image/x-icon" />
+<meta name="generator" content={Astro.generator} />
+
+<!-- Primary Meta Tags -->
+<title>{metaTitle}</title>
+<meta name="title" content={metaTitle} />
+<meta name="description" content={description} />
+
+<!-- Canonical URL -->
+<link rel="canonical" href={url} />
+<link rel="sitemap" href="/sitemap-index.xml" />
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="James Midzi" />
+<meta property="og:title" content={metaTitle} />
+<meta property="og:type" content="website" />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={url} />
+<meta property="og:image" content={image || siteData.image.src} />
+<meta property="og:image:url" content={image || siteData.image.src} />
+<meta property="og:image:secure_url" content={image || siteData.image.src} />
+<meta property="og:image:type" content="image/jpg" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="470" />
+<meta property="og:image:alt" content={image?.alt || siteData.image.alt} />
+
+<!-- Alpine -->

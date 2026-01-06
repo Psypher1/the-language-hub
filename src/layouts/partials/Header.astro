@@ -1,0 +1,84 @@
+---
+import { Icon } from "astro-icon/components";
+
+const path = Astro.url.pathname;
+const currentPathname = path.slice(1);
+const pathname = Astro.url.pathname.replace(/\/$/, "");
+
+const url = Astro.url;
+
+const langLogos = [
+  {
+    langPath: "Arabic",
+    logo: "/flags/arabic.png",
+  },
+  {
+    langPath: "French",
+    logo: "/flags/french.png",
+  },
+  {
+    langPath: "Japanese",
+    logo: "/flags/japanese.png",
+  },
+  {
+    langPath: "Russian",
+    logo: "/flags/russian.png",
+  },
+  {
+    langPath: "Shona",
+    logo: "/flags/shona.png",
+  },
+  {
+    langPath: "Swahili",
+    logo: "/flags/swahili.png",
+  },
+];
+---
+
+<header
+  aria-label="primary navigation"
+  class="sticky z-10 inset-0 flex w-full items-center justify-between bg-sky-50 px-8 py-4 font-semibold text-sky-600 shadow-lg"
+>
+  <a href="/" class="text-xl flex items-center gap-1">
+    <img src="/logo-blue.svg" alt="" class="block" />
+    TLH</a
+  >
+  <div
+    class="flex items-center space-x-2 relative"
+    x-data="{ langOpen: false }"
+  >
+    <h3 class="hidden text-base md:block">Choose your path:</h3>
+
+    <a
+      x-on:click="langOpen = !langOpen"
+      class="cursor-pointer block px-4 py-1 hover:bg-sky-200 transition duration-300 shadow"
+    >
+      <Icon name="chevron-down" class="size-6" />
+    </a>
+
+    {/* Dropdown Goes Here */}
+
+    <div
+      x-show="langOpen"
+      x-transition.duration.500ms
+      x-on:click.outside="langOpen = false"
+      class="absolute w-48 right-0 top-5 mt-2 border border-sky-300 bg-sky-100 rounded-md p-4 shadow-md z-50"
+    >
+      {
+        langLogos.map(({ langPath, logo }) => {
+          const lang = langPath.toLowerCase();
+
+          return (
+            <a
+              href={`/${lang}/basics`}
+              class={`${path.startsWith("/" + lang) ? "bg-sky-100" : "bg-sky-50"} rounded flex items-center gap-2 p-3  hover:bg-sky-100`}
+            >
+              <img src={logo} alt="" class="size-5" />
+              <span>{langPath}</span>
+            </a>
+          );
+        })
+      }
+    </div>
+  </div>
+</header>

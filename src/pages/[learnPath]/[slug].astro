@@ -1,0 +1,117 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import TopLangNav from "@features/TopLangNav.astro";
+import { getCollection } from "astro:content";
+import LanguageSidebar from "@features/LanguageSidebar.astro";
+
+// Utility function to get menu from collection (only live content)
+async function getMenuFromCollection(learnPath) {
+  // Filter for entries in this language path AND live status
+  const allEntries = await getCollection("learn", ({ slug, data }) => {
+    return slug.startsWith(`${learnPath}/`) && data.live === true;
+  });
+
+  // Group by lesson name and get the lowest part number for each
+  const lessonMap = new Map();
+
+  allEntries.forEach((entry) => {
+    const lessonName = entry.slug.split("/")[1]; // e.g., "basics", "vowel-reduction"
+    const part =
+      typeof entry.data.part === "string"
+        ? parseInt(entry.data.part, 10)
+        : entry.data.part || 1;
+
+    if (!lessonMap.has(lessonName) || lessonMap.get(lessonName).part > part) {
+      lessonMap.set(lessonName, {
+        name: lessonName,
+        title: entry.data.title,
+        part: part,
+      });
+    }
+  });
+
+  // Sort by part number and return lesson names
+  return Array.from(lessonMap.values())
+    .sort((a, b) => a.part - b.part)
+    .map((item) => {
+      // Convert slug to display name (e.g., "vowel-reduction" -> "Vowel Reduction")
+      return item.name
+        .split("-")
+        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(" ");
+    });
+}
+
+// 1. Generate a new path for every collection entry (only live content)
+export async function getStaticPaths() {
+  const learPaths = await getCollection("learn", ({ data }) => {
+    return data.live === true;
+  });
+
+  return learPaths.map((entry) => ({
+    params: {
+      learnPath: entry.slug.split("/")[0],
+      slug: entry.slug.split("/")[1],
+    },
+    props: { entry },
+  }));
+}
+
+const { learnPath } = Astro.params;
+const { entry } = Astro.props;
+const { Content, headings } = await entry.render();
+
+const useHeadings = headings.filter(
+  (heading) => heading.depth === 2 || heading.depth === 3,
+);
+
+// Get menu dynamically from collection
+const menu = await getMenuFromCollection(learnPath);
+
+const pathname = Astro.url.pathname;
+---
+
+<BaseLayout title={entry.data.title} description={entry.data.description}>
+  <header aria-label="language navigator" class="hidden md:block">
+    <TopLangNav {learnPath} />
+  </header>
+  <section class="grid grid-cols-5 gap-6 p-8 md:p-12">
+    <nav
+      aria-label="table of contents"
+      class="fixed top-42 right-8 w-60 col-span-1 md:order-3 hidden md:block bg-sky-700 p-4 text-sky-100"
+    >
+      <small class="text-[0.6rem] uppercase text-center block"
+        >In this lesson:</small
+      >
+      <ul class="mt-3">
+        {
+          useHeadings.map((heading, index) => (
+            <li>
+              <a
+                href={`#${heading.slug}`}
+                class={`block font-medium hover:text-white  ${heading.depth === 3 ? "text-[0.8rem] font-normal indent-2 leading-6" : ""} ${
+                  heading.depth === 2 && index !== 0 ? "mt-3 " : ""
+                }  `}
+              >
+                {heading.text}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+    <article class="mb-8 col-span-3 md:order-2 md:mb-0">
+      <h1 class="text-base text-gray-600">{entry.data.title}</h1>
+      <div
+        class="content-wrapper prose content-colors content-quote content-table prose-a:text-sky-600"
+      >
+        <Content />
+      </div>
+    </article>
+    <aside
+      class="col-span-5 w-full md:col-span-1 md:order-1 bg-sky-700 p-4 text-sky-100 md:block"
+    >
+      <LanguageSidebar {learnPath} {menu} />
+    </aside>
+  </section>
+</BaseLayout>

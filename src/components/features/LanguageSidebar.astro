@@ -1,0 +1,36 @@
+---
+const { learnPath, menu } = Astro.props;
+
+const menuStyle =
+  "block hover:bg-sky-600 px-4 py-2 mb-2 transition duration-300";
+const isActive = "bg-sky-900 font-medium";
+const pathname = Astro.url.pathname;
+---
+
+<div>
+  <h3 class="mb-4 font-semibold md:text-lg">
+    <span class="capitalize">{learnPath}</span> Path
+  </h3>
+
+  <ul>
+    {
+      menu.map((menuItem) => {
+        // Clean menu names with spaces for URL
+        const cleanedMenuItem = menuItem.replace(/ /g, "-");
+        // Simplify path to run condition easier
+        const path = `/${learnPath}/${cleanedMenuItem.toLowerCase()}`;
+
+        return (
+          <li>
+            <a
+              href={`/${learnPath}/${cleanedMenuItem.toLowerCase()}`}
+              class={`${menuStyle} ${path === pathname ? isActive : ""}`}
+            >
+              {menuItem}
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+</div>

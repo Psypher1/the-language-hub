@@ -71,76 +71,81 @@ cd the-language-hub
 3. Install dependencies
 
 ```bash
-npm install # or, yarn install
+pnpm install # or npm intall or yarn install
 ```
 
 4. Run the app
 
 ```bash
-npm run dev # or, yarn dev
+pnpm dev # or, yarn dev
 ```
 
 That's All!!! Now open [localhost:3000](http://localhost:3000/) to see the app.
+
+---
 
 ## Project Structure
 
 ```
 .
-├── learn/
-│   ├── french
-│   ├── japanese
-│   └── ...
-├── public/
-│   └── images
+├── .github
+├── public
 ├── src/
 │   ├── components/
-│   │   ├── LangPathNav.jsx
-│   │   ├── Meta.js
-│   │   ├── NavDropDown.jsx
-│   │   └── Sidebar.jsx
+│   │   └── features/
+│   │       ├── LanguageSidebar.astro
+│   │       └── TopLangNav.astro
+│   ├── content/
+│   │   ├── learn/
+│   │   │   ├── french/
+│   │   │   │   └── basics.md
+│   │   │   ├── swahili/
+│   │   │   │   └── basics.md
+│   │   │   └── ...
+│   │   └── config.js
+│   ├── data
+│   ├── icons
 │   ├── layouts/
-│   │   ├── Footer.jsx
-│   │   ├── Header.jsx
-│   │   ├── PageWrapper.jsx
-│   │   └── Wrapper.jsx
+│   │   ├── meta/
+│   │   │   ├── BaseHead.astro
+│   │   │   └── globals.css
+│   │   ├── partials/
+│   │   │   ├── Footer.astro
+│   │   │   └── Header.astro
+│   │   ├── BaseLayout.astro
+│   │   └── PageLayout.astro
 │   ├── pages/
-│   │   ├── [langPath]/
-│   │   │   └── [slug].jsx
-│   │   ├── _app.js
-│   │   ├── _document.js
-│   │   ├── 404.jsx
-│   │   ├── about.jsx
-│   │   └── index.jsx
-│   ├── styles/
-│   │   └── globals.css
-│   └── utils/
-│       ├── _menuLookup.js
-│       ├── helpers.js
-│       ├── langLogos.js
-│       └── langMenus.js
+│   │   ├── [learnPath]/
+│   │   │   └── [slug].astro
+│   │   ├── 404.astro
+│   │   ├── about.astro
+│   │   └── index.astro
+│   ├── utils/
+│   │   ├── getMenuFromCollection.js
+│   └── env.d.ts
+├── .gitignore
+├── .prettierignore
+├── .prettierrc.mjs
+├── astro.config.mjs
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTION.md
 ├── Detail.png
 ├── Home.png
-├── jsconfig.json
 ├── LICENSE
-├── next-seo.config.js
-├── package-lock.json
 ├── package.json
-├── postcss.config.js
+├── pnpm-lock.yaml
 ├── README.md
-└── tailwind.config.js
+├── tailwind.config.js
+└── tsconfig.json
 ```
 
 ## 🚧 Built With
 
-- [Next.js](https://nextjs.org)
+- [Astro](https://astro.build)
 - [TailwindCSS](https://tailwindcss.com/)
-- [Chakra UI](https://chakra-ui.com/)
-- [FontAwesome](https://fontawesome.com/)
-- [Markdown](https://nextjs.org)
-- [next-mdx-remote](https://github.com/hashicorp/next-mdx-remote)
-- [next-seo](https://github.com/garmeeh/next-seo)
+- [AlpineJs](https://chakra-ui.com/)
+- [Markdown]()
+- [Tabler Icons](https://tabler.io/icons)
 
 ## 🛡️ License
 

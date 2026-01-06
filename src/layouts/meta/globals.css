@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* sora-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 200;
+  src: url("/fonts/sora-v12-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* sora-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/fonts/sora-v12-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* sora-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/sora-v12-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* sora-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/sora-v12-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* sora-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/fonts/sora-v12-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* sora-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/sora-v12-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@layer components {
+  .lang-path {
+    @apply block rounded border border-sky-700 bg-sky-700 py-2 px-10 text-sky-100 transition-colors duration-500 ease-in-out hover:border hover:border-sky-700 hover:bg-sky-100 hover:text-sky-700;
+  }
+  .content-font-sizes {
+    @apply lg:prose-lg;
+  }
+  .content-colors {
+    @apply prose-h2:text-sky-900 prose-h3:text-sky-800 prose-h4:text-sky-700 text-sky-900;
+  }
+
+  .content-quote {
+    @apply prose-blockquote:rounded prose-blockquote:bg-sky-200 prose-blockquote:px-4 prose-blockquote:py-1 prose-blockquote:text-sky-900 prose-blockquote:shadow-md;
+  }
+
+  .content-table {
+    @apply prose-table:bg-sky-200 prose-thead:bg-sky-600 prose-th:text-sky-50 prose-th:px-4 prose-th:py-2 prose-table:text-sky-800 prose-td:px-4;
+  }
+}
+
+.content-wrapper *:target {
+  scroll-margin-top: 6rem; /* Adjust this value based on your header height */
+}
