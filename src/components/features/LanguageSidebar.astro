@@ -9,9 +9,10 @@ const menuStyle =
   "block hover:bg-sky-600 px-4 py-2 mb-2 transition duration-300";
 const isActive = "bg-sky-900 font-medium";
 const pathname = Astro.url.pathname;
-console.log("🚀 ~ pathname:", pathname)
+console.log("🚀 ~ pathname:", pathname);
 
-
+console.log("🚀 ~ pathname:", pathname);
+// console.log("🚀 ~ path:", path);
 ---
 
 <div>
@@ -26,16 +27,16 @@ console.log("🚀 ~ pathname:", pathname)
         const cleanedMenuItem = menuItem.replace(/ /g, "-");
         // Simplify path to run condition easier
         const path = `/${learnPath}/${cleanedMenuItem.toLowerCase()}`;
-        console.log("🚀 ~ path:", path)
+        console.log("🚀 ~ path:", path);
+        console.log("🚀 ~ match:", normalise(path) === normalise(pathname));
 
-        
         const isCurrentPath = normalise(path) === normalise(pathname);
 
         return (
           <li>
             <a
               href={`/${learnPath}/${cleanedMenuItem.toLowerCase()}`}
-              // class={`${menuStyle} ${path === pathname ? isActive : ""}`}
+              class={`${menuStyle} ${path === pathname ? isActive : ""}`}
               class={`${menuStyle} ${isCurrentPath ? isActive : ""}`}
             >
               {menuItem}
