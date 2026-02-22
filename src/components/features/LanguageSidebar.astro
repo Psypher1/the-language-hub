@@ -36,7 +36,6 @@ console.log("🚀 ~ pathname:", pathname);
           <li>
             <a
               href={`/${learnPath}/${cleanedMenuItem.toLowerCase()}`}
-              class={`${menuStyle} ${path === pathname ? isActive : ""}`}
               class={`${menuStyle} ${isCurrentPath ? isActive : ""}`}
             >
               {menuItem}
