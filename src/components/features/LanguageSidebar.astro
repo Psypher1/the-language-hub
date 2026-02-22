@@ -1,6 +1,10 @@
 ---
 const { learnPath, menu } = Astro.props;
 
+// const normalise = (p) => p.replace(/\/$/, "");
+// const path = `/${learnPath}/${cleanedMenuItem.toLowerCase()}`;
+// const isCurrentPath = normalize(path) === normalise(pathname);
+const normalise = (p) => p.replace(/\/$/, "");
 const menuStyle =
   "block hover:bg-sky-600 px-4 py-2 mb-2 transition duration-300";
 const isActive = "bg-sky-900 font-medium";
@@ -20,11 +24,15 @@ const pathname = Astro.url.pathname;
         // Simplify path to run condition easier
         const path = `/${learnPath}/${cleanedMenuItem.toLowerCase()}`;
 
+        
+        const isCurrentPath = normalise(path) === normalise(pathname);
+
         return (
           <li>
             <a
               href={`/${learnPath}/${cleanedMenuItem.toLowerCase()}`}
-              class={`${menuStyle} ${path === pathname ? isActive : ""}`}
+              // class={`${menuStyle} ${path === pathname ? isActive : ""}`}
+              class={`${menuStyle} ${isCurrentPath ? isActive : ""}`}
             >
               {menuItem}
             </a>
