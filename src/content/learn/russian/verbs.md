@@ -42,6 +42,19 @@ To conjugate the verb, remove the ending and add the appropriate one for the pro
 | ВЫ       | ЧИТА**ЕТЕ**    |
 | OН**И**  | ЧИТА**ЮТ**     |
 
+#### ПИСА**ть** (to write)
+
+| Pronound | Conjugate form |
+| -------- | -------------- |
+| Я        | ПИСА**Ю**      |
+| ТЫ       | ПИСА**ЕШЬ**    |
+| ОН       | ПИСА**ЕТ**     |
+| ОН**А**  | ПИСА**ЕТ**     |
+| ОН**О**  | ПИСА**ЕТ**     |
+| МЫ       | ПИСА**ЕМ**     |
+| ВЫ       | ПИСА**ЕТЕ**    |
+| OН**И**  | ПИСА**ЮТ**     |
+
 #### ЗНА**ть** (to know)
 
 | Pronuoun | Conjugated Form |
