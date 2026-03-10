@@ -47,6 +47,6 @@ On is used to mean we/they, but it is conjugated in the 3rd person singular (il/
 
 #### Examples
 
-On est; On a; On va
+On est; On a; On va; On parle, On dit
 
 - **On va où** means the same as **Nous allons où**
