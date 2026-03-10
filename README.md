@@ -42,7 +42,7 @@ I went with this idea becauase as someone who learns languages a lot and teaches
 
 ## Contributing
 
-Please check out [CONTRIBUTION.md](CONTRIBUTION.md) for explanation of the project structure and how you can contribute.
+Please check out [CONTRIBUTING.md](CONTRIBUTING.md) for explanation of the project structure and how you can contribute.
 
 <h2 align='center'>THANK YOU!!!</h2>
 
@@ -77,7 +77,7 @@ pnpm install # or npm intall or yarn install
 4. Run the app
 
 ```bash
-pnpm dev # or, yarn dev
+pnpm dev # or npm run dev or  yarn dev
 ```
 
 That's All!!! Now open [localhost:3000](http://localhost:3000/) to see the app.
@@ -128,7 +128,7 @@ That's All!!! Now open [localhost:3000](http://localhost:3000/) to see the app.
 ├── .prettierrc.mjs
 ├── astro.config.mjs
 ├── CODE_OF_CONDUCT.md
-├── CONTRIBUTION.md
+├── CONTRIBUTING.md
 ├── Detail.png
 ├── Home.png
 ├── LICENSE
