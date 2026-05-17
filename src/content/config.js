@@ -2,7 +2,7 @@
 import { defineCollection, z } from "astro:content";
 
 // 2. Define your collection(s)
-const learCollection = defineCollection({
+const learnCollection = defineCollection({
   type: "content",
   schema: z.object({
     title: z.string(),
@@ -16,5 +16,5 @@ const learCollection = defineCollection({
 // 3. Export a single `collections` object to register your collection(s)
 //    This key should match your collection directory name in "src/content"
 export const collections = {
-  learn: learCollection,
+  learn: learnCollection,
 };
