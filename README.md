@@ -1,10 +1,18 @@
 <h5 align="center">Welcome to</h5>
 <h1 align="center">The Language Hub 👋</h1>
 <p align='center'>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-<!--   <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" />
-  </a> -->
+  <!-- <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" /> -->
+  <!-- Latest release including pre-releases -->
+<!-- <img src="https://img.shields.io/github/v/release/Psypher1/the-language-hub?include_prereleases&style=flat-square" /> -->
+
+<a href="https://github.com/Psypher1/the-language-hub/releases" target="_blank">
+  <img src="https://img.shields.io/github/v/release/Psypher1/the-language-hub?include_prereleases&style=flat-square"/>
+</a>
+  <a href="#" target="_blank">
+    <img alt="License: GPL-3" src="https://img.shields.io/badge/License-GPL3-blue.svg" />
+  </a>
+</p>
+<p align="center">
   <a href="https://github.com/Psypher1/the-language-hub/stargazers" target="blank">
   <img src="https://img.shields.io/github/stars/Psypher1/the-language-hub?style=flat-square" alt="tryshape stars"/>
 </a>
