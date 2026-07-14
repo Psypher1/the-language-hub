@@ -1,0 +1,15 @@
+/* Center the hero content */
+.hero {
+  justify-content: center;
+  text-align: center;
+}
+
+.hero > .copy {
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* De-round the action buttons */
+.hero .actions a {
+  border-radius: 10px; /* or 0 for square corners */
+}
