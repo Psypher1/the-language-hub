@@ -1,0 +1,42 @@
+---
+title: Contributing Language Content
+sidebar:
+  order: 12
+---
+import {Aside,  Steps, FileTree } from '@astrojs/starlight/components';
+
+## Add Your Expertise 
+
+Add your expertise to the respective language folder in the **content** folder
+
+<FileTree>
+- ...
+- src
+  - ...
+  - content
+    - ...
+    - learn
+      - french
+        - ...
+      - swahili
+        - basics.md
+        - **your file goes here**
+      - [your-language]
+        - [your-language-file]
+</FileTree>
+
+### Adding Language Files
+
+<Aside>
+Please ensure your added files has the following frontmatter fields.
+</Aside>
+
+```yml
+---
+title: Russian Basics
+description: An introduction to the Russian language
+topic: russian
+part: 1
+live: true
+---
+```

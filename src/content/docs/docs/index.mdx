@@ -1,0 +1,39 @@
+---
+title: Welcome
+description: Welcome to The Language Hub Docs
+sidebar:
+  order: 1
+template: splash
+hero:
+  image:
+    html: |
+      <img src="/og-image.jpg" alt="A language logo"  />
+      <img src="/og-image.jpg" alt="A language logo" />
+      
+  tagline: An online language reference book designed to simplify the learning and understanding of important language concepts.
+  actions:
+    - text: Getting Started
+      link: /docs/getting-started
+      icon: right-arrow
+    - text: View on GitHub
+      link: https://github.com/psypher1/the-language-hub
+      icon: external
+      variant: minimal
+---
+import { CardGrid , Card , LinkCard} from '@astrojs/starlight/components';
+
+Whether you're here to enhance your language skills or to contribute to making The Language Hub a reality, we're thrilled to have you with us. This documentation is your go-to resource for unravelling the intricacies of languages and shaping the future of language learning. Thank you for being a part of this journey!
+
+<CardGrid>
+  <Card title="The important stuff in on place" icon="open-book">
+    Languages by the people, for the people
+  </Card>
+  <Card title="Powered by Astrp" icon="rocket">
+    Markdown as content. First party priority.
+  </Card>
+  <LinkCard href="/docs/contributing/language" title="Language Contribution" description="Know a language? Add what you know" icon="rocket"/>
+  <LinkCard href="/docs/contributing/code" title="Code Contribution" description="See anything that can be done better. Please share" icon="rocket"/>
+ 
+</CardGrid>
+
+

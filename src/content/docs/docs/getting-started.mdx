@@ -1,0 +1,123 @@
+---
+title: Getting Started
+sidebar:
+    order: 2
+---
+import {Aside,  Steps, FileTree, Tabs, TabItem } from '@astrojs/starlight/components';
+
+<Aside type="tip" title="IMPORTANT">
+This project uses Astro version `4.16.18`. This is intentional.  
+Any pull requests to bump the version will be rejected.
+</Aside>
+
+## Quick Start
+
+
+<Steps>
+1. Clone the repo
+
+    ```sh
+    git clone https://github.com/Psypher1/the-language-hub.git
+    ```
+
+2. Change the working directory
+
+    ```bash
+    cd the-language-hub
+    ```
+
+3. Install dependencies
+
+    <Tabs syncKey="pm">
+        <TabItem label="npm">
+               ```bash
+                npm install
+                ```
+        </TabItem>
+        <TabItem label="pnpm">
+               ```bash
+                pnpm install 
+                ```
+        </TabItem>
+    </Tabs>
+ 
+
+4. Run the app
+
+       <Tabs syncKey="pm">
+        <TabItem label="npm" icon="npm">
+               ```bash
+                npm run dev
+                ```
+        </TabItem>
+        <TabItem label="pnpm">
+               ```bash
+                pnpm dev
+                ```
+        </TabItem>
+    </Tabs>
+ 
+
+    That's All!!! Now open [localhost:3000](http://localhost:3000/) to see the app.
+
+</Steps>
+
+
+## Project Structure
+
+<FileTree>
+- .github
+    - ... *github templates and workfows*
+- public
+    - ...  *static assets for the project*
+- src
+    - components
+        - features
+            - LanguageSidebar.astro
+            - TopLangNav
+    - content
+        - docs  
+        - ... *where these docs live*
+        - learn
+            - french
+                - ...
+            - swahili
+                - basics.md
+            - ...
+        - config.js
+    - data
+        - ...
+    - icons
+        - ...
+    - layouts
+        - meta
+            - BaseHead.astro
+            - globals.css
+        - partials
+            - Footer.astro
+            - Header.astro
+        - BaseLayout.astro
+    - pages
+        - [learnPath]
+            - [slug].astro
+        - 404.astro
+        - about.astro
+        - index.astro
+    - utils
+        - getMenuFromCollection.js
+    - env.d.ts
+- .gitignore
+- .prettierignore
+- .prettierrc.mjs
+- astro.config.mjs
+- CODE_OF_CONDUCT
+- CONTRIBUTING.md
+- Detail.png
+- Home.png
+- LICENSE
+- package.json
+- pnpm-lock.yml
+- README.md
+- tailwind.config.js
+- tsconfing.js
+</FileTree>
