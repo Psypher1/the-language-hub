@@ -1,5 +1,6 @@
 // 1. Import utilities from `astro:content`
 import { defineCollection, z } from "astro:content";
+import { docsSchema } from "@astrojs/starlight/schema";
 
 // 2. Define your collection(s)
 const learnCollection = defineCollection({
@@ -17,4 +18,5 @@ const learnCollection = defineCollection({
 //    This key should match your collection directory name in "src/content"
 export const collections = {
   learn: learnCollection,
+  docs: defineCollection({ schema: docsSchema() }),
 };
