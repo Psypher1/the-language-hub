@@ -25,12 +25,17 @@ export default defineConfig({
           label: "Documentation",
           items: [
             "docs",
+            "docs/why",
             "docs/getting-started",
+            "docs/faq",
+            "docs/conventions",
             {
               label: "Contributing",
               autogenerate: { directory: "docs/contributing" },
             },
-            "docs/about",
+            "docs/roadmap",
+            "docs/code-of-conduct",
+            "docs/license",
           ],
         },
       ],

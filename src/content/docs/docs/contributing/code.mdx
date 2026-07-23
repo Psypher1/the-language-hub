@@ -1,0 +1,56 @@
+---
+title: Contributing Code
+sidebar:
+  order: 12
+---
+import { Aside, CardGrid , Card , LinkCard, FileTree} from "@astrojs/starlight/components";
+
+<Aside type="tip" title="IMPORTANT">
+This project uses Astro version `4.16.18`. This is intentional.  
+Any pull requests to bump the version will be rejected.
+</Aside>
+
+## Getting Set Up
+
+```bash
+git clone https://github.com/psypher1/the-language-hub.git
+cd the-language-hub
+pnpm install
+pnpm dev
+```
+The site should now be running locally. Have a look around before diving in.
+
+You will mostly be working in the `src` directory:
+
+<FileTree>
+- src
+  - components
+    - features
+      - **code files here**
+    - content
+      - ...
+    - layouts
+      - **code files here**
+    - pages
+      - **code files here**
+    - utils
+      - **code files here**
+</FileTree>
+
+## Making Changes
+
+Same philosophy as everything else here: don't stress about getting it perfect. If something's a bit off - formatting, style, structure — it'll get sorted out during review. The goal is to make it easy to contribute, not to create hoops to jump through.
+
+A few things that help speed up review, if you're able:
+
+- Keep pull requests focused on one thing at a time; easier to review, easier to merge
+- A short description of _what_ changed and _why_ in your PR helps, especially for anything that isn't self-explanator.  
+- If you're adding a new feature or dependency, a quick heads-up in an issue first can save you rework, but it's not required
+
+## Reporting Issues
+
+Found a bug, or something not working as expected? Open an [issue on GitHub](https://github.com/psypher1/the-language-hub/issues) — even a rough description is useful.
+
+## Not Sure Where to Start?
+
+Check the [open issues](https://github.com/psypher1/the-language-hub/issues) for anything tagged as a good starting point, or just reach out if you have an idea you'd like to work on.
