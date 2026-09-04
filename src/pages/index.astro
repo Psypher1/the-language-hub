@@ -10,7 +10,7 @@ const FAMILY_ORDER = [
   "Altaic",
   "Central Semitic",
   "Indo-Iranian",
-  "Italic-Latin",
+  "Italic/Latin",
   "Niger-Congo",
   "Slavic",
 ];
@@ -20,7 +20,7 @@ const COMING_SOON = [
   { language: "Mandarin", family: "Altaic" },
   { language: "Hebrew", family: "Central Semitic" },
   { language: "Hindi", family: "Indo-Iranian" },
-  { language: "Spanish", family: "Italic-Latin" },
+  { language: "Spanish", family: "Italic/Latin" },
   { language: "Ndebele", family: "Niger-Congo" },
   { language: "Bulgarian", family: "Slavic" },
 ];
@@ -33,7 +33,7 @@ for (const family of FAMILY_ORDER) {
 }
 
 basicsEntries.forEach((entry) => {
-  const family = entry.data.family ?? "Uncategorised";
+  const family = entry.data.family ?? "Uncategorized";
   families[family] ??= { live: [], comingSoon: [] };
   families[family].live.push(entry);
 });
@@ -78,6 +78,46 @@ COMING_SOON.forEach(({ language, family }) => {
             </div>
           ))
         }
+      </article>
+    </section>
+
+    <section>
+      <article class="mb-8 p-4">
+        <a
+          href="/about"
+          class="block text-center text-2xl text-gray-600 transition-all duration-300 ease-in-out hover:scale-105 hover:font-semibold hover:text-sky-600"
+        >
+          What inspired this project?
+        </a>
+      </article>
+
+      <article class="mb-12 bp-6 text-center">
+        <h3 class="mb-2 text-lg font-semibold text-gray-600">
+          Important Links:
+        </h3>
+
+        <ul class="space-y-3">
+          <li>
+            <a
+              class="text-lg text-sky-600 transition-all duration-300 ease-in-out hover:font-semibold"
+              href="https://github.com/Psypher1/the-language-hub"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              The Langugage Hub on GitHub
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="text-lg text-sky-600 transition-all duration-300 ease-in-out hover:font-semibold"
+              href="/docs"
+              rel="noopener noreferrer"
+            >
+              The Langugage Hub Docs are live!
+            </a>
+          </li>
+        </ul>
       </article>
     </section>
   </div>

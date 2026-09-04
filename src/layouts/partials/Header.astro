@@ -41,7 +41,7 @@ const langLogos = [
 >
   <div class="flex items-center gap-12">
     <a href="/" class="text-xl flex items-center gap-1">
-      <img src="/logo-blue.svg" alt="" class="block" />
+      <img src="/logo-blue.svg" alt="language hub logo" class="block" />
       TLH</a
     >
     <div class="flex gap-4 text-sm">
@@ -55,12 +55,12 @@ const langLogos = [
   >
     <h3 class="hidden text-base md:block">Choose your path:</h3>
 
-    <a
+    <button
       x-on:click="langOpen = !langOpen"
       class="cursor-pointer block px-4 py-1 hover:bg-sky-200 transition duration-300 shadow"
     >
-      <Icon name="chevron-down" class="size-6" />
-    </a>
+      <Icon name="chevron-down" alt="" class="size-6" />
+    </button>
 
     {/* Dropdown Goes Here */}
 
