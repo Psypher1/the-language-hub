@@ -1,0 +1,152 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import PagesLayout from "@layouts/PagesLayout.astro";
+import Heading from "@ui/Heading.astro";
+
+const GITHUB_API_URL = "https://api.github.com";
+const GITHUB_USERNAME = "Psypher1";
+const GITHUB_REPO = "the-language-hub"; // update this
+
+const res = await fetch(
+  `${GITHUB_API_URL}/repos/${GITHUB_USERNAME}/${GITHUB_REPO}/pulls?state=all`,
+);
+const prData = await res.json();
+
+// Only merged PRs, sorted newest first
+const merged = prData
+  .filter((pr) => pr.merged_at !== null)
+  .sort((a, b) => new Date(b.merged_at) - new Date(a.merged_at));
+
+// Extract PR type from the checkbox body
+function getPRType(body) {
+  if (!body) return "Other";
+  if (body.includes("- [x] 🍕 Feature")) return "Feature";
+  if (body.includes("- [x] 🐛 Bug Fix")) return "Bug Fix";
+  if (body.includes("- [x] 🚧 Breaking Change")) return "Breaking Change";
+  if (body.includes("- [x] 🧑‍💻 Code Refactor")) return "Refactor";
+  if (body.includes("- [x] 📝 Documentation Update")) return "Docs";
+  return "Other";
+}
+
+// Extract description from body
+function getDescription(body) {
+  if (!body) return null;
+  const match = body.match(/## Description\r?\n([\s\S]*?)(?=\r?\n##|$)/);
+  return match ? match[1].trim() : null;
+}
+
+function getDescriptionBullets(body) {
+  if (!body) return [];
+  const match = body.match(/## Description\r?\n([\s\S]*?)(?=\r?\n##|$)/);
+  if (!match) return [];
+  return match[1]
+    .trim()
+    .split("\n")
+    .map((l) => l.trim())
+    .filter(
+      (l) =>
+        l.length > 0 && l !== "Testing out auto merge" && !l.startsWith("_"),
+    );
+}
+
+function formatDate(dateStr) {
+  return new Date(dateStr).toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+}
+---
+
+<PagesLayout>
+  <h1 tag="h1" class="text-4xl font-bold">Changelog</h1>
+
+  <ul class="">
+    {
+      merged.map((pr) => {
+        const type = getPRType(pr.body);
+        const bullets = getDescriptionBullets(pr.body);
+        return (
+          <li class="py-4 ">
+            <div class="flex items-start gap-3 border-b border-sky-800 pb-8">
+              <svg
+                class="w-5 h-5 mt-1 shrink-0 text-green-500"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <div class="flex-1 ">
+                <a
+                  href={pr.html_url}
+                  target="_blank"
+                  rel="noopener"
+                  class=" font-semibold text-lg transition-colors duration-200"
+                >
+                  {pr.title}
+                </a>
+                <div class="flex items-center gap-2 mt-1">
+                  <span class="text-sm font-medium">
+                    {formatDate(pr.merged_at)}
+                  </span>
+                  {type && (
+                    <span class="text-xs px-2 py-0.5 rounded bg-sky-600 text-sky-100">
+                      {type}
+                    </span>
+                  )}
+                </div>
+                {bullets.length > 0 && (
+                  <ul class="mt-3 space-y-1">
+                    {bullets.map((bullet) => (
+                      <li class="flex items-start gap-2  text-gray-500">
+                        <span class="mt-2 w-1.5 h-1.5 rounded-full shrink-0" />
+                        {bullet}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            </div>
+          </li>
+        );
+      })
+    }
+  </ul>
+
+  <!-- <ul class="space-y-4">
+    {
+      merged.map((pr) => {
+        const type = getPRType(pr.body);
+        const description = getDescription(pr.body);
+        return (
+          <li class="border rounded p-4">
+            <div class="flex items-center justify-between gap-4">
+              <a
+                href={pr.html_url}
+                target="_blank"
+                rel="noopener"
+                class=" hover:text-sky-500 font-medium"
+              >
+                {pr.title}
+              </a>
+              <small class="text-gray-500 shrink-0">
+                {new Date(pr.merged_at).toLocaleDateString()}
+              </small>
+            </div>
+            <div class="flex items-center gap-2 mt-2">
+              <span class="text-xs px-2 py-1 rounded ">#{pr.number}</span>
+              <span class="text-xs px-2 py-1 rounded text-sky-500">{type}</span>
+            </div>
+            {description && (
+              <p class="text-sm text-gray-500 mt-2">{description}</p>
+            )}
+          </li>
+        );
+      })
+    }
+  </ul> -->
+</PagesLayout>
