@@ -61,7 +61,7 @@ function formatDate(dateStr) {
 <PagesLayout>
   <h1 tag="h1" class="text-4xl font-bold">Changelog</h1>
 
-  <ul class="">
+  <ul class="mt-10">
     {
       merged.map((pr) => {
         const type = getPRType(pr.body);
@@ -103,7 +103,7 @@ function formatDate(dateStr) {
                   <ul class="mt-3 space-y-1">
                     {bullets.map((bullet) => (
                       <li class="flex items-start gap-2  text-gray-500">
-                        <span class="mt-2 w-1.5 h-1.5 rounded-full shrink-0" />
+                        <span class="mt-2 w-1.5 h-1.5 rounded-full bg-sky-950 shrink-0" />
                         {bullet}
                       </li>
                     ))}
