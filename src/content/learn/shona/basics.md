@@ -4,6 +4,7 @@ topic: shona
 description: An introduction to the Shona language
 part: 01
 live: true
+family: "Niger-Congo"
 ---
 
 ## Introduction

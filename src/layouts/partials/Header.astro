@@ -39,11 +39,16 @@ const langLogos = [
   aria-label="primary navigation"
   class="sticky z-10 inset-0 flex w-full items-center justify-between bg-sky-50 px-8 py-4 font-semibold text-sky-600 shadow-lg"
 >
-  <a href="/" class="text-xl flex items-center gap-1">
-    <img src="/logo-blue.svg" alt="" class="block" />
-    TLH</a
-  >
-  <a href="/docs">Read the Docs</a>
+  <div class="flex items-center gap-12">
+    <a href="/" class="text-xl flex items-center gap-1">
+      <img src="/logo-blue.svg" alt="" class="block" />
+      TLH</a
+    >
+    <div class="flex gap-4 text-sm">
+      <a href="/docs">Read the Docs</a>
+      <a href="/changelog">Changelog</a>
+    </div>
+  </div>
   <div
     class="flex items-center space-x-2 relative"
     x-data="{ langOpen: false }"

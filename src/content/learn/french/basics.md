@@ -4,6 +4,7 @@ description: Introduction to French
 topic: french
 part: 01
 live: true
+family: "Italic-Latin"
 ---
 
 ## Introduction

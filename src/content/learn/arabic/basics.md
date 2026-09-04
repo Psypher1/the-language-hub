@@ -3,8 +3,8 @@ title: Arabic Basic
 description: Enter Arabic
 part: 01
 live: true
+family: "Central Semitic"
 ---
-
 
 ## Introduction
 

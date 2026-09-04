@@ -3,8 +3,8 @@ title: Swahili Basics
 description: An introduction to Swahili and things to help you in learning it.
 part: 01
 live: true
+family: "Niger-Congo"
 ---
-
 
 ## Introduction
 

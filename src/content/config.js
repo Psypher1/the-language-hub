@@ -10,7 +10,33 @@ const learnCollection = defineCollection({
     description: z.string(),
     topic: z.string().optional(),
     part: z.number().optional(),
-    live: z.boolean().default(false), // Add this field
+    live: z.boolean().default(false),
+    family: z
+      .enum([
+        "Altaic",
+        "Central Semitic",
+        "Indo-Iranian",
+        "Italic-Latin",
+        "Niger-Congo",
+        "Slavic",
+      ])
+      .optional(),
+  }),
+});
+const languagesCollection = defineCollection({
+  type: "data",
+  schema: z.object({
+    language: z.string(),
+    family: z.enum([
+      "Altaic",
+      "Central Semitic",
+      "Indo-Iranian",
+      "Italic/Latin",
+      "Niger-Congo",
+      "Slavic",
+    ]),
+    slug: z.string(),
+    available: z.boolean().default(true),
   }),
 });
 
@@ -18,5 +44,6 @@ const learnCollection = defineCollection({
 //    This key should match your collection directory name in "src/content"
 export const collections = {
   learn: learnCollection,
+  languages: languagesCollection,
   docs: defineCollection({ schema: docsSchema() }),
 };
