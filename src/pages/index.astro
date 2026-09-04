@@ -33,7 +33,7 @@ for (const family of FAMILY_ORDER) {
 }
 
 basicsEntries.forEach((entry) => {
-  const family = entry.data.family ?? "Uncategorized";
+  const family = entry.data.family ?? "Uncategorised";
   families[family] ??= { live: [], comingSoon: [] };
   families[family].live.push(entry);
 });

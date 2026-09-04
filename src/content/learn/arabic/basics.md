@@ -1,5 +1,5 @@
 ---
-title: Arabic Basic
+title: Arabic Basics
 description: Enter Arabic
 part: 01
 live: true

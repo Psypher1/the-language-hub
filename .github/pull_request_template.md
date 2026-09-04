@@ -1,9 +1,11 @@
 ## Delete all options except the ones that apply
-- 🍕 Feature
-- 🐛 Bug Fix
-- 🚧 Breaking Change
-- 💻 Code Refactor
-- 📝 Documentation Update
+
+- [ ] 🚧 Breaking Change
+- [ ] 🍕 Feature
+- [ ] 🌐 Language Data
+- [ ] 🐛 Bug Fix
+- [ ] 💻 Code Refactor
+- [ ] 📝 Documentation Update
 
 ## Description
 

@@ -17,15 +17,39 @@ const merged = prData
   .filter((pr) => pr.merged_at !== null)
   .sort((a, b) => new Date(b.merged_at) - new Date(a.merged_at));
 
+const TYPE_ORDER = [
+  "Breaking Change",
+  "Bug Fix",
+  "Feature",
+  "Language",
+  "Refactor",
+  "Docs",
+  "Other",
+];
+
+const TYPE_COLORS = {
+  "Breaking Change": "bg-red-700 text-red-200",
+  "Bug Fix": "bg-amber-700 text-amber-200",
+  Feature: "bg-emerald-700 text-emerald-200",
+  Language: "bg-sky-700 text-sky-200",
+  Refactor: "bg-violet-700 text-violet-200",
+  Docs: "bg-gray-600 text-gray-300",
+  Other: "border border-gray-600 text-gray-600",
+};
+
 // Extract PR type from the checkbox body
 function getPRType(body) {
-  if (!body) return "Other";
-  if (body.includes("- [x] 🍕 Feature")) return "Feature";
-  if (body.includes("- [x] 🐛 Bug Fix")) return "Bug Fix";
-  if (body.includes("- [x] 🚧 Breaking Change")) return "Breaking Change";
-  if (body.includes("- [x] 🧑‍💻 Code Refactor")) return "Refactor";
-  if (body.includes("- [x] 📝 Documentation Update")) return "Docs";
-  return "Other";
+  if (!body) return ["Other"];
+
+  const types = [];
+  if (body.includes("- [x] 🍕 Feature")) types.push("Feature");
+  if (body.includes("- [x] 🐛 Bug Fix")) types.push("Bug Fix");
+  if (body.includes("- [x] 🚧 Breaking Change")) types.push("Breaking Change");
+  if (body.includes("- [x] 💻 Code Refactor")) types.push("Refactor");
+  if (body.includes("- [x] 📝 Documentation Update")) types.push("Docs");
+  if (body.includes("- [x] 🌐 Language Data")) types.push("Language");
+
+  return types.length ? types : ["Other"];
 }
 
 // Extract description from body
@@ -93,9 +117,15 @@ function formatDate(dateStr) {
                   <span class="text-sm font-medium">
                     {formatDate(pr.merged_at)}
                   </span>
-                  {type && (
-                    <span class="text-xs px-2 py-0.5 rounded bg-sky-600 text-sky-100">
-                      {type}
+                  {Array.isArray(type) && type.length > 0 && (
+                    <span class="flex flex-wrap gap-1">
+                      {type.map((t) => (
+                        <span
+                          class={`text-xs px-2 py-0.5 rounded ${TYPE_COLORS[t]}`}
+                        >
+                          {t}
+                        </span>
+                      ))}
                     </span>
                   )}
                 </div>
