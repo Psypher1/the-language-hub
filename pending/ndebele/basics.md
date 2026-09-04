@@ -3,6 +3,7 @@ title: Ndebele Basics
 topic: ndebele
 description: An introduction to the Russian language
 part: 01
+family: "Niger-Congo"
 ---
 
 ## Introduction

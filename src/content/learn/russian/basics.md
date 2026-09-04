@@ -4,11 +4,12 @@ description: An introduction to the Russian language
 topic: russian
 part: 1
 live: true
+family: "Slavic"
 ---
 
 ## Introduction
 
-> Russian (русский язык, tr. russkiy yazyk) is an East Slavic language native to Russia in Eastern Europe. It is he most spoken Slavic language.  
+> Russian (русский язык, tr. russkiy yazyk) is an East Slavic language native to Russia in Eastern Europe. It is he most spoken Slavic language.
 
 > The beauty of Russian is that you pronounce what you read.
 
@@ -63,16 +64,12 @@ The Russian language looks complicated at first glance. But most of that has to 
 
 &nbsp;
 
-
-
-
 > The Most Important thing about Russian Pronuncition  
 > **NO ONE CARES!**
 
 &nbsp;
 
 ### [Video Explanation of _Ыы_](https://www.youtube.com/watch?v=w9hogVBFECQ)
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/w9hogVBFECQ?si=b20tT2ZhfjWH5L21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

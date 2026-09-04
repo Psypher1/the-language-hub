@@ -3,6 +3,7 @@ title: Japanese Basics
 description: An introduction to Japanese
 part: 01
 live: true
+family: "Altaic"
 ---
 
 ## Introduction
